@@ -92,6 +92,11 @@ h1#page-title {
 	margin: 1em 0;
 }
 
+em.lightblue,
+span.lightblue {
+	color: #00A0C0;
+}
+
 /* RSS icon thingy */
 
 .feed-icon {
@@ -296,7 +301,7 @@ div.field-name-field-publish-date {
 
 a.colorbox {
 	position: relative;
-	display: block;
+	display: inline-block;
 }
 
 a.colorbox div.ico-magnify {
@@ -2470,6 +2475,12 @@ body #main .block.connection-articles.deepgreen .view-header .details a.view {
 	color: #008566;
 	background-image: url('../images/ico-link-external-deepgreen-big.png');
 }
+/* Dark Grey */
+body #main .block.connection-articles.darkgrey .view-header .details a.view {
+	/* color: #4F5152; */
+	color: #505253;
+	background-image: url('../images/ico-link-external-darkgrey-big.png');
+}
 
 /* Bottom grad for scrolled list */
 .block.connection-articles .bottom-grad {
@@ -2942,6 +2953,42 @@ body.page-node-1368 .field-name-field-author {
 
 /* @end */
 
+/* @group 2018 Q2 */
+
+/** Article: Vanguard: Volatility strikes back **/
+/* Hiding author entity reference */
+body.page-node-1411 .field-name-field-author  {
+	display: none;
+}
+/** Article: Verbatim Asset Management **/
+/* Removing name from menu Views blocks */
+#block-views-614a7bf4d8184310f61851d6406482f3 .views-row-11 .views-field-views-conditional,
+#block-views-ee173721cbeef333d9abe21b535a5d25 .views-row-11 .views-field-views-conditional {
+	display: none;
+}
+/** Article: LV=: Eleven jobs. Eleven pensions? **/
+/* Hiding author entity reference */
+body.page-node-1432 .field-name-field-author {
+	display: none;
+}
+/** Article: Synaptic Analyser: State-of-the-art retirement cashflow modelling **/
+/* Hiding author entity reference */
+body.page-node-1437 .field-name-field-author {
+	display: none;
+}
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1439 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-614a7bf4d8184310f61851d6406482f3 .views-row-21 .name,
+#block-views-ee173721cbeef333d9abe21b535a5d25 .views-row-21 .name {
+	display: none;
+}
+
+/* @end */
+
 /* @end */
 
 /* @group Connection mag – Spotlight block – Region: Content */
@@ -3070,9 +3117,9 @@ p.leadpara {
 
 div.field-name-field-article-details, div.grey-text-block, blockquote {
 	margin-top: 2.5em;
-	padding: 1em 1em 0.25em;
+	padding: 1em 1em 1.5em;
 	background: #F2F2F2;
-	font-family:'BlsW-Bd', Arial, sans-serif;
+	/* font-family:'BlsW-Bd', Arial, sans-serif; */
 	font-weight:normal; font-style:normal;
 }
 /*div.field-name-field-article-details > .field-items > .field-item > *:last-child {
@@ -3098,6 +3145,9 @@ blockquote p.author {
 }
 div.field-name-field-article-details *, div.grey-text-block *, blockquote * {
 	margin-top: 0;
+}
+div.field-name-field-article-details *:last-child, div.grey-text-block *:last-child, blockquote *:last-child {
+	margin-bottom: 0;
 }
 /* @end */
 
@@ -3130,7 +3180,7 @@ div.white-dropshadow-text-box {
 	border: 1px solid #cecece;
     -moz-box-shadow: 1px 1px 5px #e8e8e8;
     box-shadow: 1px 1px 5px #e8e8e8;
-    padding:1em;
+    padding:1em 1em 1.3em;
     margin:2em 0;
 }
 div.white-dropshadow-text-box.width-2-col {
@@ -3138,6 +3188,9 @@ div.white-dropshadow-text-box.width-2-col {
 }
 div.white-dropshadow-text-box > * {
 	margin-top:0;
+}
+div.white-dropshadow-text-box > *:last-child {
+	margin-bottom:0;
 }
 @media (max-width: 1048px) {
 	div.white-dropshadow-text-box.width-2-col {
@@ -3156,7 +3209,7 @@ div.pullquote {
 	font-family:'BlsW-Lt', Arial, sans-serif;
 	font-weight:normal; font-style:normal;
 	width: 280px;
-	padding: 1em 1em 0.5em;
+	padding: 1em 1em 1.5em;
 	float: right;
 	margin-right: -140px;
 }
@@ -4195,7 +4248,7 @@ body.page-node-918 .icon-box .col4.simplicity h3 {
 
 /* Text block */
 #block-block-105 {
-	margin-top:410px;
+	margin-top:526px;
 }
 
 /* @end */
@@ -4238,6 +4291,7 @@ div.risk-key-wrapper {
 div.risk-key-wrapper p.risk-key-text {
 	line-height: 1.6em;
 }
+
 table.risk-key {
   width:100%;
   text-align:center;
@@ -4566,9 +4620,9 @@ div.risk-table.p1 {
 }
 /* Verbatim */
 div.risk-table.verbatim {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-verbatim.png);
-	padding-top: 40px;
-	margin-top: 1.7em;
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-verbatim_am.png);
+	padding-top: 70px;
+	margin-top: 1.3em;
 }
 /* Carmignac */
 div.risk-table.carmignac {
@@ -4677,6 +4731,30 @@ div.risk-table.standard-life {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-standard-life.png);
 	padding-top: 55px;
 	margin-top: 0.5em;
+}
+/* Goldman Sachs */
+div.risk-table.goldman-sachs {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-goldman_sachs_am.png);
+	padding-top: 70px;
+	margin-top: 1.3em;
+}
+/* HSBC */
+div.risk-table.hsbc {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-hsbc_gam.png);
+	padding-top: 55px;
+	margin-top: 1.5em;
+}
+/* LGT Vestra */
+div.risk-table.lgt-vestra {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-lgt_vestra.png);
+	padding-top: 75px;
+	margin-top: 1em;
+}
+/* Smith & WIlliamson */
+div.risk-table.smith-and-williamson {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-smith_and_williamson.png);
+	padding-top: 55px;
+	margin-top: 1.3em;
 }
 
 /* @end */
@@ -5351,6 +5429,8 @@ body.front #main-main-banner #block-views-events-block-1 .block-content {
 #block-views-events-block-1 .view-content {
 	float: right;
 	width: 626px;
+	/* min-height: 400px; */
+	position: relative;
 }
 /*#block-views-events-block-1 .view-footer {
 	position: absolute;
@@ -5379,7 +5459,7 @@ body.front #main-main-banner #block-views-events-block-1 .block-content {
 	line-height: 1.2em;
 	vertical-align: top;
 	margin-bottom: 0;
-	padding-bottom: 0;
+	padding-bottom: 1.6em;
 	box-sizing: border-box;
 }
 #block-views-events-block-1 .views-row-1 {
@@ -5405,6 +5485,8 @@ body.front #main-main-banner #block-views-events-block-1 .block-content {
 #block-views-events-block-1 .views-field-view-node {
 	margin-top:1em;
 	margin-bottom: 4px;
+	position: absolute;
+	bottom:0;
 }
 #block-views-events-block-1 .views-field-view-node a {
 	color: #00a1c1;
@@ -5427,6 +5509,10 @@ body.front #main-main-banner #block-views-events-block-1 .block-content {
 	}
 	#block-views-events-block-1 .views-field-body {
 		min-height: 0;
+	}
+	#block-views-events-block-1 .views-field-view-node {
+		position: static;
+		bottom:auto;
 	}
 
 }

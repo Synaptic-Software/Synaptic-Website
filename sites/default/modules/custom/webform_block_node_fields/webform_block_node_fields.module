@@ -7,14 +7,55 @@
 
 // https://www.drupal.org/node/1470748#comment-5781628
 
+// $current_date = date('Y-m-d');
+
+// $bst_end_2018 = '2018-10-28';
+
+// $bst_start_2019 = '2019-03-31';
+// $bst_end_2019 = '2019-10-27';
+
+// $bst_start_2020 = '2020-03-29';
+// $bst_end_2020 = '2020-10-25';
+
+// $bst_start_2021 = '2021-03-28';
+// $bst_end_2021 = '2021-10-31';
+
+// $time_zone;
+
+// if ( $current_date < $bst_end_2018 ) {
+// 	$time_zone = 'Etc/GMT-2';	
+// } else {
+// 	$time_zone = 'Europe/London';  
+// }
+
+// $item = field_get_items('node',$node,'field_dates');
+// $item = $item['und'][0];
+
+// $event_date = new DateObject( $item['value'] ), new DateTimeZone( $item['timezone_db'] );
+// $event_date->setTimezone( new DateTimeZone( $item['timezone'] ) );
+// $event_date = '2018-08-01';
+
 function webform_block_node_fields_form_alter(&$form, $form_state, $form_id) {
 	if ($form_id == 'webform_client_form_1004') {
 		if ($node = menu_get_object()) {
 	    	$form['submitted']['event_details']['event_title']['#value'] = $node->title;
-			$form['submitted']['event_details']['event_date']['#value'] = $node->field_dates['und'][0]['value'];
+			$form['submitted']['event_details']['event_date']['#value'] = format_date(strtotime($node->field_dates['und'][0]['value']), 'long');
 	    	$form['submitted']['event_details']['event_venue']['#value'] = $node->field_venue['und'][0]['value'];
 		}
   	}
 }
+
+// Original code
+
+// function webform_block_node_fields_form_alter(&$form, $form_state, $form_id) {
+// 	if ($form_id == 'webform_client_form_1004') {
+// 		if ($node = menu_get_object()) {
+// 	    		$form['submitted']['event_details']['event_title']['#value'] = $node->title;
+// 			$form['submitted']['event_details']['event_date']['#value'] = format_date(strtotime($node->field_dates['und'][0]['value']), 'long', '', 'Europe/London');
+// 	    		$form['submitted']['event_details']['event_venue']['#value'] = $node->field_venue['und'][0]['value'];
+// 		}
+//   	}
+// }
+
 
 ?>

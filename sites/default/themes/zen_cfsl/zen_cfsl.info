@@ -54,7 +54,7 @@ stylesheets[all][] = css/styles.css
 stylesheets[all][] = css/custom-bootstrap.css
 stylesheets[all][] = css/custom-responsive.css
 
-scripts[] = js/jquery-latest.js
+// scripts[] = js/jquery-latest.js
 scripts[] = js/bootstrap.min.js
 scripts[] = js/custom-javascript.js
 

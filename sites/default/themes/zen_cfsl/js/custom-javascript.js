@@ -23,8 +23,8 @@ jQuery(document).ready(function() {
         jQuery(window).width() > 1048 && jQuery(".navbar-toggle").is(":hidden") && jQuery(t).removeClass("slide-active")
     })
 }), jQuery(document).ready(function() {
-    $("#main-main-banner .region-sidebar-first .block-menu-block").prepend("<a class='navbar-toggle'><span class='icon-bar'></span><span class='icon-bar'></span><span class='icon-bar'></span></a>"), $(".block-menu-block .navbar-toggle").click(function() {
-        $(this).next().next().find("ul").toggle(), $(this).toggleClass("menu-active")
+    jQuery("#main-main-banner .region-sidebar-first .block-menu-block").prepend("<a class='navbar-toggle'><span class='icon-bar'></span><span class='icon-bar'></span><span class='icon-bar'></span></a>"), jQuery(".block-menu-block .navbar-toggle").click(function() {
+        jQuery(this).next().next().find("ul").toggle(), jQuery(this).toggleClass("menu-active")
     })
 });
 
@@ -38,7 +38,7 @@ jQuery(window).resize(function() {
       jQuery("#main-main-banner .region-sidebar-first .block-menu-block ul.menu").show()
     }
     else {
-        if (!$(".navbar-header a").hasClass("slide-active")) {
+        if (!jQuery(".navbar-header a").hasClass("slide-active")) {
             jQuery('#slidemenu').hide();
          }
             jQuery("#main-main-banner .region-sidebar-first .block-menu-block ul.menu").hide()
@@ -46,6 +46,6 @@ jQuery(window).resize(function() {
 });
 
 
-$(window).on('load', function() {
+jQuery(window).on('load', function() {
   jQuery("#views_slideshow_cycle_teaser_section_front_page_slideshow-block").prepend("<img src='http://www.synaptic.co.uk/sites/default/files/homeslide-d2c.jpg' style='visibility:hidden;' width='644' height='300'>");
 });

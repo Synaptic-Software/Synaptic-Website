@@ -94,6 +94,8 @@
   <?php if ($is_front): ?>
     <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
   <?php endif; ?>
+
+  
   
   <div id="main-main-banner">
 
@@ -150,8 +152,10 @@
     //   set_height_of_screenshot_slideshow();
     //   jQuery(window).resize(set_height_of_screenshot_slideshow);
     // }
+    if (jQuery('body.page-node-1409').length) {
+      false_prophet_profit_node_title();
+	  }
   </script>
-	
   <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar_first  = render($page['sidebar_first']);
@@ -172,8 +176,16 @@
 	  // if (jQuery('body.node-type-connection-magazine-article').length && jQuery('.region-sidebar-second .block.below-pullquote').length) {
 		 //  var $blockToMoveDown = jQuery('.region-sidebar-second .block.below-pullquote').first();
    //    move_block_to_below_1st_pullquote($blockToMoveDown);
-	  // }
-
+    // }
+    
+    /*
+    * Connection Mag 2018 Q2: the lang cat: False Prophet Profit
+    * Removing 'Prophet' from link in Views menu
+    */
+    // if ( jQuery('#block-views-614a7bf4d8184310f61851d6406482f3').length
+    //      || jQuery('#block-views-ee173721cbeef333d9abe21b535a5d25').length ) {
+    //   false_prophet_profit_menu_title();
+    // }
     // Adding .notitle class to about field if there's no title field.
     if (jQuery('body.node-type-connection-magazine-article .field-name-field-about-block-body').length) {
       if (!jQuery('.field-name-field-about-block-title').length) {

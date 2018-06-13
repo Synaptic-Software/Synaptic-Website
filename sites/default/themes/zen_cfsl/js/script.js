@@ -8,6 +8,40 @@
 
 /*** Functions ***/
 
+
+/**
+ * Connection Mag 2018 Q2: the lang cat: False Prophet Profit
+ * Adding <strike> HTML to word in connection article title
+ */
+
+function false_prophet_profit_node_title() {
+
+	// jQuery('h1#page-title').html(function (_, html) {
+	// 	return html.replace(/(Prophet)/, '<strike>$1</strike>');
+	// });
+	jQuery('h1#page-title').html(function (_, html) {
+		return html.replace(/(False Profit)/, 'False <strike>Prophet</strike> Profit');
+	});
+	
+}
+
+/**
+ * Connection Mag 2018 Q2: the lang cat: False Prophet Profit
+ * Removing 'Prophet' from link in Views menu
+ * NOT USED
+ */
+
+function false_prophet_profit_menu_title() {
+
+	var $block = jQuery('#block-views-614a7bf4d8184310f61851d6406482f3, #block-views-ee173721cbeef333d9abe21b535a5d25'),
+		$menuItem = $block.find('.views-row-1 a');
+	
+	$menuItem.html(function (_, html) {
+		return html.replace(/(Prophet)/, '');
+	});
+	
+}
+
 // Move the block down to below the first pullquote
 function move_block_to_below_1st_pullquote($el) {
 	var blockFromTop = $el.offset().top,
