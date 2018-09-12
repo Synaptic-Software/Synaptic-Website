@@ -97,6 +97,11 @@ span.lightblue {
 	color: #00A0C0;
 }
 
+strong, b {
+	font-family:'BlsW-Bd', Arial, sans-serif;
+	font-weight:normal; font-style:normal;
+}
+
 /* RSS icon thingy */
 
 .feed-icon {
@@ -2989,6 +2994,21 @@ body.page-node-1439 .field-name-field-author {
 
 /* @end */
 
+/* @group 2018 Q3 */
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1568 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-b1b3eb3bfe6e03cbda9e139beec831f4 .views-row-20 .name,
+#block-views-92481e09a0242877810f76afe2c45a6c .views-row-20 .name {
+	display: none;
+}
+
+/* @end */
+
 /* @end */
 
 /* @group Connection mag – Spotlight block – Region: Content */
@@ -3358,7 +3378,7 @@ table thead tr td, table tr th {
 	font-family:'BlsW-Bd', Arial, sans-serif;
 	font-weight:normal; font-style:normal;
 	color:#03466E;
-	background-color:#D8E7EE;
+	background-color:#d9e3e9;
 	vertical-align:top;
 	text-align:left;
 }
@@ -3377,6 +3397,13 @@ table tr td, table tr th {
 	border:1px solid #9ca299;
 	padding:4px 8px 6px;
 	vertical-align:top;
+}
+
+/*** Table cell hightlight colours ***/
+
+table tr td.highlight.lightblue, 
+table tr th.highlight.lightblue {
+	background-color: #d9f1f6;
 }
 
 /* Table with blue background */
@@ -3532,7 +3559,7 @@ ul.bgcolour li span.gold { background-color:#F0AB00; }
 /* @group Figure text: Descriptive text for screen shots, charts and other images. */
 
 .figure {
-	font-family:'BlsW-Bd', Arial, sans-serif;
+	font-family:'BlsW-Rg', Arial, sans-serif;
 	font-weight:normal; font-style:normal;
 	font-size: 0.85em;
 	line-height: 1.2em;
@@ -4518,9 +4545,24 @@ div.risk-table.tavistock {
 }
 /* Santander */
 div.risk-table.santander {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-santander.png);
-	padding-top: 45px;
-	margin-top: 1.5em;
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-santander.svg');
+	background-size: auto 66px;
+	padding-top: 50px;
+	margin-top: 1.3em;
+}
+/* Quilter Investors */
+div.risk-table.quilter-investors {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-quilter-investors.svg');
+	background-size: auto 66px;
+	padding-top: 50px;
+	margin-top: 1.3em;
+}
+/* RSMR Portfolio Services */
+div.risk-table.rsmr {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rsmr-portfolio-services.png');
+	background-size: auto 50px;
+    padding-top: 35px;
+    margin-top: 1.6em;
 }
 /* div.risk-table.santander h2 {
 	display: inline-block;
