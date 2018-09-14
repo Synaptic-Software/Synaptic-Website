@@ -233,7 +233,11 @@ $databases = array (
   array (
     'default' => 
     array (
+<<<<<<< HEAD
       'database' => 'synaptic_connection-2016-q2',
+=======
+      'database' => 'synaptic_connection-2018-q3',
+>>>>>>> 4d6af029bcebd4cc9729210eab18264d3b4c9f56
       'username' => 'cfsl',
       'password' => 'aqPhQB6qCzrsnFCW',
       'host' => 'localhost',
