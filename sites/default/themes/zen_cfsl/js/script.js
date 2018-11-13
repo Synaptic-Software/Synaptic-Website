@@ -10,6 +10,78 @@
 
 
 /**
+ * Product matrix set height (/login)
+ */
+
+function product_matrix_table_set_height() {
+
+	var $productMatrix = jQuery('.product-matrix'),
+		$cells = $productMatrix.find('.cell'),
+		maxHeight = 0;
+
+	$cells.each(function () {
+		var textHeight = jQuery(this).find('p').outerHeight();
+
+		if (textHeight > maxHeight) {
+			maxHeight = textHeight;
+		}
+	});
+	$cells.each(function () {
+		jQuery(this).height(maxHeight);
+	});
+
+}
+
+/**
+ * Newsletter sign up form popup on link click
+ */
+
+function newsletter_signup_popup() {
+
+	var $link = jQuery('a#newsletter-signup-link')
+		$popup = jQuery('#popup-newsletter'),
+		$window = $popup.find('.window'),
+		$close = $popup.find('.close');
+
+	$link.click(function () {
+		$popup.addClass('visible');
+	});
+	$popup.click(function () {
+		$popup.removeClass('visible');
+	});
+	$close.click(function () {
+		$popup.removeClass('visible');
+	});
+	$window.click(function (e) {
+		e.stopPropagation();
+	});
+
+}
+
+
+/**
+ * Connection article provider logo
+ * - Move on mobile
+ */
+
+function provider_logo_move_on_mobile() {
+
+	var $mobilePosition = jQuery('#main'),
+	    $rightSidebar = jQuery('.region-sidebar-second'),
+		$logoBlock = jQuery('#main > .block, .region-sidebar-second .block').first();
+
+	//console.log($logoBlock);
+
+	if (jQuery(window).width() <= 1048) {
+		$mobilePosition.prepend($logoBlock);
+	} else {
+		$rightSidebar.prepend($logoBlock);
+	}
+
+}
+
+
+/**
  * Connection Mag 2018 Q2: the lang cat: False Prophet Profit
  * Adding <strike> HTML to word in connection article title
  */
@@ -282,14 +354,16 @@ Drupal.behaviors.my_custom_behavior = {
 
 		// Previous Connection issues & subscription tabs
 
-		$('#block-block-67 .tab.sub-form, #block-views-5af7c61a64894bca563354129b4c963a a#mag-signup-link').click(function() {
+		$('#block-block-67 .tab.sub-form, #block-views-5af7c61a64894bca563354129b4c963a a#mag-signup-link, #block-views-8a40f187acb516b738fcb3499dbdc74c a#mag-signup-link').click(function() {
 			$('#block-views-5af7c61a64894bca563354129b4c963a').css( 'display', 'none' );
+			$('#block-views-8a40f187acb516b738fcb3499dbdc74c').css( 'display', 'none' );
 			$('#block-block-67 .tab.connection-issues').addClass( 'tab-off' );
 			$('#block-webform-client-block-121').css( 'display', 'block' );
 			$('#block-block-67 .tab.sub-form').removeClass( 'tab-off' );
 		});
 		$('#block-block-67 .tab.connection-issues').click(function() {
 			$('#block-views-5af7c61a64894bca563354129b4c963a').css( 'display', 'block' );
+			$('#block-views-8a40f187acb516b738fcb3499dbdc74c').css( 'display', 'block' );
 			$('#block-block-67 .tab.connection-issues').removeClass( 'tab-off' );
 			$('#block-webform-client-block-121').css( 'display', 'none' );
 			$('#block-block-67 .tab.sub-form').addClass( 'tab-off' );
@@ -475,10 +549,15 @@ Drupal.behaviors.my_custom_behavior = {
 		jQuery(window).resize(set_height_of_screenshot_slideshow);
 	}
 
+	// newsletter_signup_popup();
+
+	
+
 
   }
 
 };
+
 
 
 })(jQuery, Drupal, this, this.document);

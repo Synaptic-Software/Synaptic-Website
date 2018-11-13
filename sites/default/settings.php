@@ -211,33 +211,29 @@
  * @endcode
  */
 /* Synpatic Software */
+// $databases = array (
+//   'default' => 
+//   array (
+//     'default' => 
+//     array (
+//       'database' => 'synapticsoftware-production',
+//       'username' => 'websiteuser_prod',
+//       'password' => 'xFfDW8O9nLZ8wrvU',
+//       'host' => '192.168.5.66',
+//       'port' => '3307',
+//       'driver' => 'mysql',
+//       'prefix' => '',
+//     ),
+//   ),
+// );
+
+/* Chris Pook */
 $databases = array (
   'default' => 
   array (
     'default' => 
     array (
-      'database' => 'synapticsoftware-production',
-      'username' => 'websiteuser_prod',
-      'password' => 'xFfDW8O9nLZ8wrvU',
-      'host' => '192.168.5.66',
-      'port' => '3307',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
-
-/* Chris Pook */
-/* $databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-<<<<<<< HEAD
-      'database' => 'synaptic_connection-2016-q2',
-=======
-      'database' => 'synaptic_connection-2018-q3',
->>>>>>> 4d6af029bcebd4cc9729210eab18264d3b4c9f56
+      'database' => 'synaptic_update-2018-10',
       'username' => 'cfsl',
       'password' => 'aqPhQB6qCzrsnFCW',
       'host' => 'localhost',
@@ -246,12 +242,12 @@ $databases = array (
       'prefix' => '',
     ),
   ),
-); */
+);
 
 /* Used for mixed mode http + https */
 #$conf['https'] = TRUE;
 
-$conf['file_temporary_path'] = 'C:\inetpub\temp\drupal';
+# $conf['file_temporary_path'] = 'C:\inetpub\temp\drupal';
 
 
 /**
@@ -595,7 +591,7 @@ $conf['404_fast_html'] = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
  
 # $conf['allow_authorize_operations'] = FALSE;
 
-$_SERVER['HTTPS'] = 'On';
+# $_SERVER['HTTPS'] = 'On';
 
-$base_url = 'https://www.synaptic.co.uk';
-$conf['https'] = TRUE;
+# $base_url = 'https://www.synaptic.co.uk';
+# $conf['https'] = TRUE;

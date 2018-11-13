@@ -72,7 +72,8 @@
           <li><a class="menu__link" href="/providers">Providers</a></li>
           <li><a class="menu__link" href="/fund-managers">Fund Managers</a></li>
           <li><a class="menu__link" href="/consumer-solutions">Consumer Solutions</a></li>
-          <li><a class="menu__link" href="http://www.synaptic.co.uk/research-and-opinion#subscription-form" title="">Sign up for Connection</a></li>
+          <li><a class="menu__link" href="/research-and-opinion#subscription-form" title="">Sign up for Connection</a></li>
+          <li><a class="menu__link" href="/login" title="">Login</a></li>
          </ul>
         </nav>
       <?php endif; ?>
@@ -192,21 +193,32 @@
         jQuery('.field-name-field-about-block-body').addClass('notitle');
       }
     }
-
     // Adding New flash icon graphic to Synaptic Analyser menu item
     if (jQuery('#block-menu-block-1').length) {
       jQuery('#block-menu-block-1 .menu-mlid-1898 a').append('<span class="new-flash">New</span>');
+    }
+    // Connection article: move provider logo on mobile
+    if (jQuery('body.node-type-connection-magazine-article').length) {
+      provider_logo_move_on_mobile();
+      jQuery(window).resize(provider_logo_move_on_mobile);
+    }
+    // Product matrix set height (/login)
+    if (jQuery('#content ul.product-matrix').length) {
+      product_matrix_table_set_height();
+      jQuery(window).resize(product_matrix_table_set_height);
     }
 
   </script>
   
   <?php print render($page['bottom']); ?>
   
+  <?php if ($page['sitemap']): ?>
   <div id="sitemap" class="block label lightblue">
   	<h2 class="block-title">Site Map</h2>
   		<?php print render($page['sitemap']); ?>
   </div><!-- /#sitemap -->
-  
+  <?php endif; ?>
+
   </div><!-- /#main-main-bannner -->
 
   
@@ -219,3 +231,12 @@
 </div>
 
 
+<!-- <div id="popup-newsletter">
+
+    <div class="window">
+      <div class="close">Close</div>
+      <h2>Newsletter signup</h2>
+      
+    </div> 
+
+</div> -->
