@@ -10,6 +10,31 @@
 
 
 /**
+ * Set height of Connection article author byline header
+ * - This to get the portrait image to fit when the header is higher thann usual due to too much text
+ * 	 in author's position or company info
+ */
+
+function article_author_height() {
+
+	var $header = jQuery('.node-article-author');
+		//$portaitImg = $header.find('.field-name-field-portrait-photo img');
+
+	jQuery(window).resize(function () {
+
+		$header.css('height', 'auto');
+
+		var headerHeight = $header.outerHeight();
+
+		$header.css('height', headerHeight);
+		//$portaitImg.css('height', headerHeight);
+
+	});
+
+}
+
+
+/**
  * Product matrix set height (/login)
  */
 

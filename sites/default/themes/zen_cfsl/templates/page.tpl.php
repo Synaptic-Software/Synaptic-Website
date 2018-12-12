@@ -207,11 +207,30 @@
       product_matrix_table_set_height();
       jQuery(window).resize(product_matrix_table_set_height);
     }
-
   </script>
   
-  <?php print render($page['bottom']); ?>
+  <?php
+    if ($node->type =='event') {
+      //$event_reg_form_block = TRUE;
+      if ($node->field_event_options['und'][0]['tid'] != 164) {
+        //$event_reg_form_block = FALSE;
+        //print 'Don\'t display form block';
+      // } else {
+        //print 'Display form block';
+        $event_reg_webform_block = module_invoke('webform', 'block_view', 'client-block-1004');
+        print '<div id="block-webform-client-block-1004" class="block block-webform">
+                  <h2 class="block__title block-title">Book your place today</h2>';
+        print render($event_reg_webform_block['content']);
+        print '</div>';
+      }
+    }
+    //print $event_reg_form_block;
+  ?>
   
+  <?php if ($page['bottom']): ?>
+    <?php print render($page['bottom']); ?>
+  <?php endif; ?>
+
   <?php if ($page['sitemap']): ?>
   <div id="sitemap" class="block label lightblue">
   	<h2 class="block-title">Site Map</h2>

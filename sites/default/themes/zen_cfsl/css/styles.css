@@ -247,7 +247,7 @@ div.field-name-field-author {
 	margin-bottom: 1.5em;
 }
 
-div.field-name-field-author .node-article-author {
+div.field-name-field-author  {
 	padding: 7px 5px 10px 85px;
 	position: relative;
 	background-color: #F2F2F2;
@@ -255,10 +255,22 @@ div.field-name-field-author .node-article-author {
 	overflow: hidden;
 	margin-bottom: 0.5em;
 }
+
+/*** Removing article author default portrait image ***/
+/* overriding: /research-and-opinion/connection/q4-2018/natural-income-buffer-sequence-risk */
+.node-1580 .field-name-field-author {
+    padding: 7px 5px 10px 10px;
+}
+.node-1579 .field-name-field-portrait-photo {
+	display: none;
+}
+
+
 div.field-name-field-author h2 {
 	font-size: 1em;
 	color: #4F5152;
 }
+
 /*div.field-name-field-author a {
 	text-decoration: none;
 	color: #4F5152;
@@ -270,13 +282,21 @@ div.field-name-field-author div.field-name-field-portrait-photo {
 	top: 0;
 	left: 0;
 	width: 74px;
-	height: 74px;
+	height: 100%;
+}
+div.field-name-field-author div.field-name-field-portrait-photo div {
+	height: 100%;
+	overflow: hidden;
 }
 .content-main div.field-name-field-author div.field-name-field-portrait-photo img {
 	border: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
 	margin: 0 !important;
+	height: 100%;
+	/* width: 74px; */
+	object-position: center;
+	object-fit: cover;
 }
 /* Date */
 div.field-name-field-publish-date {
@@ -2545,6 +2565,12 @@ body.page-node-244 .block.connection-articles .view-header .block-inner {
 	float: right;
 	width: 134px;
 }
+@media (max-width:1048px) {
+	.block.connection-articles .view-header .details {
+		width: 200px;
+	}
+}
+
 /* Research & Opinion page */
 body.page-node-244 .block.connection-articles .view-header .details {
 	width: 175px;
@@ -2810,6 +2836,20 @@ body #main-main-banner #block-views-8a40f187acb516b738fcb3499dbdc74c .view-conte
 
 /* @end */
 
+/*
+ ██████  ██████  ███    ██ ███    ██ ███████  ██████ ████████ ██  ██████  ███    ██
+██      ██    ██ ████   ██ ████   ██ ██      ██         ██    ██ ██    ██ ████   ██
+██      ██    ██ ██ ██  ██ ██ ██  ██ █████   ██         ██    ██ ██    ██ ██ ██  ██
+██      ██    ██ ██  ██ ██ ██  ██ ██ ██      ██         ██    ██ ██    ██ ██  ██ ██
+ ██████  ██████  ██   ████ ██   ████ ███████  ██████    ██    ██  ██████  ██   ████
+ 
+ ██████  ██    ██ ███████ ██████  ██████  ██ ██████  ███████ ███████
+██    ██ ██    ██ ██      ██   ██ ██   ██ ██ ██   ██ ██      ██
+██    ██ ██    ██ █████   ██████  ██████  ██ ██   ██ █████   ███████
+██    ██  ██  ██  ██      ██   ██ ██   ██ ██ ██   ██ ██           ██
+ ██████    ████   ███████ ██   ██ ██   ██ ██ ██████  ███████ ███████
+*/
+
 /* @group Connection mag articles view 'menu' blocks */
 
 /*** Hiding Anonymous names ***/
@@ -2902,6 +2942,21 @@ body #main-main-banner #block-views-8a40f187acb516b738fcb3499dbdc74c .view-conte
 }
 
 /* @end */
+
+/* Content float image styling */
+
+img.float {
+	margin:0 1em 0.5em;
+}
+img.float.left {
+	margin-left:0;
+	float:left;
+}
+img.float.right {
+	margin-right:0;
+	float:right;
+}
+
 
 /* @group 2017 Q1 */
 
@@ -3179,14 +3234,63 @@ body.page-node-1439 .field-name-field-author {
 
 /** Article: Synaptic Risk Rating Table **/
 /* Hiding author entity reference */
-body.page-node-1568 .field-name-field-author {
+/* body.page-node-1568 .field-name-field-author {
 	display: none;
-}
+} */
 /* Removing name from menu Views blocks */
 #block-views-b1b3eb3bfe6e03cbda9e139beec831f4 .views-row-20 .name,
 #block-views-92481e09a0242877810f76afe2c45a6c .views-row-20 .name {
 	display: none;
 }
+
+/* @end */
+
+/* @group 2018 Q4 */
+
+/** Article: LGIM **/
+
+/* Article author thing */
+/* .node-1580 .field-name-field-author {
+	display: none;
+} */
+
+/* Image */
+img.lgim-2-2018-q4 {
+	height:auto;
+	width:230px;
+}
+
+@media (max-width:490px) {
+
+	img.lgim-2-2018-q4.float.left {
+		height:auto;
+		width:230px;
+		float:none;
+		margin-right:0;
+	}
+
+}
+
+/*** Synaptic Software: Paul Quarendon ***/
+
+@media (max-width:425px) {
+	img.float.left.node-1598-atm {
+		display: block;
+		float:none;
+	}
+}
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1602 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-9d93e2d547590ef3783762cfa09c2331 .views-row-20 .name,
+#block-views-7d56ec531513d880508eefbf219197a3 .views-row-20 .name {
+	display: none;
+}
+
 
 /* @end */
 
@@ -3491,8 +3595,8 @@ p.capita-quote.author {
 	margin: 0.25em 0;
 }
 div.field-name-field-small-print {
-	margin-top: 2.5em;
-	padding-top: 2.5em;
+	margin-top: 3em;
+	/* padding-top: 2.5em; */
 }
 
 div.field-name-field-small-print h2 {
@@ -4830,8 +4934,15 @@ div.risk-table.brewin-dolphin {
 	padding-top: 46px;
 }
 /* Schroder */
-div.risk-table.schroders {
+/* div.risk-table.schroders {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-schroders.png);
+	padding-top: 26px;
+	margin-top: 1.5em;
+} */
+/* Schroder (2018 logo) */
+div.risk-table.schroders {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-schroders-2018.svg);
+	background-size: auto 40px;
 	padding-top: 26px;
 	margin-top: 1.5em;
 }
@@ -4913,6 +5024,13 @@ div.risk-table.scottish-widows {
 	padding-top: 35px;
 	margin-top: 1.5em;
 }
+/* Aegon */
+div.risk-table.aegon {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aegon.svg);
+	background-size: auto 60px;
+	padding-top: 45px;
+	margin-top: 1.5em;
+}
 /* Architas */
 div.risk-table.architas {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-architas.png);
@@ -4926,10 +5044,24 @@ div.risk-table.bny-mellon {
 	/* margin-top: 0.25em; */
 }
 /* Invesco Perpetual */
-div.risk-table.invesco {
+div.risk-table.invesco-perpetual {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-invesco-perpetual.png);
 	padding-top: 80px;
 	/* margin-top: 0.25em; */
+}
+/* Invesco */
+div.risk-table.invesco {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-invesco.svg);
+	background-size: auto 90px;
+	padding-top: 75px;
+	margin-top: 0.25em;
+}
+/* Jupiter */
+div.risk-table.jupiter {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-jupiter.svg);
+	background-size: auto 75px;
+	padding-top: 55px;
+	margin-top: 0.5em;
 }
 /* Janus Henderson */
 div.risk-table.janus-henderson {
@@ -4978,6 +5110,13 @@ div.risk-table.smith-and-williamson {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-smith_and_williamson.png);
 	padding-top: 55px;
 	margin-top: 1.3em;
+}
+/* Vitality Invest */
+div.risk-table.vitality-invest {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-vitality-invest.svg);
+	background-size: auto 80px;
+	padding-top: 55px;
+	margin-top: 0.5em;
 }
 
 /* @end */
@@ -5628,10 +5767,12 @@ body.page-node-1004 .block-webform {
 }
 #block-webform-client-block-1004 {
 	padding-bottom:3em;
+	font-size: 1rem !important;
 }
 #block-webform-client-block-1004 h2.block-title {
 	margin-bottom:1em;
 }
+
 
 /**** Upcoming events block - <front> ****/
 
@@ -5868,24 +6009,6 @@ body.admin-menu #a2a-custom-menu.fixed {
 /*#block-views-tweets-block {
 	height: 1000px;
 }*/
-
-
-
-/* Content float image styling */
-
-img.float {
-	margin:0 1em 0.5em;
-}
-img.float.left {
-	margin-left:0;
-	float:left;
-}
-img.float.right {
-	margin-right:0;
-	float:right;
-}
-
-
 
 
 

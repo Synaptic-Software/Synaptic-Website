@@ -42,3 +42,7 @@
   <?php print render($content['comments']); ?>
 
 </article>
+
+<script>
+  article_author_height();
+</script>
