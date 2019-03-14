@@ -17,19 +17,22 @@
 
 function article_author_height() {
 
-	var $header = jQuery('.node-article-author');
-		//$portaitImg = $header.find('.field-name-field-portrait-photo img');
+	var $header = jQuery('.node-article-author'),
+			$authorDetails = jQuery('.node-article-author .author-details');
+			//$portaitImg = $header.find('.field-name-field-portrait-photo img');
 
-	jQuery(window).resize(function () {
+	function my_amazing_function() {
 
 		$header.css('height', 'auto');
 
-		var headerHeight = $header.outerHeight();
+		var headerHeight = $authorDetails.outerHeight();
 
 		$header.css('height', headerHeight);
 		//$portaitImg.css('height', headerHeight);
 
-	});
+	}
+	my_amazing_function();
+	jQuery(window).resize(my_amazing_function);
 
 }
 

@@ -203,7 +203,7 @@ ol.bold li {
 	float:left;
 }
 .region-navigation {
-	background:#00A0C0 url(../images/bg-nav-search.png) left bottom no-repeat;
+	background:#00A0C0 url('../images/bg-nav-search.png') left bottom no-repeat;
 	display:block;
 	width:312px;
 	position:relative;
@@ -248,12 +248,20 @@ div.field-name-field-author {
 }
 
 div.field-name-field-author  {
-	padding: 7px 5px 10px 85px;
+	/* padding: 7px 5px 10px 85px;
 	position: relative;
 	background-color: #F2F2F2;
 	min-height: 74px;
 	overflow: hidden;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.5em; */
+}
+.node-article-author {
+	background-color: #F2F2F2;
+}
+.node-article-author .author-details {
+	padding:7px 5px 10px 10px;
+	float:left;
+	width:calc(100% - 74px);
 }
 
 /*** Removing article author default portrait image ***/
@@ -278,9 +286,10 @@ div.field-name-field-author h2 {
 }*/
 /* portrait image */
 div.field-name-field-author div.field-name-field-portrait-photo {
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	left: 0;
+	left: 0; */
+	float: left;
 	width: 74px;
 	height: 100%;
 }
@@ -331,6 +340,7 @@ div.field-name-field-publish-date {
 	border:3px solid #00A0C0;
 	margin-top:2em;
 }  */
+
 .col1width {
 	margin: 1em 0 1.5em;
 }
@@ -389,9 +399,11 @@ a.colorbox:hover div.ico-magnify {
 	font-size: 1.15em;
 	font-family:'BlsW-Bd', Arial, sans-serif;
 	font-weight:normal; font-style:normal;
-	position: relative;
-	bottom: -33px;
-	margin-top: 2em;
+	/* position: relative; */
+	/* bottom: -33px; */
+	/* margin-bottom: -33px; */
+	/* margin-bottom: calc(-1em + 15px); */
+	/* margin-top: 2em; */
 	line-height: 1em;
 }
 /* Real block for extra about content */
@@ -402,7 +414,7 @@ a.colorbox:hover div.ico-magnify {
 .field-name-field-about-block-body {
 	border:2px solid #F2F2F2;
 	padding:40px 14px 1.5em;
-	margin: 0 0 2em;
+	margin: -33px 0 2em;
 }
 .field-name-field-about-block-body.notitle {
 	padding-top:1em;
@@ -3296,6 +3308,26 @@ body.page-node-1602 .field-name-field-author {
 
 /* @end */
 
+/* @group 2018 Q4 */
+
+/** Article: Aviva **/
+.node-1658 .field-name-field-author {
+	display: none;
+}
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1664 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-d91a636e52321799f5dc0459bc02d1a7 .views-row-18 .name,
+#block-views-560b006204ea4cc4b79b1440d0a80592 .views-row-18 .name {
+	display: none;
+}
+
+/* @end */
+
 /* @group Connection mag – Spotlight block – Region: Content */
 
 #main-main-banner .block.spotlight {
@@ -3689,6 +3721,10 @@ table tr td, table tr th {
 table tr td.highlight.lightblue, 
 table tr th.highlight.lightblue {
 	background-color: #d9f1f6;
+}
+table tr td.grey-bg,
+table tr.grey-bg td {
+    background-color: #F2F2F2;
 }
 
 /* Table with blue background */
@@ -5057,11 +5093,25 @@ div.risk-table.invesco {
 	margin-top: 0.25em;
 }
 /* Jupiter */
-div.risk-table.jupiter {
+/* div.risk-table.jupiter {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-jupiter.svg);
 	background-size: auto 75px;
 	padding-top: 55px;
 	margin-top: 0.5em;
+} */
+/* Jupiter AM */
+div.risk-table.jupiter {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.png);
+	background-size: auto 88px;
+	padding-top: 70px;
+	margin-top: 0.5em;
+}
+/* Cazenove Capital */
+div.risk-table.cazenove {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-cazenove-capital.png);
+	background-size: auto 66px;
+    padding-top: 48px;
+    margin-top: 1.2em;
 }
 /* Janus Henderson */
 div.risk-table.janus-henderson {

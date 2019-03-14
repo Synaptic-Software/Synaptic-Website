@@ -443,6 +443,18 @@ nav ol {
 	margin-bottom:0;
 }
 
+ul.bullet-tick {
+  list-style: none;
+  list-style-image:url('../images/bullet-tick.png');
+  /* padding:0; */
+}
+/* ul.bullet-tick li:before {
+  content:"\2714\0020";
+  text-indent: -1.2rem;
+} */
+
+
+
 /**
  * Embedded content and figures
  *
