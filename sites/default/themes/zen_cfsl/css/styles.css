@@ -4227,46 +4227,66 @@ body.page-instant-chat input#btn-submit {
 /* @end */
 
 /* @group Training videos - Views page */
+/* Top tips videos = views block */
+
+#main-main-banner #block-views-top-tips-videos-block {
+	font-size: 1rem;
+	background:transparent;
+	margin-top:2em;
+}
 
 .view-training-videos h3 {
 	margin-bottom: 1.5em;
 }
-.view-training-videos .views-row {
+.view-training-videos .views-row,
+.view-top-tips-videos .views-row {
 	border-bottom: none;
 	margin: 0 0 1em;
 	padding: 0;
 }
-.view-training-videos .views-row:after {
+.view-training-videos .views-row:after,
+.view-top-tips-videos .views-row:after {
 	visibility: hidden;
 	display: block;
 	content: "";
 	clear: both;
 	height: 0;
-	}
-* html .view-training-videos .views-row			 { zoom: 1; } /* IE6 */
-*:first-child+html .view-training-videos .views-row { zoom: 1; } /* IE7 */
+}
+/* IE6 */
+* html .view-training-videos .views-row, * html .view-top-tips-videos .views-row { zoom: 1; }
+/* IE7 */
+*:first-child+html .view-training-videos .views-row, *:first-child+html .view-top-tips-videos .views-row { zoom: 1; } 
 
-.view-training-videos .views-row .views-field-field-youtube-video {
+
+
+.view-training-videos .views-row .views-field-field-youtube-video,
+.view-top-tips-videos .views-row .views-field-field-youtube-video {
 	display: inline-block;
 	float: left;
 	/*border: 1px solid #F2F2F2;*/
 }
-.view-training-videos .views-row .views-field-field-youtube-video img {
+.view-training-videos .views-row .views-field-field-youtube-video img,
+.view-top-tips-videos .views-row .views-field-field-youtube-video img {
 	border: 1px solid #cecece;
+	margin:0;
 }
-.view-training-videos .views-row .views-field-title {
+.view-training-videos .views-row .views-field-title,
+.view-top-tips-videos .views-row .views-field-title {
 	margin-bottom: 0.5em;
-
+	font-family: 'BlsW-Lt', Arial, sans-serif;
 }
-.view-training-videos .views-row .views-field-body {
+.view-training-videos .views-row .views-field-body,
+.view-top-tips-videos .views-row .views-field-body {
 	float: right;
 	width: 600px;
 }
-.view-training-videos .views-row .views-field-body-text p {
+.view-training-videos .views-row .views-field-body-text p,
+.view-top-tips-videos .views-row .views-field-body-text p {
 	margin: 0;
 }
 /* Taxonomy product titles */
-.view-training-videos h3.product-taxonomy a, .view-training-videos h3.product-taxonomy a:hover {
+.view-training-videos h3.product-taxonomy a,
+.view-training-videos h3.product-taxonomy a:hover {
 	color: #fff;
 	display: inline-block;
 	padding: 5px 8px 7px;
@@ -4325,15 +4345,18 @@ body.page-instant-chat input#btn-submit {
 
 /* Block – Back to training video list more link */
 
-#block-block-54 {
+#block-block-54,
+/*  */
+#block-block-115 {
 	margin: 2em 0 0;
 	font-size: 1em;
 }
-#main-main-banner #block-block-54 a.morelink.back {
+#main-main-banner #block-block-54 a.morelink.back,
+#main-main-banner #block-block-115 a.morelink.back {
 	position: relative;
 	left: 0;
 	top: 0;
-	background-image: url(../images/ico-backlink-darkblue-sml.png);
+	background-image: url('../images/ico-backlink-darkblue-sml.png');
 }
 
 /* Product logos */
@@ -4362,7 +4385,7 @@ body.page-instant-chat input#btn-submit {
 /* Back to Top anchor link */
 a.top-anchor {
 	float: right;
-	background-image: url(../images/ico-toplink-darkblue-sml.png);
+	background-image: url('../images/ico-toplink-darkblue-sml.png');
 	margin-top: -1.9em;
 }
 body.page-support-training-videos a.top-anchor {

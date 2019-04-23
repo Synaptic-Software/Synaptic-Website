@@ -460,7 +460,8 @@ body.front #main-main-banner .region-main-banner #block-views-quick-links-block 
     .node-webform input.form-text, .node-webform textarea.form-textarea {
         float: left
     }
-    .view-training-videos .views-row .views-field-body {
+    .view-training-videos .views-row .views-field-body,
+    .view-top-tips-videos .views-row .views-field-body {
         width: 100%;
         float: left;
         margin-top: 10px

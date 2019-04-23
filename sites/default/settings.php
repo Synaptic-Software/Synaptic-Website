@@ -233,10 +233,11 @@ $databases = array (
   array (
     'default' =>
     array (
-      'database' => 'synaptic_connection-2019-q1',
+      'database' => 'synaptic_top-tips-2019-04',
       'username' => 'cfsl',
       'password' => 'aqPhQB6qCzrsnFCW',
-      'host' => '127.0.0.1',
+      // 'host' => '127.0.0.1',
+      'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',
