@@ -3308,7 +3308,7 @@ body.page-node-1602 .field-name-field-author {
 
 /* @end */
 
-/* @group 2018 Q4 */
+/* @group 2019 Q1 */
 
 /** Article: Aviva **/
 .node-1658 .field-name-field-author {
@@ -3323,6 +3323,43 @@ body.page-node-1664 .field-name-field-author {
 /* Removing name from menu Views blocks */
 #block-views-d91a636e52321799f5dc0459bc02d1a7 .views-row-18 .name,
 #block-views-560b006204ea4cc4b79b1440d0a80592 .views-row-18 .name {
+	display: none;
+}
+
+/* @end */
+
+/* @group 2019 Q2 */
+
+/** Article: Vanguard **/
+
+#block-views-3007324d78e7eeadcd7880591245397f .views-row-3,
+#block-views-452ef3e8b90e4b25b16694322ae3f026 .views-row-3 {
+	display: none;
+}
+#block-views-3007324d78e7eeadcd7880591245397f .views-row-2 span.name,
+#block-views-452ef3e8b90e4b25b16694322ae3f026 .views-row-2 span.name {
+	display: none;
+}
+
+/** Synaptic research spotlight on VitalityInvest **/
+
+.node-1745 .field-name-field-author {
+	display: none;
+}
+
+#block-views-3007324d78e7eeadcd7880591245397f .views-row-14 .views-field-views-conditional,
+#block-views-452ef3e8b90e4b25b16694322ae3f026 .views-row-14 .views-field-views-conditional {
+	display: none;
+}
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1752 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-3007324d78e7eeadcd7880591245397f .views-row-19 .views-field-views-conditional,
+#block-views-452ef3e8b90e4b25b16694322ae3f026 .views-row-19 .views-field-views-conditional {
 	display: none;
 }
 
@@ -4732,6 +4769,15 @@ span.risk-key-icon.tactical {
 	background-image: url(../images/synaptic-risk-rating/ico-tactical.png);
 	margin-left: 10px;
 }
+
+/*** Key header moved to block 2019 Q2 ***/
+/* Block description: Synaptic Risk Tables Key Header */
+
+#main-main-banner #block-block-116 {
+	font-size: 1em;
+}
+
+
 /* @end */
 
 /* @group Fact sheet tables */
@@ -4822,6 +4868,20 @@ table.risk-table td.risk-bar img {
 	margin: 0;
 	width: 243px;
 	height: 38px;
+}
+
+/*** Synaptic Risk Tables: Moved to views block: 2019 Q2 ***/
+
+#main-main-banner .block-views .view-synaptic-risk-rating-tables {
+	font-size: 1rem;
+}
+.block-views .view-synaptic-risk-rating-tables {
+	background:#fff;
+}
+.block-views .view-synaptic-risk-rating-tables .views-row {
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
 }
 
 /* @group Risk table Provider logos */
@@ -4952,6 +5012,13 @@ div.risk-table.rathbones {
 div.risk-table.vanguard {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-vanguard.png);
 	padding-top: 50px;
+	margin-top: 1.5em;
+}
+/* Clever MPS */
+div.risk-table.clever-mps {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-clever-mps.png);
+	background-size: auto 30px;
+	padding-top: 12px;
 	margin-top: 1.5em;
 }
 /* Close Brothers - no strapline */
@@ -5098,7 +5165,9 @@ div.risk-table.architas {
 }
 /* BNY Mellon */
 div.risk-table.bny-mellon {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-bny-mellon.png);
+	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-bny-mellon.png); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bny-mellon-im.svg');
+	background-size: 199px 90px;
 	padding-top: 80px;
 	/* margin-top: 0.25em; */
 }
@@ -5130,8 +5199,15 @@ div.risk-table.jupiter {
 	margin-top: 0.5em;
 }
 /* Cazenove Capital */
-div.risk-table.cazenove {
+/* div.risk-table.cazenove {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-cazenove-capital.png);
+	background-size: auto 66px;
+    padding-top: 48px;
+    margin-top: 1.2em;
+} */
+/* Cazenove Capital */
+div.risk-table.cazenove {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-cazenove-capital.svg');
 	background-size: auto 66px;
     padding-top: 48px;
     margin-top: 1.2em;
@@ -6349,4 +6425,13 @@ a#newsletter-signup-link:after {
 #popup-newsletter .close {
 	float:right;
 	cursor:pointer;
+}
+
+
+
+
+/*** Connection Synaptic Risk Ratings Tables: Small print block  ***/
+
+#block-block-117 {
+	margin-top:1.6em;
 }

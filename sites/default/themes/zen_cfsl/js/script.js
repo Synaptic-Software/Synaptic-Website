@@ -8,6 +8,21 @@
 
 /*** Functions ***/
 
+/**
+ * Connection 2019 Q2: Vanguard: Views menu
+ * -Change byline
+ */
+
+function connection_2019_q2_vanguard_views_menu() {
+
+	var $viewsMenus = jQuery('#block-views-3007324d78e7eeadcd7880591245397f, #block-views-452ef3e8b90e4b25b16694322ae3f026'),
+			$field = $viewsMenus.find('.views-row-2 .views-field-views-conditional span.field-content'),
+			byline = 'Garrett Harbron and Anna Madamba, Vanguard';
+	
+	$field.replaceWith(byline);
+
+}
+
 
 /**
  * Set height of Connection article author byline header
