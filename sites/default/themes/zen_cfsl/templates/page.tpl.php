@@ -173,6 +173,14 @@
   </div><!-- /#main -->
 
   <script>
+    /**
+     * Connection 2019 Q2: Vanguard: Views menu
+     * -Change byline
+     */
+    if (jQuery('#block-views-3007324d78e7eeadcd7880591245397f, #block-views-452ef3e8b90e4b25b16694322ae3f026').length) {
+      connection_2019_q2_vanguard_views_menu();
+    }
+
     // Move the block down to below the first pullquote
 	  // if (jQuery('body.node-type-connection-magazine-article').length && jQuery('.region-sidebar-second .block.below-pullquote').length) {
 		 //  var $blockToMoveDown = jQuery('.region-sidebar-second .block.below-pullquote').first();
