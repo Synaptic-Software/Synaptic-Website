@@ -1,0 +1,410 @@
+<?php
+// $Id: circle7.install,v 1.30 2011/01/04 18:24:24 webchick Exp $
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function circle7_install() {
+
+  $full_html_format = array(
+    'format' => 'full_html',
+    'name' => 'Full HTML',
+    'weight' => 2,
+    'filters' => array(
+      // URL filter.
+      'filter_url' => array(
+        'weight' => 0,
+        'status' => 1,
+      ),
+      // Line break filter.
+      'filter_autop' => array(
+        'weight' => 1,
+        'status' => 1,
+      ),
+      // HTML corrector filter.
+      'filter_htmlcorrector' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
+    ),
+  );
+  $full_html_format = (object) $full_html_format;
+  filter_format_save($full_html_format);
+
+  // Enable some circle7 blocks.
+  $default_theme = variable_get('theme_default', 'sky');
+  $admin_theme = 'seven';
+  $values = array(
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'search',
+      'delta' => 'form',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => -1,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'node',
+      'delta' => 'recent',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'dashboard_main',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'navigation',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_first',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'powered-by',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'footer',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'help',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'help',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'help',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'help',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'new',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'dashboard_sidebar',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'search',
+      'delta' => 'form',
+      'theme' => $admin_theme,
+      'status' => 1,
+      'weight' => -10,
+      'region' => 'dashboard_sidebar',
+      'pages' => '',
+      'cache' => -1,
+    ),
+  );
+  $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
+  foreach ($values as $record) {
+    $query->values($record);
+  }
+  $query->execute();
+
+  // Insert default pre-defined node types into the database. For a complete
+  // list of available node type attributes, refer to the node type API
+  // documentation at: http://api.drupal.org/api/HEAD/function/hook_node_info.
+  $types = array(
+    array(
+      'type' => 'page',
+      'name' => st('Page'),
+      'base' => 'node_content',
+      'description' => st("Use <em>basic pages</em> for your static content, such as an 'About us' page."),
+      'custom' => 1,
+      'modified' => 1,
+      'locked' => 0,
+    ),
+  );
+
+  foreach ($types as $type) {
+    $type = node_type_set_defaults($type);
+    node_type_save($type);
+    node_add_body_field($type);
+  }
+
+
+  // Default "Basic page" to not be promoted and have comments disabled.
+  variable_set('node_options_page', array('status'));
+  variable_set('comment_page', COMMENT_NODE_HIDDEN);
+
+  // Don't display date and author information for "Basic page" nodes by default.
+  variable_set('node_submitted_page', FALSE);
+
+  // Enable user picture support and set the default to a square thumbnail option.
+  variable_set('user_pictures', '1');
+  variable_set('user_picture_dimensions', '1024x1024');
+  variable_set('user_picture_file_size', '800');
+  variable_set('user_picture_style', 'thumbnail');
+
+  // Set the default site-wide TZ to Europe/London
+  variable_set('date_default_timezone_name', 'Europe/London');
+
+  // Set a default footer message.
+  variable_set('site_footer', '&copy; 2011 '. l('Site design by Circle Interactive', 'http://www.circle-interactive.co.uk', array('absolute' => TRUE)));
+
+  // Allow visitor account creation with administrative approval.
+  variable_set('user_register', USER_REGISTER_VISITORS_ADMINISTRATIVE_APPROVAL);
+
+  // Enable default permissions for system roles.
+  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments'));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval'));
+
+  // Create a default role for site administrators, with all available permissions assigned.
+  $admin_role = new stdClass();
+  $admin_role->name = 'administrator';
+  $admin_role->weight = 2;
+  user_role_save($admin_role);
+  user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+  // Set this as the administrator role.
+  variable_set('user_admin_role', $admin_role->rid);
+
+  // Assign user 1 the "administrator" role.
+  db_insert('users_roles')
+    ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
+    ->execute();
+
+  // Create a default role for website admins.
+  $webadmin_role = new stdClass();
+  $webadmin_role->name = 'website admin';
+  $webadmin_role->weight = 3;
+  user_role_save($webadmin_role);
+
+  // Create a default role for website editors.
+  $webeditor_role = new stdClass();
+  $webeditor_role->name = 'website editor';
+  $webeditor_role->weight = 4;
+  user_role_save($webeditor_role);
+
+  // Create a default role for staff users.
+  $staff_role = new stdClass();
+  $staff_role->name = 'staff user';
+  $staff_role->weight = 5;
+  user_role_save($staff_role);
+
+   $settings = array (
+  'default' => 1,
+  'user_choose' => 0,
+  'show_toggle' => 1,
+  'theme' => 'advanced',
+  'language' => 'en',
+  'buttons' => 
+  array (
+    'default' => 
+    array (
+      'Bold' => 1,
+      'Italic' => 1,
+      'Underline' => 1,
+      'UnorderedList' => 1,
+      'OrderedList' => 1,
+      'Link' => 1,
+      'Unlink' => 1,
+      'Anchor' => 1,
+      'Image' => 1,
+      'Rule' => 1,
+      'PasteText' => 1,
+      'FontFormat' => 1,
+      'Table' => 1,
+    ),
+    'imce' => 
+    array (
+      'imce' => 1,
+    ),
+  ),
+  'toolbar_loc' => 'top',
+  'toolbar_align' => 'left',
+  'path_loc' => 'bottom',
+  'resizing' => 1,
+  'verify_html' => 1,
+  'preformatted' => 0,
+  'convert_fonts_to_spans' => 1,
+  'remove_linebreaks' => 1,
+  'apply_source_formatting' => 0,
+  'paste_auto_cleanup_on_paste' => 0,
+  'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
+  'css_setting' => 'none',
+  'css_path' => '',
+  'css_classes' => '',
+	);
+
+  // Create a Home link in the main menu.
+  $item = array(
+    'link_title' => st('Home'),
+    'link_path' => '<front>',
+    'menu_name' => 'main-menu',
+  );
+  menu_link_save($item);
+
+  // Update the menu router information.
+  menu_rebuild();
+
+  // Enable the admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', 'seven')
+    ->execute();
+  variable_set('admin_theme', 'seven');
+  variable_set('node_admin_theme', '1');
+
+$locks = array(
+    'manage permission locks' => 'manage permission locks',
+    'manage permissions unrestricted' => 'manage permissions unrestricted',
+    'administer modules' => 'administer modules',
+    'administer site configuration' => 'administer site configuration',
+    'administer permissions' => 'administer permissions',
+    'administer views' => 'administer views',
+    'access administration menu' => '0',
+    'display drupal links' => '0',
+    'flush caches' => '0',
+    'administer blocks' => '0',
+    'administer comments' => '0',
+    'edit own comments' => '0',
+    'post comments' => '0',
+    'skip comment approval' => '0',
+    'access comments' => '0',
+    'access contextual links' => '0',
+    'access dashboard' => '0',
+    'view date repeats' => '0',
+    'administer date tools' => '0',
+    'administer features' => '0',
+    'manage features' => '0',
+    'administer filters' => '0',
+    'use text format advanced_wysiwyg' => '0',
+    'use text format basic_wysiwyg' => '0',
+    'use text format full_html' => '0',
+    'administer image styles' => '0',
+    'administer imce' => '0',
+    'administer menu' => '0',
+    'create page content' => '0',
+    'delete any page content' => '0',
+    'delete own page content' => '0',
+    'edit any page content' => '0',
+    'edit own page content' => '0',
+    'create webform content' => '0',
+    'delete any webform content' => '0',
+    'delete own webform content' => '0',
+    'edit any webform content' => '0',
+    'edit own webform content' => '0',
+    'access content overview' => '0',
+    'delete revisions' => '0',
+    'revert revisions' => '0',
+    'view revisions' => '0',
+    'view own unpublished content' => '0',
+    'access content' => '0',
+    'administer nodes' => '0',
+    'administer content types' => '0',
+    'bypass node access' => '0',
+    'administer url aliases' => '0',
+    'create url aliases' => '0',
+    'administer pathauto' => '0',
+   'notify of path changes' => '0',
+    'administer search' => '0',
+    'use advanced search' => '0',
+    'search content' => '0',
+    'administer shortcuts' => '0',
+    'customize shortcut links' => '0',
+    'switch shortcut sets' => '0',
+    'access site map' => '0',
+    'administer string overrides' => '0',
+    'administer actions' => '0',
+    'administer themes' => '0',
+    'block IP addresses' => '0',
+    'access administration pages' => '0',
+    'access site in maintenance mode' => '0',
+    'access site reports' => '0',
+    'administer software updates' => '0',
+    'view the administration theme' => '0',
+    'administer taxonomy' => '0',
+    'delete terms in 1' => '0',
+    'edit terms in 1' => '0',
+    'change own username' => '0',
+    'access user profiles' => '0',
+    'administer users' => '0',
+    'cancel account' => '0',
+    'select account cancellation method' => '0',
+    'access all views' => '0',
+    'access all webform results' => '0',
+    'access own webform results' => '0',
+    'access own webform submissions' => '0',
+    'delete all webform submissions' => '0',
+    'delete own webform submissions' => '0',
+    'edit all webform submissions' => '0',
+    'edit own webform submissions' => '0',
+);
+variable_set('permissions_lock_locked_perm', $locks);
+
+$roles = array(
+    '1' => '1',
+    '2' => '2',
+    '3' => '3',
+    '6' => '6',
+);
+variable_set('permissions_lock_locked_roles', $roles);
+variable_set('admin_theme', 'seven');
+variable_set('civicrmtheme_theme_admin', 'civicrm_seven');
+variable_set('node_admin_theme', '1');
+variable_set('error_level', '0');
+}

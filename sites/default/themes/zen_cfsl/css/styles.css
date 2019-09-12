@@ -404,17 +404,26 @@ a.colorbox:hover div.ico-magnify {
 	/* margin-bottom: -33px; */
 	/* margin-bottom: calc(-1em + 15px); */
 	/* margin-top: 2em; */
-	line-height: 1em;
+	line-height: 1.2;
+	margin-bottom:0.5em;
+	margin-left:-14px;
 }
 /* Real block for extra about content */
 #main-main-banner .content-main .block.about h2.block-title {
 	padding: 7px 12px 8px;
 	font-size: 18px;
 }
-.field-name-field-about-block-body {
+/* .field-name-field-about-block-body, */
+.node-connection-magazine-article .about-author,
+.paragraphs-item-about-block .content {
 	border:2px solid #F2F2F2;
 	padding:40px 14px 1.5em;
-	margin: -33px 0 2em;
+	/* margin: -33px 0 2em; */
+	margin: 2em 0 2em;
+}
+.node-connection-magazine-article .about-author.about-author-title,
+.paragraphs-item-about-block .content.about-author-title {
+	padding-top:0;
 }
 .field-name-field-about-block-body.notitle {
 	padding-top:1em;
@@ -432,10 +441,12 @@ a.colorbox:hover div.ico-magnify {
 #main-main-banner .content-main .block.about .block-content {
 	padding-bottom: 30px;
 }
-.field-name-field-about-block-body p {
+/* .field-name-field-about-block-body p {
 	margin: 0.5em 0;
+} */
+.field-name-field-about-block-body .field-item > *:last-child {
+	margin-bottom:0;
 }
-
 
 /* @end */
 
@@ -3365,6 +3376,36 @@ body.page-node-1752 .field-name-field-author {
 
 /* @end */
 
+/* @group 2019 Q3 */
+
+/** Article: Webline – an improved user experience **/
+
+/* Hiding author entity reference */
+body.page-node-1875 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-d49c758b92de11a0a2a5f0b01141f7b2 .views-row-12 .views-field-views-conditional,
+#block-views-c8b36ed86acb82d8758dca8bde0be814 .views-row-12 .views-field-views-conditional {
+	display: none;
+}
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1878 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-d49c758b92de11a0a2a5f0b01141f7b2 .views-row-15 .views-field-views-conditional,
+#block-views-c8b36ed86acb82d8758dca8bde0be814 .views-row-15 .views-field-views-conditional {
+	display: none;
+}
+
+/* @end */
+
+
+
+
 /* @group Connection mag – Spotlight block – Region: Content */
 
 #main-main-banner .block.spotlight {
@@ -3489,8 +3530,11 @@ p.leadpara {
 
 /* @group Contact & other details at bottom of article */
 
-div.field-name-field-article-details, div.grey-text-block, blockquote {
-	margin-top: 2.5em;
+div.field-name-field-article-details, 
+div.grey-text-block, 
+blockquote,
+.paragraphs-item-grey-text-box {
+	margin: 2.5em 0;
 	padding: 1em 1em 1.5em;
 	background: #F2F2F2;
 	/* font-family:'BlsW-Bd', Arial, sans-serif; */
@@ -3499,7 +3543,8 @@ div.field-name-field-article-details, div.grey-text-block, blockquote {
 /*div.field-name-field-article-details > .field-items > .field-item > *:last-child {
 	margin-bottom: 0;
 }*/
-div.grey-text-block, blockquote {
+div.grey-text-block, 
+blockquote {
 	margin: 2em 0;
 }
 div.grey-text-block.notbold {
@@ -3517,10 +3562,14 @@ blockquote p.author {
 	font-weight:normal; font-style:normal;
 	margin-top:-0.5em;
 }
-div.field-name-field-article-details *, div.grey-text-block *, blockquote * {
+div.field-name-field-article-details *, 
+div.grey-text-block *, 
+blockquote *,
+.paragraphs-item-grey-text-box *,
+.paragraphs-item-grey-text-box img {
 	margin-top: 0;
 }
-div.field-name-field-article-details *:last-child, div.grey-text-block *:last-child, blockquote *:last-child {
+div.field-name-field-article-details *:last-child, div.grey-text-block *:last-child, blockquote *:last-child, .paragraphs-item-grey-text-box *:last-child {
 	margin-bottom: 0;
 }
 /* @end */
@@ -3649,6 +3698,12 @@ p.capita-quote.author {
 	line-height:1.2em;
 	margin: 0.5em 0;
 }
+.field-name-field-about-block-body .smallprint {
+	font-size:0.75em;
+	line-height:1.2em;
+	margin: 1.6em 0;
+}
+.field-name-field-about-block-body 
 #main .smallprint.bottom {
 	margin: 2.5em 0 1em !important;
 }
@@ -4859,7 +4914,8 @@ table.risk-table td.title span.small-print {
 table.risk-table td.risk-bar {
 	width: 243px;
 	height: 38px;
-	background: transparent url(../images/synaptic-risk-rating/risk-bars/risk-bar-background.png) no-repeat left center;
+	/* background: transparent url(../images/synaptic-risk-rating/risk-bars/risk-bar-background.png) no-repeat left center; */
+	background: transparent url(../images/synaptic-risk-rating/risk-bars/risk-bar-background.svg) 100% no-repeat;
 /*	text-align: right;*/
 }
 table.risk-table td.risk-bar img {
@@ -5157,6 +5213,27 @@ div.risk-table.aegon {
 	padding-top: 45px;
 	margin-top: 1.5em;
 }
+/* Aberdeen Standard Capital */
+div.risk-table.aberdeen-standard-capital {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-capital.svg);
+    background-size: 134px 75px;
+    padding-top: 61px;
+    margin-top: 0;
+}
+/* Aberdeen Standard Investments */
+div.risk-table.aberdeen-standard-investments {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg);
+    background-size: 255px 60px;
+    padding-top: 48px;
+    margin-top: 0;
+}
+/* Tilney for professionals */
+div.risk-table.tilney {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-tilney-for-professionals.svg);
+    background-size: 259px 50px;
+    padding-top: 39px;
+    margin-top: 1.5em;
+}
 /* Architas */
 div.risk-table.architas {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-architas.png);
@@ -5231,10 +5308,16 @@ div.risk-table.liontrust {
 	margin-top: 1em;
 }
 /* Standard Life */
-div.risk-table.standard-life {
+/* div.risk-table.standard-life {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-standard-life.png);
 	padding-top: 55px;
 	margin-top: 0.5em;
+} */
+div.risk-table.standard-life {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg);
+    background-size: 255px 60px;
+    padding-top: 48px;
+    margin-top: 0;
 }
 /* Goldman Sachs */
 div.risk-table.goldman-sachs {
@@ -6433,5 +6516,26 @@ a#newsletter-signup-link:after {
 /*** Connection Synaptic Risk Ratings Tables: Small print block  ***/
 
 #block-block-117 {
-	margin-top:1.6em;
+	margin-top:3em;
+}
+
+
+/*** Inline background title colour ***/
+/* E.g.: /research-and-opinion/connection/q3-2019/research-matters */
+
+.block-block.bg-block-title .block-content {
+	padding: 0 0.4rem;
+}
+.block-block h2.bg-block-title {
+	color:#fff;
+    background-color: #00A0C0;
+	box-shadow: 0.4rem 0 0 #00A0C0, -0.4rem 0 0 #00A0C0;
+	font-family:'BlsW-Bd', Arial, sans-serif;
+	color: #fff;
+    padding: 0.15rem 0 0.2rem;
+    display: inline;
+    box-decoration-break: clone;
+    position: relative;
+	line-height: 1.35;
+	text-align: center;
 }
