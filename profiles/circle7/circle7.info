@@ -1,0 +1,52 @@
+; $Id: standard.info,v 1.2 2010/10/25 15:48:41 webchick Exp $
+name = Circle7
+description = Simple installation with Config and Content Types
+version = VERSION
+core = 7.x
+dependencies[] = views
+dependencies[] = ctools
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = wysiwyg
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+dependencies[] = wysiwyg_filter
+dependencies[] = circle_wysiwyg_config
+dependencies[] = permissions_lock
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_repeat
+dependencies[] = date_tools
+dependencies[] = date_views
+dependencies[] = permissions_lock
+dependencies[] = features
+dependencies[] = spambot
+dependencies[] = webform
+
+files[] = circle7.profile
+; Information added by drupal.org packaging script on 2011-01-05
+version = "7.0"
+project = "drupal"
+datestamp = "1294208756"
+

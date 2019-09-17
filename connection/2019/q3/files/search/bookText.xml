@@ -1,0 +1,1403 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Search><pages Count="52"><page Index="1" isMAC="true"><![CDATA[ FREE
+Connection
+Selection of industry features for the professional adviser
+And now for something completely different
+Steve Nelson, the lang cat
+The clock is ticking.
+John Stopford & Jason Borbora-Sheen, Investec Asset Management
+The only way is ethics.
+Jon Lycett, RSMR
+The asset allocation conundrum: Do you feel lucky?
+David Aujla, Invesco
+Research matters
+Insights drawing on recent lang cat research. Eric Armstrong
+›› Could we see a repeat of the 2008 crisis? Clever Adviser ›› How to spot red flags when selecting managers. Fidelity ›› The art of fund screening. Architas
+›› A new vision for investment. Vanguard
+›› Discretionary investment management in action. Tilney ›› Should you invest? Beware of the FOJI! Premier
+Download the Synaptic Risk White Paper for free Features Synaptic Risk table inside, plus:
+• Introducing Webline Play for income protection: A perfect blend of adaptability and functionality - Paul Quarendon
+• Webline: latest enhancements
+• Investment strategy and CIP - Eric Armstrong
+Issue:
+Q3 2019
+]]></page><page Index="2" isMAC="true"><![CDATA[ ]]></page><page Index="3" isMAC="true"><![CDATA[     And now for something completely different 4 Steve Nelson, the lang cat
+Research Matters 6 Eric Armstrong, Synaptic Software Limited
+Should you invest? Beware of the FOJI! 10 Simon Evan-Cook, Premier
+The clock is ticking 12 John Stopford & Jason Borbora-Sheen,
+Investec Asset Management
+The only way is ethics 14 Jon Lycett, RSMR
+The asset allocation conundrum: 16 Do you feel lucky?
+David Aujla, Invesco
+Could we see a repeat of the 2008 crisis? 18 Patrick Boughton, Clever Adviser
+How to spot red flags when selecting 20 managers
+Ayesha Akbar, Fidelity International
+The art of fund screening 22 Sheldon Macdonald, Architas
+A new vision for investment 26 Robyn Laidlaw,Vanguard
+Discretionary investment management 28 in action
+Mark Coles, Tilney for Professionals
+Webline - an improved user experience 30 Synaptic Software Limited
+Webline Play - a perfect blend of adaptability 32 and functionality
+Paul Quarendon, Synaptic Software Limited
+Investment Strategy and CIP 36 Eric Armstrong, Synaptic Software Limited
+Synaptic Risk Rating Table 39
+    3
+ Research matters
+CONTENTS
+ Contact Details
+Synaptic Software Limited
+Fusion 1, Parkway, Solent Business Park Whiteley, Hampshire PO15 7AA
+Sales: 0800 783 4477
+To sign up for Connection magazine visit
+www.synaptic.co.uk
+All editorial or advertising enquiries should be directed to:
+Eric Armstrong
+eric.armstrong@synaptic.co.uk 01489 882994
+Sarah Miller
+marketing@synaptic.co.uk 0800 783 4477
+                            The Synaptic offices are buzzing with the work resulting from our current investment programme into the next generation of adviser research technology.
+We have involved the Cats in the work
+we have done to understand the market, regulatory and best practice landscapes to help shape our new proposition. The Cats have a wide following around the industry and have, in our view, been able to draw on a deeper and more relevant experience than any other consultants.
+As lang cat Steve, that incomparable analyst, has used his article to present a slightly different perspective to his usual research- based one (and may I say a very thought provoking one), we have referenced lang
+cat research, albeit entirely paraphrased, in the following article, about why ‘research matters’. MiFID, PROD, RDR and FAMR are all looking to raise the bar as to the work that needs to be done around the CIP and the investment strategy employed by the firm.
+Our article on investment strategy and CIP outlines the benefits of putting Moody’s at the heart of your investment strategy – it’s a method of slaying all the compliance demons at once, and ensuring your advice is the best it can be.
+We at Synaptic are sufficiently advanced in our software development plans to see what we believe will be the future of research and due diligence in the MiFID II era, and look forward to sharing more detailed progress with you.
+As ever we are grateful to our contributors for yet another great edition, with some excellent articles across a wide range of topics. We hope all our readers enjoy the magazine.
+In the meantime, if you haven’t already downloaded our Risk White Paper which explains our approach to risk in the investment context, you can download it for free from our website at www.synaptic.co.uk/risk
+Eric Armstrong
+Editor
+  If you no longer wish to receive a copy of this publication, please email marketing@synaptic.co.uk
+The Connection magazine is published by Synaptic Software Limited. The views expressed throughout do not necessarily reflect the views of Synaptic or any other party affiliated to Synaptic, and no liability can be assumed for the accuracy or completeness of the content, nor should any of the content be used as the sole basis of any advice offered or received.
+Content is offered on an information only basis, and intended only for an audience of professional advisers regulated by the FCA. Content is published with all rights reserved and any reproduction of content, wholly or in part, can be made with the written permission of the publishers. This applies to all forms of the magazine - digital and print, and any part thereof.
+]]></page><page Index="4" isMAC="true"><![CDATA[  4
+           And now for something completely different
+  Steve Nelson | consulting director | the lang cat
+I’ve fostered a career out of problem solving. It’s about the only
+skill I have, following a brief stab at world tennis domination that was cruelly ended by a staggering lack of talent. But seriously, spreadsheets, data, statistics and making sense of all that nonsense that normal people avoid has been my forte for 15 or so years. I’ve always found it second nature in a way I can’t really explain. I enjoy it too, what with being a massive nerd.
+Yet, the spring of 2012 I found myself increasingly unable to perform even the most basic elements of my job. Stuff that would have been plain sailing, like rudimentary spreadsheet calculations (we’re talking long before the world-famous lang cat complex heatmaps by the way) were impossible to me. Lost in some kind of inexplicable fug.
+At first, what with being a man, I thought I had some kind of flu. Fatigue? Lack of
+concentration? Yep, one of those viruses that’s going around.
+What I’ve not mentioned is that I had all kinds of personal hell kicking off in the background and I hadn’t really pieced together that the two could be related. Fast forward a couple of months and it all came crashing down. Signed off work for 6 weeks or so with a cocktail of stress, anxiety and depression. Worst cocktail ever.
+I told you this column would be completely different.
+So, why am I treating my quarterly Connection column like a bargain basement celebrity autobiography? ‘Steve Nelson: The difficult early years’, destined for a pound shop near you.
+Well, a number of reasons really. Firstly, it’s only with a bit of distance that I’ve been able to talk about it properly without a sense of shame. Stupid isn’t it? I didn’t choose to be unwell and it shouldn’t define who I am, but I felt it would if I talked about it. Like I said, stupid, isn’t it?
+Secondly, I reckon there’s a bit of a cultural shift going on and I think people are starting to talk about and address the issue of mental
+ There’s a bit of a cultural shift going on and I think people are starting to talk about and address the issue of mental health.
+ ]]></page><page Index="5" isMAC="true"><![CDATA[ 5
+            Mental health problems in the UK workforce cost employers almost £35 billion last year. The number of working days lost per worker per year in financial services because of stress is now 31% higher than the average between 2007 and 2010.
+health, not least of all within financial services, in a more productive manner. And I want to do my bit to help it along.
+I’m mindful that this is a financial services column for financial services-type people so here’s quick stat attack on some of the direct implications that poor mental health can have on our economy:
+• Mental health problems in the UK workforce cost employers almost £35 billion last year, according to research by the Centre for Mental Health.
+• This means that mental health problems cost £1,300 for every employee in the UK economy.
+• The number of working days lost per worker per year in financial services because of stress is now 31% higher than the average between 2007 and 2010, employment law specialist Fox & Partners found in an analysis of Health and Safety Executive figures.
+My own experience of talking about this has been illuminating. I did a wee podcast with the good people at Citywire a few months back on the topic of mental health in financial services, chatting about some of my experiences in
+the past. It snowballed into a number of events on the road with Citywire, where we’ve
+collectively tried to do our bit to contextualise mental health within the financial services sector and look at what we could all perhaps do a bit better to look after each other.
+The reaction to it has been mildly overwhelming, with lots of lovely people saying very nice things. But it’s only the start. One thing in particular that I am growing to dislike is the term ‘awareness’ that seems to plague this topic. I think we need to move past that stage and move onto direct action.
+And it’s not going to be one thing that does it. We need different aspects to work in tandem. For me it’s all very well having initiatives
+in place in big firms but you need folk to demonstrate leadership to make staff believe they can be used effectively. In my work with Citywire I’ve been privileged to share a stage with Paul Feeney and hear about the terrific work he’s doing at Quilter. And I firmly believe that the main reason those initiatives will succeed is that they’re being led by a man willing to share his own vulnerability. Forget sales targets, reporting lines and awards. That’s leadership right there.
+Similarly, as much as conversations about people, men in particular, needing to ‘open up’ about mental health may well be true, we need to develop the right societal framework to allow that to happen. That’s why I’m
+grateful to the likes of Ollie Smith, Rohan Sivajoti and of course Paul for forcing this onto the mainstream financial services agenda and making it closer to being ok for others to follow.
+At the risk of using up my entire annual preaching quota in one column, there’s one thing I’d like to leave you with. When I see some of the more acerbic criticism in the press, below the line commentary and some of the more forthright exchanges on Twitter
+– particularly some of the consequences of controversial replatforming exercises or the recent fallout from that fund suspension – I’m drawn towards the subject of mental health. Not because I think organisations don’t deserve criticism, quite the opposite, just
+that those who are in line to feel the worst implications (i.e. potential job losses or front- line servicing stress) are usually those furthest from the decision-making process.
+I’m as guilty as the next person of this but
+I often wonder how much better it would
+be if we were all 5% kinder to each other, particularly in times of stress. Or even just 1%. We could all do that, couldn’t we?
+Visit www.langcatfinancial.co.uk for more from Steve and the rest of the lang cats.
+  ]]></page><page Index="6" isMAC="true"><![CDATA[         6
+                      Research matters
+  Eric Armstrong | Client Director | Synaptic Software Limited
+ Contains research from the lang cat
+Research does matter now - but not as much as it will do in the coming years.
+As a traveller through our times, do things seem stable to you? Does the low inflation environment or challenges around liquidity cause loss of sleep? I worry about the European deadline and have been reflecting on the various insights provided by various industry experts. I wonder about the growth we have had over the last 10 years and am concerned about what it is hiding.
+I also reflect on the fall-from-grace of a certain fund with its own liquidity issues, and the subsequent scrutiny that ‘gatekeeping’ has attracted and think of the implications for any research that may have supported decisions that led to failure, using dreaded hind-sight.
+We don’t know what the tribulations ahead of us are, so anticipating the necessity to defend historic decisions causes us to reflect on what research means, and its role in providing evidence as to the decisions we make.
+It turns out that a certain, very large advisory group had a significant mandate with ‘that’ fund promoter, so theoretically could have caught a nasty cold. Except they didn’t, partly because they had control of the custody in
+a segregated mandate (so weren’t affected by the demand for redemptions), but also because their homework had established that the particular fund manager’s stock picking in un-quoted stocks, when analysed apart from their other investments, had not returned
+value historically. So un-quoted stocks were excluded from the mandate, and the group swerved considerable harm as a result. That seems to me to be an excellent example of valuable research.
+Our benign 10 years in the markets are
+like the proverbial rising tide. Everybody invested has benefitted from nearly all asset classes recording growth. So not too much
+to defend. In the meantime, the regulatory authorities that were heavily criticised for being asleep at the wheel at the last downturn have been preparing the ground for far
+more rigid enforcement relating to the two principal pillars of their mission: prudence/risk management and protection of the consumer.
+MiFID is a perfectly formed vehicle to deliver on this mission, and the FCA has already made announcements in relation to thematic reviews that will double down on the principles enshrined in the RDR and MiFID, with Proof of Suitability taking centre stage. Advisers have taken greater responsibility for their client’s assets through pension freedoms. With increased use of platforms, there is more at stake than ever before should firms fail to evidence consistent and meaningful research.
+The big game changer has been the shift in strategy around research and due diligence required by the regulator. Accompanying stringent disclosure requirements that are
+making everybody’s eyes water along with the proof of target market, the new MiFID rules now require a full Suitability review to be conducted at least annually.
+It won’t be enough to present a list of holdings, agree that the world is well, and that progress is being made. Suitability will only be deemed met if:
+• there is a demonstrable plan;
+• that set objectives are still current; and • that a client’s risk profile is up to date.
+There must be an appropriate investment strategy that aligns with a client’s plan.
+In the past 6 months, Synaptic has focused on user research around MiFID challenges as well as suitability. The extensive research also involved interviews with software users, focusing on advisers and paraplanners.
+ ]]></page><page Index="7" isMAC="true"><![CDATA[     7
+                          With increased use of platforms, there is more at stake than ever before should firms fail to evidence consistent and meaningful research. The big game changer has been the shift in strategy around research and due diligence required by the regulator.
+ A brave call to discount possibility of 1% US Treasury yield in the next few years
+ We have drawn some emerging themes out of the research that you may find of interest when developing or reviewing your own research capabilities:
+1. Where’s all the data? Why can’t it all be in the right place?
+A challenge recognised by firms everywhere, spending hours collating data from various sources to populate ex-ante and ex-post (pre and post transaction) reports. A challenge so big that some firms prefer not to take on new customers, cull existing or bail out altogether. Most tools cannot stitch the portfolio and product layers together across all AUM.
+2. As ‘aggregation’ of firms affects more businesses, where is the software to support more joined up businesses?
+A challenge exists around the ability for increasingly ‘verticalised’ businesses to combine management of their legacy books and work in a more modern streamlined business, consistent with practices across a wider group.
+3. Firms are used to dealing with multiple software vendors. Is this avoidable?
+It may be a firm’s preference, but issues with compatibility are making it difficult to sustain, especially now suitability is to be reviewed annually.
+4. The flow of data around the system still isn’t right.
+Firms prefer to co-ordinate things from the back office. However, integrations aren’t what they should be, and re-keying is famously as inefficient and laborious as ever.
+5. Retirement planning is becoming more important and the tools are struggling to keep up.
+The wider adoption of cash-flow models has helped, but pension freedoms require more skilled research than ever to evidence the quality of firms’ retirement planning.
+6. Tools are struggling to deal with the wide range of investment ‘pathways’, where regulation and research strategies may vary.
+Discretionary managed, insured, multi-asset, model or bespoke portfolios all require different treatment from the research point- of-view.
+]]></page><page Index="8" isMAC="true"><![CDATA[ 8
+   The FCA Thematic Review that set out the importance of RDR and FAMR: the next chapter. The FCA’s work is research, due diligence and a ‘culture of challenge’ never done.
+                             The themes coming through may not be
+news to the majority of advisers, however the age-old problems still persist. One solution that will help the adviser community to manage disclosure requirements, whilst reducing rekeying and finding information from different sources, is Synaptic’s Instrument Disclosure Record.
+The Synaptic Instrument Disclosure Record is a convenient and simple set of web APIs provided to assist you in meeting FCA
+obligations to disclose costs and charges
+as described by EMSA MiFID II legislation
+for Ex-Ante and Ex-Post client instrument illustrations and regular position statements.
+You can customise the experience for
+your teams by building powerful reporting functionality on top of your advisory process – by providing access to both illustration and review reporting APIs as well as product and fund data services.
+The solution has everything you need for the modern report formats, including the ability to combine pricing data on platforms, products and portfolios (such as discretionary managed portfolios), with investment projections and risk profiling.
+Sounds incredible? Ask us about the Instrument Disclosure Record.
+You can register your interest by contacting us on 0800 783 4477.
+]]></page><page Index="9" isMAC="true"><![CDATA[                                                    The Suitability Suite
+Risk. Costs. Due diligence. Best advice.
+Proof of suitability is easier with Synaptic Research
+ • The regulator is making proof of suitability the cornerstone of its enforcement policy
+• Synaptic provides proof of suitability in the key areas of product features, risk and costs
+         Synaptic Product and Fund Whole of market product and fund research, full suitability reporting
+                        Synaptic Comparator
+Detailed price analysis for platforms, products and funds including R.I.Y. calculations
+                                                 RISK
+Synaptic Risk
+A.T.R.Q. and Risk Rated funds and portfolios
+                         Synaptic Modeller
+Models investment outcomes for new and existing holdings. Manage and assess investment risk
+                           SYNAPTIC
+WEBLINE
+Protection and Annuity quotes and on-line applications Synaptic Webline (including enhanced annuities)
+             Synaptic Suitability offers £140 per licence, per month (excl. VAT) - rrp is £226
+Apply today, call us on 0800 783 4477 or email us at sales@synaptic.co.uk quoting ‘Suitability Offer’.
+  SAVE OVER
+£130 PER LICENCE
+]]></page><page Index="10" isMAC="true"><![CDATA[  10
+  Should you invest? Beware of the FOJI!
+ Simon Evan-Cook | Senior Investment Manager | Premier
+Investors remain cautious and according to Simon Evan-Cook, Senior Investment Manager for Premier’s multi-asset funds, the last decade was filled with FOJI (Fear of Joining In). So, should investors act now or wait for a better opportunity?
+Since 2009, being a FOJI victim has been a costly experience.
+£100k stashed in a savings account earning the UK base rate for the last decade has grown to £105k. With inflation higher than the base rate for most of that time, the investor would have become poorer in real terms.
+If they had chosen to invest in UK equities, they would now have something in the region of £267k.
+Now, you should – rightly – be sceptical
+of such numbers. Travelling back ten years returns us to the end of the financial crisis. This is as close as we’ve been to a closing- down, all-stock-must-go equity sale in living memory. So, it’s not surprising returns look good from then.
+Many would-be investors look back wistfully: “If it fell that low again,” they say, “I’d definitely be a buyer”. Neatly forgetting, of course, that when it fell that low last time, they stayed out because it was too scary. But rest assured, if it fell that low again it would be similarly terrifying.
+Investing (or not) ten years ago: the results
+300,000
+250,000
+200,000
+150,000
+100,000
+50,000
+0
+30/06/2009 30/06/2010 30/06/2011 30/06/2012 30/06/2013 30/06/2014 30/06/2015 30/06/2016 30/06/2017 30/06/2018
+                           FTSE All-Share Index
+UK consumer price     Bank of England base rate
+    Perhaps then, we should compare today’s should-I-or-shouldn’t-I investment dilemma to 2007: a time when years of good returns projected an enticing scene onto the rear- view mirror, but investors were uneasy that they’d be joining the picnic too late. What fate befell those that did?
+Well, assuming they bought in and stayed, they too would have been better off than
+those who chose cash. Put another way, if Paul put his £100k into UK equities at the very peak of that cycle (31st October 2007), the day before the UK market embarked on a 17-month, 46% slump, he’d still be better off today than Pauline, who left her money in a bank account paying the heady (but soon-to-be-slashed) base rate of 5.75%.
+ ]]></page><page Index="11" isMAC="true"><![CDATA[  Investing at the peak of the last market cycle (or not): the results
+200,000
+180,000
+160,000
+140,000
+120,000
+100,000
+11
+ As well as understanding how you’d feel if the market drops sharply in the next 12 months, you should also consider how you’d feel if it rises for the next 12 years while your cash dwindles away.
+         80,000
+ 60,000
+ 40,000
+ 20,000
+Find out more
+For more information about Premier’s funds or portfolios, contact our Business Development team on 0333 456 9033 or email info@premierfunds.co.uk
+Visit premierfunds.co.uk/global
+ 0
+31/10/2007 31/10/2008 31/10/2009 31/10/2010 31/10/2011 31/10/2012 31/10/2013 31/10/2014 31/10/2015 31/10/2016 31/10/2017 31/10/2018
+       FTSE All-Share Index UK consumer price
+Bank of England base rate
+Most useful, of course, would be an ability to predict the future. Sadly I know I can’t do this. Also sadly, I know no-one else can either, but there are plenty out there who think they can. By all means pass them a couple of quid at a fairground for a bit of laugh, but you should otherwise keep your money well away from such fantasists.
+All you can do is look at the facts. You may well decide that it still looks too risky to invest and, if you’re the kind of person who will panic in a sell-off, staying out may be right for you. But in a world where inflation is higher than savings rates, taking no risk is risky too - as recent FOJI victims will attest. So, as well as understanding how you’d feel if the market drops sharply in the next 12 months, you should also consider how you’d feel if it rises for the next 12 years while your cash dwindles away. From here, either scenario is possible.
+      And by quite a long way - Paul would have £180k, while Pauline would only have £111k.
+As with most things market, these decisions are complicated by a cocktail of behavioural biases. ‘Recency Bias’ is one, being our instinct to believe the near future will look like the recent past.
+Our outsize hatred of regret is also a factor. Studies show humans will instinctively pay much more to avoid making a decision that has a regrettable outcome than we’d pay to experience a bigger positive result.
+Knowing all of this doesn’t make today’s decision any less tricky of course. So, what should investors do? Naturally, everyone’s circumstances are different, so there are no catch-all answers. A 12-year time horizon, for example, allows plenty of time to recover from the odd sell-off or two; 12 months doesn’t.
+This document has been produced for information purposes only and does not constitute advice. If any of the information contained in this document is unclear, we recommend you consult with an authorised financial adviser. Persons who do not have professional experience in matters relating to investments should speak with a financial adviser before making an investment decision. For your protection, calls may be monitored and recorded for training and quality assurance purposes.
+When you invest, your money is at risk because the value of investments, and any income from it, can go down as well as up and you could get back less than you invested.
+Chart source: FE Analytics. Chart 1: 30.06.2009 to 30.06.2019, and chart 2: 31.10.2007 to 30.06.2019, taken on a bid to bid, total return (income reinvested) UK sterling basis. Past performance is not a guide to future returns.
+Before investing, please read the Prospectus, Key Investor Information Document and Supplementary Information Document for the Premier Multi-Asset Distribution Fund and the Premier Multi- Asset Growth & Income Fund. These documents contain important information that you should consider before investing, such as the fees you will pay and specific investment risks.
+Issued by Premier Asset Management, which is the marketing name used to describe the group of companies, including Premier Portfolio Managers Limited and Premier Fund Managers Limited, that are authorised and regulated by the Financial Conduct Authority.
+  ]]></page><page Index="12" isMAC="true"><![CDATA[  12
+  The clock is ticking
+ John Stopford and Jason Borbora-Sheen | Co-Portfolio Managers | Investec Diversified Income Fund
+The economic clock continues to tick. The Bank of England has warned of a 1 in 3 chance of a Brexit recession as uncertainty continues to loom. Further afield, the risks to the global economy, with heightened international trade tensions and signs of slowing growth have led the US central bank, the Federal Reserve, to cut interest rates for the first time since 2008. What’s more, we are 10 years into a global economic expansion – now the longest on record.
+Now is not the time to focus only on upside opportunities. The hour is late in the economic cycle and the risks in these uncertain times are considerable.
+When change is constant, what are the risks?
+From the dismal last quarter of 2018 to now has been a rollercoaster. We have gone from markets pricing in a global recession by this time in 2019; to a significant six month rally across asset classes, helped by monetary policy easing and the prospect of a US-China trade deal; to fears that the world’s two largest economies are readying for something much worse than a simple trade war.
+Neither side looks likely to yield until they get what they want or something gives. For the US, stock markets seem to be the pain point; for China, it’s the broader economy and access to global markets.
+Our concern is that this scrap could be more dangerous than many people have assumed. It may mark the beginning of a drawn-out de-globalisation of the global economy and its intricate value chains.
+In any case, the current situation might get nastier before it gets better. We may need
+a reaction from markets and an impact to growth before either side capitulates. We deem this reason enough to be adding robust defence to portfolios.
+Implication for portfolio positioning
+We are naturally defensive and believe we have added to our portfolio fortifications. But we remain cautiously optimistic
+and, in our view, uncertainty is creating inconsistent pricing.
+Now the Fed has cut interest rates, bonds could revert to being more negatively
+ Investors should be careful not to let seemingly positive data mask the risks arising from the lateness of the cycle, whose negative impact may take time to appear in asset prices. Even if the trade dispute is resolved, it would only be a short-term fix. De-globalisation is a long-term theme.
+ ]]></page><page Index="13" isMAC="true"><![CDATA[ 13
+  If investors prepare adequately, we believe they can make the most of the opportunities that uncertain markets bring.
+correlated to equities (which they weren’t last year). This makes them a more useful diversifier within portfolios. You could offset higher equity exposure by adding duration in markets where yields are relatively attractive and where interest rates could be cut still further in future (e.g. US Treasuries).
+Options remain attractively priced, implying that investors see little risk of negative outcomes in the future, which is what options insure against. Cheap insurance means
+it can be cost-effective to use options to participate in market upside (if there is any) while protecting against potential downside. At present, an investor might build a case that equities could gain 20% in a year, or that they could lose 35%-40%; options are a good way of playing such an uncertain environment at relatively low cost.
+Let’s not forget how late in the cycle we are. Historically, equity markets peak about six to nine months ahead of a recession.
+Even if a recession is not imminent, it is prudent to manage a portfolio to withstand a range of risk events with the potential to transpire over the coming year.
+We were put to the test recently in May when equities fell to -6.2%, which was the fifteenth worst monthly performance for equities over
+the last 15 years (October and December 2018 were the thirteenth and eleventh worst months for equities.)1 During these conditions, the defence we added proved a shrewd investment as we avoided this downturn and outperformed the market by some margin.
+Similarly, during the last risk-off period in the last quarter of 2018, we reduced the portfolio’s sensitivity to tighter monetary policy and reduced exposure in the ‘melt-up’ euphoria early in the year.
+Uncertainty remains high as we move through 2019. We continue to actively manage the risk within the portfolio by focusing on our best ideas at the security level, aiming to capture the opportunities that the market still presents. Given our risk and return objectives, we believe the overall mix of exposures is
+well diversified by sensitivity to the economic cycle, so everything should not go up or down at the same time; exposure to known risks such as the uncertainty around the US-China trade war is limited; and we are actively managing the risk behaviour of the portfolio to changing market conditions.
+The clock keeps ticking.
+We intend to remain steadfastly vigilant, even if everything else keeps changing.
+For further insights about our defensive approach, please visit www.investecassetmanagement.com/DIF
+Past performance is not a reliable indicator of future results, losses may be made. The Fund may invest more than 35% of its assets in securities issued or guaranteed by a permitted sovereign entity, as defined in the definitions section of the Fund’s prospectus.
+1 Source: Investec Asset Management and Bloomberg.
+This communication is for institutional investors and financial advisors only. It is not to be distributed to the public or within a country where such distribution would be contrary to applicable law or regulations. Nothing herein should be construed as an offer to enter into any contract, investment advice, a recommendation of any kind, a solicitation of clients, or an offer to invest in any particular fund, product, investment vehicle or derivative. The information may discuss general market activity or industry trends and is not intended to be relied upon as a forecast, research or investment advice. The economic and market views presented herein reflect Investec Asset Management’s judgment as at the date shown and are subject to change without notice. There is
+no guarantee that views and opinions expressed will be correct,
+and Investec’s intentions to buy or sell particular securities in the future may change. The investment views, analysis and market opinions expressed may not reflect those of Investec as a whole, and different views may be expressed based on different investment objectives. English language copies of the Fund’s Prospectus and Key Investor Information Documents are available from Investec Asset Management on request. Issued, July 2019.
+.
+ ]]></page><page Index="14" isMAC="true"><![CDATA[  14
+ The only way is ethics
+  Jon Lycett | Business Development Manager | RSMR
+As I ran through the sweltering summer streets of Bristol recently, hauling my luggage and melting in my suit, I admit to harbouring more than a few unprintable words about the extinction rebellion protesters who had blocked the roads and prevented my taxi getting to the train station on time.
+On reflection, once I’d made myself comfortable on the train and begun to cool down, I had to admit that I agree with most of the objectives of the protest – although perhaps not with some of the methods used.
+While most of us haven’t quite reached the point of taking to the streets in protest, more and more of us are taking positive action
+by taking greater care in our investment choices. In our work with both advisers
+and fund groups, RSMR has noticed an increasing appetite for funds that broadly follow a socially responsible investment (SRI) theme and there’s no doubt that these types of funds are now becoming part of the mainstream.
+Since 2012, when RSMR launched its SRI fund rating, we’ve seen significant changes
+in this area of the market. The traditional method of ethical investing is to focus almost entirely on issues, sectors and companies that investors might wish to avoid (ie – animal testing, armaments, tobacco) and this is still an approach that’s employed successfully by some fund managers using a negative screening policy.
+Increasingly though, we are seeing a shift towards a more positive screening approach that focuses on sectors and companies
+that are making a positive contribution to certain environmental, social or governance factors (ESG) such as climate change, human rights or scarcity of resources. This
+positive screening approach has led to
+the launch of a number of thematic funds that invest in companies or themes that are creating solutions to environmental or social issues. One of the growing themes of positive screening is sustainability, which is an approach that supports socially and environmentally efficient companies that operate responsible business practices.
+In short, when it comes to SRI/ethical investing, there are a number of different approaches. This leads us on to one of the most common questions that I get asked by advisers – how can I construct a portfolio that meets the broader ethical aims of an investor while still providing a suitable level of risk?
+ The one concern that’s often voiced about an ethical investment approach is that performance might be compromised, but that doesn’t have to be the case.
+ ]]></page><page Index="15" isMAC="true"><![CDATA[15
+   While most of us haven’t quite reached the point of taking to the streets in protest, more and more of us are taking positive action by taking greater care in our investment choices.
+For RSMR, it begins with asset allocation and a decision on how much to allocate to cash, fixed interest, UK and international equities and alternatives in order to fall within
+the required risk parameters. Once we’ve completed this first part, we then populate our models with RSMR SRI rated funds.
+We’re fortunate at RSMR in that we have
+a wealth of information at our fingertips from the detailed research we’ve conducted – our SRI rated funds demonstrate strong ethical credentials and a disciplined process. And no, we won’t be fooled by the recent phenomenon of funds ‘greenwashing’ themselves.
+This body of research provides a reasonable number of funds from which we can build different portfolios, safe in the knowledge that we not only understand how each individual fund works – but also how the overall strategy can be expected to behave based on the funds that are being blended together. This is the way that we’ve built our three discretionary SRI models, which match Synaptic risk levels 2,3 and 5.
+RSMR’s SRI ratings are freely available on the RSMR Research Hub – so advisers can use this as a resource from which to select funds for their own portfolios. But as with the
+construction of any portfolio, it’s important to ensure that funds are selected in a way that ensures maximum diversity – never more so than in the SRI arena where there are so many specific themes represented.
+The one concern that’s often voiced about an ethical investment approach is that performance might be compromised, but that doesn’t have to be the case. It’s true that SRI funds might have some inherent investment biases, whether that’s at sector level (for example the avoidance of mining) or in the style of investing (SRI equity funds are generally growth orientated). Should these particular sectors or styles be out of favour then SRI funds might underperform, but conversely if the opposite were true then SRI might outperform.
+RSMR’s view is that the ability of the fund manager and the strength of the overall investment process is the key factor in determining long term returns. There’s no doubt that society is becoming more aware of the social and environmental challenges that face us, and for many investors, these considerations are beginning to inform the investment choices that they make.
+It’s important that advisers have a suitable option to offer when faced with an investor who wants to take a more ethical approach with their investment planning. This can
+be tackled either through the construction of some in-house portfolios (please feel
+free to use RSMR SRI ratings to help with portfolio construction) or through the use of discretionary SRI portfolios (hint hint; RSMR has three Synaptic risk-rated models).
+Whichever route you decide to take, it’s clear that the nation’s investable assets are slowly migrating into the hands of investors who are more socially and environmentally aware. Your clients might not be stopping traffic
+at a protest, but they will increasingly be interested in where their money is invested – so be prepared.
+Contact us for more details at enquiries@rsmr.co.uk or register on the RSMR Hub at rsmr.co.uk
+  ]]></page><page Index="16" isMAC="true"><![CDATA[  16
+ The asset allocation conundrum:
+Do you feel lucky?
+  David Aujla | Investment Strategist | Invesco
+David Aujla, Investment Strategist on the Invesco Summit Growth range of funds, looks at how to avoid building binary outcomes into a portfolio.
+By now I suspect we are all used to the question often posed at the start of every year, whether it is a new calendar year or a new tax year. The question can take different forms but it is essentially asking the same thing: Where should I invest my money this year to get the best returns?
+The trouble is to answer that question correctly is extremely difficult. It means taking a very short-term view and also
+relies on being right every time. That is both unlikely and unsustainable. While the upside returns potential from such an approach could well be compelling, the downside potential is much less so. It leaves investors in a binary outcome situation, with very little protection.
+Returns can vary considerably
+Picking a market that will perform well each year is no easy endeavour. Looking back over the last 15 calendar years it is clear that there have been significant differences in return between the best and worst performing asset classes globally.
+ Fig 1. Asset class returns by calendar year Real Estate Bonds Source: Invesco, Bloomberg, in GBP as at 31 December 2018. Equities Commodities
+2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+      21.62
+  22.93
+  39.95
+  24.63
+  30.95
+  4.50
+ 24.15
+ 24.36
+  5.98
+  23.09
+  21.07
+ 23.03
+ 5.79
+  32.81
+  13.79
+  1.37
+  19.94
+   9.15
+   28.44
+  6.77
+  10.83
+  -20.81
+  22.28
+  17.34
+   -0.65
+   11.52
+   2.26
+  11.37
+  3.84
+  29.44
+  6.94
+  -1.09
+ 12.67
+ 9.12
+  24.20
+ 6.52
+ 9.49
+  -27.14
+  7.12
+  12.92
+  -5.16
+ 4.24
+ -2.65
+ 1.29
+ -2.75
+ 25.28
+ 1.82
+  -3.37
+  9.01
+ 7.77
+ -4.10
+ -25.43
+-8.41
+-28.37
+ 2.43
+ 5.61
+ -6.35
+-4.43
+-3.15
+-28.83
+-29.00
+ 2.16
+-3.45
+-8.56
+                             Fig 2. Bond market returns by calendar year
+Global High Yield
+In 2017 for example, the difference in returns achieved for those invested in equities and
+Source: Invesco, Bloomberg, in GBP as at 31 December 2018. Global Investment Grade Credit Global Treasuries
+those invested in commodities was around 17%. Similarly, bond investors achieved around half of the return that equity investors did. Where you invested your money still made a
+2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+m32e.a42nin1g3f.1u4l d3if.5fe9ren1c3.e6.9 10.57 10.20 59.40 14.82 7.49 19.55 7.33 7.40 -0.49 14.23 10.43 -0.38
+L1o4o.7k8ing10w.3it0hin1.7r7athe6r.4t4han4.b4e8tw-e6e.n21th1e9m.21ajo9r.0a6sse6t.3c3lass1e0s.,3t7he-p1.i2c8tur0e.0i1ssim-2i.l7a2r.In6.0t2heb7o.2n9d -2.37 market (see Figure 2), the returns varied markedly between high yield, investment grade credit and
+8.12 5.31 -6.66
+4.48 3.16 -26.81 2.63 5.90 3.12 1.83
+Fig 3. Equity region returns by calendar year
+Source: Invesco, Bloomberg, in GBP as at 31 December 2018.
+-4.30 -0.79 -3.29 1.65
+Latin America EM
+Asia Pac x Japan Global
+6.44 -4.06
+Global Small Cap Global Mid Cap USA
+UK
+government bonds.
+Europe ex UK
+2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+55.36 29.14 66.93 25.68 48.38 -3.64 84.31 31.29 2.53 17.54 30.01 20.53 14.65 56.65 25.77 1.32 40.72 17.25 49.75 19.55 37.89 -14.4561.49 25.45 -1.81 17.02 26.62 11.45 7.14 33.65 25.75 -0.48 35.09 15.26 40.20 17.58 35.96 -20.8157.36 23.50 -6.35 13.24 26.17 11.37 5.90 33.27 16.72 -3.37 34.07 14.17 35.67 16.39 15.68 -23.3236.58 23.17 -8.74 13.23 24.14 10.00 5.68 33.10 14.08 -7.56
+Japan
+ ]]></page><page Index="17" isMAC="true"><![CDATA[  17
+ 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+Fig 1. Asset class returns by calendar year Real Estate Bonds
+Taking a multi-asset approach means building a more diversified portfolio of assets
+21.62 22.93 39.95 24.63 30.95 4.50 24.15 24.36 5.98 23.09 21.07 23.03 5.79 32.81 13.79 1.37
+S
+ies
+ou
+rce
+:
+Inv
+esco
+, Blo
+omb
+erg
+,
+in
+G
+B
+Pa
+sa
+t
+31
+Dec
+em
+be
+r2
+0
+18
+.
+19.94 9.15 28.44 6.77 10.83 -20.8122.28 17.34 -0.65 11.52 2.26 11.37 3.84 29.44 6.94 -1.09
+that is less susceptible to the ‘feast or famine’ of short-term binary decisions.
+2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+12.67 9.12 24.20 6.52 9.49 -27.147.12 12.92 -5.16 4.24 -2.65 1.29 -2.75 25.28 1.82 -3.37
+21.62 22.93 39.95 24.63 30.95 4.50 24.15 24.36 5.98 23.09 21.07 23.03 5.79 32.81 13.79 1.37
+E
+q
+uit
+ies
+C
+om
+m
+odit
+ Fig 2. Bond market returns by calendar year
+Global High Yield
+Global Investment Grade Credit
+ Source: Invesco, Bloomberg, in GBP as at 31 December 2018.
+-6.35
+-4.43
+-3.15
+-28.83 -29.00 2.16 -3.45 -8.56
+ 9.01 7.77 -4.10 -25.43 -8.41 -28.37 2.43 5.61
+Global Treasuries
+ 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+Fig 2. Bond market returns by calendar year Global High Yield
+ 32.42
+Source: I
+ 13.14
+nvesco,
+ 3.59
+Bloombe
+ 13.69
+rg, in GB
+ 10.57
+Pasat3
+ 10.20
+1 Decem
+ 59.40
+ber 201
+ 14.82
+8.
+  7.49
+ 19.55
+ 7.33
+ 7.40
+Glob Glob
+ -0.49
+al Invest al Treasu
+ 14.23
+ment Gra ries
+ 10.43
+de Credi
+  t-0.38
+ 14.78
+2003
+  10.30
+2004
+   1.77
+2005
+   6.44
+2006
+  4.48
+2007
+  -6.21
+2008
+  19.21
+2009
+  9.06
+2010
+   6.33
+2011
+  10.37
+2012
+  -1.28
+2013
+  0.01
+2014
+  -2.72
+2015
+   6.02
+2016
+   7.29
+2017
+   -2.37
+2018
+ 8.12 32.42
+5.31 13.14
+ -6.66 3.59
+ 4.48 13.69
+3.16 10.57
+-26.81 10.20
+2.63 59.40
+5.90 14.82
+ 3.12 7.49
+1.83 19.55
+-4.30 7.33
+-0.79 7.40
+-3.29 -0.49
+1.65 14.23
+ 6.44 10.43
+ -4.06 -0.38
+ Fig 3. Equity region returns by calendar year Latin America Global Small Cap 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+  Source: Invesco, Bloomberg, in GBP as at 31 December 2018. EM Global Mid Cap Asia Pac x Japan USA
+    55.36 29.14 66.93 25.68 48.38 -3.64 84.31 31.29 2.53 17.54 30.01 20.53 14.65 56.65 25.77 1.32
+Global UK Europe ex UK Japan
+    40.72 17.25 49.75 19.55 37.89 -14.4561.49 25.45 -1.81 17.02 26.62 11.45 7.14 33.65 25.75 -0.48
+2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+ 35.09 55.36
+  15.26 29.14
+  40.20 66.93
+  17.58 25.68
+  35.96 48.38
+  -20.81 -3.64
+   57.36 84.31
+   23.50 31.29
+   -6.35 2.53
+   13.24 17.54
+   26.17 30.01
+  11.37 20.53
+  5.90 14.65
+   33.27 56.65
+   16.72 25.77
+   -3.37 1.32
+  34.07 40.72
+14.17 17.25
+35.67 49.75
+16.39 19.55
+ 15.68 37.89
+ -23.32 -14.45
+ 36.58 61.49
+ 23.17 25.45
+ -8.74 -1.81
+ 13.23 17.02
+ 24.14 26.62
+ 10.00 11.45
+ 5.68 7.14
+ 33.10 33.65
+ 14.08 25.75
+ -7.56 -0.48
+  29.15 35.09
+  14.12 15.26
+  27.84 40.20
+   14.60 17.58
+  10.83 35.96
+  -24.67 -20.81
+   29.28 57.36
+   19.64 23.50
+   -10.48 -6.35
+   12.05 13.24
+   22.46 26.17
+   8.64 11.37
+   4.46 5.90
+   29.44 33.27
+   13.79 16.72
+   -7.60 -3.37
+  25.83 34.07
+  13.55 14.17
+  27.18 35.67
+  6.77 16.39
+  6.56 15.68
+  -27.01 -23.32
+ 27.67 36.58
+ 19.62 23.17
+  -13.70 -8.74
+  11.52 13.23
+  21.07 24.14
+  4.23 10.00
+  3.84 5.68
+  28.42 33.10
+  13.63 14.08
+  -8.21 -7.56
+  22.69 29.15
+ 11.47 14.12
+24.94 27.84
+5.24 14.60
+ 5.04 10.83
+ -28.40 -24.67
+ 22.28 29.28
+ 19.21 19.64
+ -13.93 -10.48
+ 10.86 12.05
+18.37 22.46
+2.58 8.64
+ -2.27 4.46
+ 28.05 29.44
+13.47 13.79
+-8.79 -7.60
+  21.62 25.83
+   8.19 13.55
+  24.20 27.18
+  4.86 6.77
+   4.77 6.56
+   -33.52 -27.01
+   20.32 27.67
+   17.34 19.62
+   -14.54 -13.70
+   10.18 11.52
+  2.07 21.07
+  0.44 4.23
+   -3.53 3.84
+   23.62 28.42
+   13.33 13.63
+   -8.84 -8.21
+  18.79 22.69
+  7.77 11.47
+  20.10 24.94
+  1.28 5.24
+ 4.02 5.04
+ -33.70 -28.40
+  14.75 22.28
+  12.21 19.21
+  -17.72 -13.93
+  4.51 10.86
+  -4.18 18.37
+  0.19 2.58
+  -9.70 -2.27
+  19.56 28.05
+  11.73 13.47
+ -9.05 -8.79
+ 16.60 21.62
+ 3.05 8.19
+ 17.86 24.20
+ -6.57 4.86
+ -5.51 4.77
+ -36.22 -33.52
+ -3.86 20.32
+ 5.90 17.34
+ -18.71 -14.54
+ 3.90 10.18
+ -14.89 2.07
+ -6.54 0.44
+ -26.90 -3.53
+ 19.16 23.62
+ 11.27 13.33
+ -9.24 -8.84
+   18.79
+   7.77
+   20.10
+   1.28
+   4.02
+   -33.70
+   14.75
+   12.21
+   -17.72
+   4.51
+   -4.18
+   0.19
+   -9.70
+   19.56
+   11.73
+   -9.05
+ 16.60
+3.05
+17.86
+-6.57
+-5.51
+ -36.22
+ -3.86
+ 5.90
+-18.71
+3.90
+-14.89
+-6.54
+-26.90
+ 19.16
+ 11.27
+ -9.24
+ Fig 1. Asset class returns by calendar year
+Source: Invesco, Bloomberg, in GBP as at 31 December 2018.
+Real Estate Equities
+Bonds Commodities
+9.01 7.77 -4.10 -25.43 -8.41 -28.37 2.43 5.61
+-6.35
+-4.43
+-3.15
+-28.83 -29.00 2.16
+-3.45 -8.56
+19.94 9.15 28.44 6.77 10.83 -20.8122.28 17.34 -0.65 11.52 2.26 11.37 3.84 29.44 6.94 -1.09 12.67 9.12 24.20 6.52 9.49 -27.147.12 12.92 -5.16 4.24 -2.65 1.29 -2.75 25.28 1.82 -3.37
+                              14.78 10.30 1.77 6.44 4.48 -6.21 19.21 9.06 6.33 10.37 -1.28 0.01 -2.72 6.02 7.29 -2.37
+SFiimg3i.laEqrulyit,ydreifgfioenrerentutrensqbuyictaylernedgarioyenasr performedwellatdifferenttimesL(asteineAFmiegruicare3),dGleosbapliStmeawllChaapt
+Multi-asset investing is a pragmatic approach which allows investors to express preferences for those asset classes and regions that they think have the potential to perform strongly over the long term. At the same time it could afford them downside mitigation, greater risk-adjusted returns potential, and improved sustainability of returns that a truly diversified portfolio can bring. After all, the wider the spread across various asset classes, regions or markets, the lower the correlation between them, hence the lower the level of overall risk.
+Find out more about the Invesco Summit Growth Range at invesco.co.uk/summit
+Investment risks
+The value of investments and any income
+will fluctuate (this may partly be the result of exchange rate fluctuations) and investors may not get back the full amount invested
+Important information
+This article is for professional clients only and is not for consumer use. All data in this document as at 24 April 2019 unless otherwise stated.
+Where individuals or the business have expressed opinions, they are based on current market conditions, they may differ from those of other investment professionals and are subject to change without notice.
+Invesco Asset Management, Perpetual Park, Perpetual Park Drive, Henley-on-Thames, Oxfordshire RG9 1HH, UK. Authorised and regulated by the Financial Conduct Authority.
+Source: Invesco, Bloomberg, in GBP as at 31 December 2018. EM
+Global Mid Cap
+8.12 5.31 -6.66 4.48 3.16 -26.81 2.63 5.90 3.12 1.83 -4.30 -0.79 -3.29 1.65
+6.44 -4.06
+has felt like persistent US equity market leadership over the last decAasdiaeP.ac x Japan Global
+USA UK Japan
+Europe ex UK
+                                For UK investors exposed solely, or heavily, to our home equity market in recent years, it is clear that this has been at the expense of returns.
+A more pragmatic approach
+Is there a better way to allocate capital? Taking a multi-asset approach means building a more diversified portfolio of assets that is less susceptible to the ‘feast or famine’ of short- term binary decisions. While this approach may mean that investors miss out on being fully exposed to the best performing asset class, region, or market in a given year, those investors also avoid the pain of being solely exposed to the worst performing ones too. This is particularly important in falling markets as demonstrated in 2018, 2011 and in 2008 (see Figures 1, 2 and 3).
+]]></page><page Index="18" isMAC="true"><![CDATA[  18
+ Could we see a repeat of the 2008 crisis?
+  Patrick Boughton | Sales and Marketing Director | Clever
+Déjà vu is in my bones, I feel it like the cold chill of winter.
+It relates to interest rates. History tells us that periods that saw unusually low interest rates followed by a period of rapidly rising rates, don’t end well. The longer the previous period of low rates, and the lower they fell, the worse the eventual crisis.
+In the mid 1990s, the US Federal Reserve increased rates after a period when they were abnormally low. This sparked a chain of events that led to the Asian and Russian crises of 1997 and 1998 and the collapse of Long Term Capital Management. Only a bailout orchestrated by the Fed and IMF stopped the crises spreading to the West.
+Arguably, the Fed, and its famous chairperson, Alan Greenspan, avoided a global crisis by creating a new bubble. This bubble developed in the early years of the 21st Century, interest rates were cut to levels that were even lower than those enjoyed in the 1990s; subprime mortgage securitisation led the way, debt surged and it all came spectacularly to a halt in 2008.
+The crisis of 2008 was the worst crisis to rock the West since 1929. The solution: banks were bailed out, interest rates were cut to an all-time low, and stayed there for
+the best part of a decade, and to make sure we got the point, central banks also tried to stimulate the economy by buying short- term government bonds in a process called quantitative easing, or QE.
+It worked, sort of!
+Lower interest rates and QE meant higher asset prices. Higher asset prices encouraged higher levels of borrowing, putting an
+end to the credit crunch and stimulating economic growth.
+The danger
+But there are dangers:
+• Record low interest rates led to an explosion in debt.
+• Rising asset prices exacerbated inequality.
+• The banking bailout created a sense of popular unease.
+• In parallel, technology has begun to hollow out the labour market, replacing well paid jobs in manufacturing with minimum wage or insecure jobs in warehouses or in the so-called gig economy.
+• We forgot the lessons of 1929.
+Debt
+Earlier this year, the IMF said:
+“Global debt is at historic highs, reaching the record peak of US$164 trillion in 2016, equivalent to 225 per cent of global GDP. The world is now 12 per cent of GDP deeper in debt than the previous peak in 2009, with China as a driving force.”
+Recently the Harvard economic professor, Carmen Reinhart, warned that Argentina, Turkey and Peru have the worse combination of current account vulnerability and poor government effectiveness, but she also suggested that Brazil, Indonesia, Mexico, the Philippines and India were not far behind.
+The lessons of 1929
+One of the self-defeating actions, following the 1929 crash, was the Hawley–Smoot Tariff, which slapped tariffs on 20,000 goods imported into the US, part of a wider, global, protectionist trend. Most economists agree that this helped prolong the 1930’s Great Depression.
+We also saw the rejection of an international framework, such as the League of Nations.
+ ]]></page><page Index="19" isMAC="true"><![CDATA[19
+   If factors over which central banks have little control create a greater inflationary risk, central banks may have no choice but to step up the pace at which they increase interest rates, creating the risk that global debt becomes unsustainable.
+Popular discontent fuelled by weak economic performance led to the rise of fascism, creating global political instability, culminating in World War II.
+Risk of a bursting debt bubble
+Debt levels may be sustainable if interest rates remain low. Although rates have been rising in the US and to a smaller extent in the UK, so far rises are modest. If factors over which central banks have little control create a greater inflationary risk, central banks may have no choice but to step up the pace at which they increase interest rates, creating the risk that global debt becomes unsustainable.
+Factors that might force the need to increase interest rates include:
+• US fiscal stimulus at a time when the US economy appears to be near full employment
+• Protectionism (reversal of globalisation).
+Warnings
+Mark Carney and Gordon Brown have both warned of the risks of another 2008 style crash.
+Mr Carney says that the four big risks to the global/UK economy are “those areas that have taken on a lot more debt ... risks around Brexit ... risks related to cyber security ...
+but one of the bigger risks for the global economy are developments in China”, namely the surge in its debts.
+Positive factors
+The fact is, in the UK, household debt to GDP is lower than in 2008. Although some emerging markets such as China, Turkey and Argentina are haunted by massive debts, the Asian tiger economies are not as indebted as they were in 1997. Besides, China is complex, and its debts are largely internal – although its debt levels are high, so are its savings.
+Technologies, including AI, robotics, The Internet of Things, nanotechnology, genome sequencing, CRISPR, stem cell technology, additive manufacturing, virtual and augmented reality and new renewable energies, may yet prompt a period of rapid growth, nullifying many of the factors described here.
+Get in touch to book your online demo: www.cleveradviser.com/l/book-a-demo/ t: 01244 346343
+e: mail@cleveradviser.com
+ In the UK, household debt to GDP is lower than in 2008. Although some emerging markets such as China, Turkey and Argentina are haunted by massive debts, the Asian tiger economies are not as indebted as they were in 1997.
+ ]]></page><page Index="20" isMAC="true"><![CDATA[      20
+             How to spot red flags when selecting managers
+  Ayesha Akbar | Co-manager | Fidelity Multi Asset Open range
+Throughout my career managing multi manager portfolios, I have analysed a wide range of funds and met with countless portfolio managers. While there is no way to guarantee performance or completely avoid being disappointed by managers, there are some key principles that we adhere to within the Fidelity Multi Asset team, which serve to help mitigate the risks of investing in actively managed funds.
+Make sure it does what it says on the tin
+An important part of manager selection is analysing a fund’s style across the cycle. For example, if a manager has a more defensive philosophy, it is reasonable to expect them to preserve capital in difficult markets and to perhaps lag in strongly rising markets. If they were to show exceptional outperformance in rising markets or experience more drawdown than their benchmark during a selloff, this would be cause for concern as the manager has deviated from their stated aim.
+Don’t understand it? Don’t buy it
+Generating alpha is becoming increasingly difficult, and while good managers will likely employ a wide range of tools to manage
+a portfolio, the risks should be clear. This doesn’t mean that the use of derivatives
+or alternative strategies is necessarily a negative, but it is important to understand how these instruments are used.
+Beware closet indexers
+With the rise of passive investments, buying the index is cheap and straightforward today. With that in mind, if you are employing an active manager, be sure they aren’t simply piggy-backing on the index, as there are cheaper ways to get this exposure. High active share doesn’t necessarily mean the manager is doing a good job, however, but it is one of a number of measures to monitor over time to see if a fund is being managed in line with expectations.
+ If you are employing an active manager, be sure they aren’t simply piggy-backing on the index, as there are cheaper ways to get this exposure. High active share doesn’t necessarily mean the manager is doing a good job, however, but it is one of a number of measures to monitor over time to see if a fund is being managed in line with expectations.
+  ]]></page><page Index="21" isMAC="true"><![CDATA[    21
+                If a manager was to show exceptional outperformance in rising markets or experience more drawdown than their benchmark during a selloff, this would be cause for concern as the manager has deviated from their stated aim.
+Experience matters - but fund manager tenure is only part of the story
+Some funds are run by ‘star’ fund managers, whose previous success might have earned them a reputation for investment skill.
+But we do not look at ‘star’ managers
+any differently. In addition to our analysis of quantitative factors, we also seek to understand how the lead portfolio manager engages with the broader research team,
+as well as support functions, such as risk management and compliance.
+Don’t overlook operational risk
+We have a dedicated operational due diligence team focused on assessment of the third-party managers’ firm-wide policies and processes, ensuring that we are partnering with reliable managers. Importantly, our portfolio managers and manager research analysts have no influence over their process, and they report into the Chief Operating Officer of the multi asset team.
+Continuous monitoring and engagement
+Our job does not end after allocating capital to a manager. We view our relationship
+with underlying managers as a business relationship, not simply a vehicle to access an area of the market. On an ongoing basis we monitor performance and meet face-to-face with management teams to ensure we are confident in continuing our relationship.
+For more information please visit professionals.fidelity.co.uk or contact us on 0800 368 1732
+ About the Fidelity Multi Asset team
+Fidelity’s Multi Asset team is made up of over 90 investment professionals located across London, Paris, Hong Kong and Tokyo, with assets under management of approximately £32 billion.*
+What differentiates Fidelity is the quality and depth of the research team that help to support the portfolio managers. Fidelity has a large and experienced team with diverse skills and backgrounds and these teams are dedicated to delivering insight and help the portfolio managers make the best decisions for clients.
+*Source: Fidelity International, March 2019
+Important Information
+This information is for investment professionals only and should not be relied upon by private investors. Past performance is not a reliable
+indicator of future returns. Investors should note that the views expressed may no longer be current and may have already been acted upon.
+The Fidelity Multi Asset funds use financial derivative instruments for investment purposes, which may expose the fund to a higher degree of risk and can cause investments to experience larger than average price fluctuations. Investments in overseas markets, changes in currency exchange rates may affect the value of an investment. The value of bonds is influenced by movements in interest rates and bond yields. If interest
+rates and so bond yields rise, bond prices tend to fall, and vice versa. The price of bonds with a longer lifetime until maturity is generally more sensitive to interest rate movements than those with a shorter lifetime to maturity. The risk of default is based on the issuer’s ability to make interest payments and to repay the loan at maturity. Default risk may therefore vary between different government issuers as well as between different corporate issuers. Sub-investment grade bonds are considered riskier bonds. They have an increased risk of default which could affect both income and the capital value of the fund investing in them. Investments in small and emerging markets can be more volatile than other more developed markets. Issued by Financial Administration Services Limited, authorised and regulated by the Financial Conduct Authority. Fidelity, Fidelity International, the Fidelity International logo and F symbol are trademarks of FIL Limited. UKM0819/24700/SSO/NA
+ ]]></page><page Index="22" isMAC="true"><![CDATA[  22
+  The art of fund screening
+ Sheldon Macdonald CFA | Deputy Chief Investment Officer | Architas
+News stories about liquidity concerns in several funds have highlighted the need for rigorous fund selection. At Architas we pride ourselves
+on robust due diligence processes that can help avoid unsuitable investments. We deliberately set a high hurdle for underlying fund selection, because we only want to hold the very best funds.
+This article explains the benefits investors in our funds gain from Architas’ five key fund selection factors:
+1. Well-resourced investment team
+2. Rigorous system of fund scoring
+3. Thorough vetting of each fund by the
+Architas investment team
+4. Strict fund monitoring system
+5. Thorough investigation of the
+operational aspects of funds and fund houses by the Architas operational due diligence team.
+Woodford woes
+Many investors watched with concern the downturn of Neil Woodford’s Equity Income Fund. Woodford, whose long and successful track record created huge investor interest, was compelled to stop investors making withdrawals from his fund. He did so to give himself time to sell some relatively illiquid private equity assets and purchase assets that are easier to trade.
+Such headline-grabbing stories can arouse fears among investors that they might end up trapped in underperforming funds. This is a particular risk with funds that invest
+in relatively illiquid assets, such as private equity and property.
+Our selection processes give investors
+in Architas funds the reassurance that
+every fund we hold on their behalf has
+been thoroughly researched, reviewed and analysed before being chosen. Moreover, funds are monitored continuously, to ensure they remain suitable and attractive.
+1. Well-resourced investment team
+Architas has a large investment team, in which each analyst has specialist expertise in a particular investment area, such as UK equities or emerging market debt. Portfolio managers can only buy funds recommended by the analysts and formally approved. The analysts, meanwhile, decide which funds
+they want to propose by using quantitative and qualitative approaches.
+We have a proprietary system of screens and filters, helping us to assess quantitatively those funds that have consistently performed well compared to peers. However, in our view, the best way to assess fund managers is to meet them and get to know their asset management approach. This more qualitative method generally gives us greater insight into what we are buying.
+2. Fund scoring
+Analysts can’t themselves decide which funds to hold, as all funds must go through a thorough approval process. Analysts
+bring their proposed funds to the Fund Approval Forum, which comprises the entire investment team, headed by the Chief Investment Officer (CIO).
+ ]]></page><page Index="23" isMAC="true"><![CDATA[ 23
+  Our selection processes give investors in Architas funds the reassurance that every fund we hold on their behalf has been thoroughly researched, reviewed and analysed before being chosen. Moreover, funds are monitored continuously, to ensure they remain suitable and attractive.
+There are three key elements to our fund analysis:
+• People: we consider the expertise, experience, stability and incentivisation of the management team of the funds we are considering
+• Process: we analyse the investment process of a fund, for example looking at how fund holdings are decided upon, and what conditions would trigger asset sales, to ensure the portfolio remains suitable
+• Performance: we look for performance that is consistently strong, and consistent with the stated style and philosophy of the fund.
+We score funds based on these three elements, which gives us a common language when it comes to analysing
+funds. So if someone says, ‘This is a 3 for Performance and 4 for People,’ we all broadly understand what this means. Importantly, we keep these scores updated: this is key to monitoring funds, as it allows us to identify any changes as soon as possible.
+3. Thorough vetting process
+Each analyst is responsible for covering the funds in their area. The analyst presents a fund for approval. The entire investment team sits in the Fund Approval Forum and quizzes the analyst about how the fund might meet particular objectives.
+The Forum harnesses the collective wisdom of the team. But it recognises that the analyst is the sector specialist who knows the relevant funds better than anyone else in the team.
+4. Strict fund monitoring system
+We have a disciplined monitoring regime. There are rules in place at the investment and operational due diligence level to ensure we stay on top of developments in funds we invest in.
+Underperformance can often be the first indicator of problems in a fund. Any fund that triggers our underperformance warning signals must be resubmitted to the Fund Approval Forum. A decision is made to maintain the fund on the recommended list, remove it from the list, or put it on hold. We have the following rules:
+• Funds removed from the list must be sold within one month
+• Funds on hold don’t have to be sold, but further purchases cannot be made
+• Analysts can’t keep funds on hold for more than three consecutive months.
+5. Operational due diligence team
+Crucial for Architas is our strong operational due diligence process. We conduct this work ourselves, whereas some other asset management companies contract it out.
+Our due diligence team is independent from the investment team. It analyses the operational, practical aspects of investment funds and its work starts where the investment team’s work ends.
+Conclusion
+Our rigorous fund selection processes are in place because we want to hold the very best funds for our investors. Even so, this does not mean we will always get our fund selection right. But our fund screening methods give investors the reassurance their investments have been thoroughly vetted, and it means they don’t have to do the vetting themselves.
+For more information, call us on
+020 7562 4900; Monday to Friday 9.00am – 5.00pm, calls may be recorded, or visit architas.com
+This Financial Promotion is issued by Architas. This is for professional clients only and should not be issued to or relied upon by retail clients.
+AMML is an investment company that provides access to other investment managers’ services through a range of multi-manager solutions, including regulated collective investment schemes. AMML in the UK works with strategic partners and AXA Group internal fund managers, to find out more information about
+this please visit architas.com/inhousestratpartners/ AXA is a worldwide leader in financial protection and wealth management. In the UK, one of the AXA companies is Architas Multi Manager Limited, an investment company that provides access to other *investment managers’ services through a range of multi-manager solutions, including regulated collective investment schemes. Architas Multi Manager Limited is a company limited by shares and authorised and regulated by the Financial Conduct Authority (Firm Reference Number 477328). The company is registered in England: No. 06458717. Registered Office: 5 Old Broad Street, London, EC2N 1AD.
+  ]]></page><page Index="24" isMAC="true"><![CDATA[                                          Precision.
+Performance.
+Perfection.
+At Verbatim, we are dedicated to perfecting the art of investing. We have spent years refining our skills, to design and deliver exceptional multi-asset investment solutions that are fine- tuned for consistent performance.
+For more information visit:
+www.verbatimassetmanagement.co.uk or call: 0808 12 40 007
+For intermediaries only
+                           ]]></page><page Index="25" isMAC="true"><![CDATA[                                                        ]]></page><page Index="26" isMAC="true"><![CDATA[  26
+ A new vision for investment
+  Robyn Laidlaw | Head of UK Intermediary Sales | Vanguard
+In important ways, the active fund management model that we know in the UK needs to change.
+If we are to meet the changing needs of our clients, and hold our place in a more competitive environment, we need to find a new model of active management. As Abraham Lincoln once said, “The dogmas of the quiet past are inadequate to the stormy present”.
+ Higher requirements, lower returns
+What’s to be done? Let’s start with thinking about our clients’ needs. Their goals are changing. They face more complex and more difficult investment challenges. Their investment time horizons are lengthening.
+At the same time, we find ourselves in a period when our expectations for future investment returns are lower. In Vanguard’s Economic and Market Outlook for 2019, our Investment Strategy Group forecast average annual nominal returns from equities over the coming ten years at 4%. If inflation is 2%, the nominal return is cut in half, leaving a 2% real return. That 2% has to bear the weight of several layers of fees, such as advice, platform and fund management charges.
+The changing priorities of clients are already being reflected in investor behaviour. The
+flow of funds from high-cost active to low-cost passive is staggering, with sums amounting to billions of pounds a day, in the US, on Continental Europe and here in the UK. In April this year, funds across Europe saw outflows of £3.9 billion – while passive funds saw inflows of £8.4 billion1.
+A new model
+What then is the active model that will work in the future? How can we continue to offer our clients the benefits of active management?
+Our clients are aware of the need for value
+for money and we need to ensure that the new model for active funds delivers. The investment debate can no longer be between low-cost passive funds and high-cost active funds. The choice for investors now has to be between low-cost passive and low-cost active.
+But low-cost investing is not sufficient in itself to achieve clients’ goals. We need to break free of our addiction to short-term performance. Performance is important,
+of course. But we need to understand that achieving longer-term performance requires much greater depth and sophistication of analysis – of people, philosophy and process.
+ Our clients are aware of the need for value for money and we need to ensure that the new model for active funds delivers.
+ ]]></page><page Index="27" isMAC="true"><![CDATA[ 27
+  The changing priorities of clients are already being reflected in investor behaviour. The flow of funds from high-cost active to low-cost passive is staggering.
+ About Vanguard
+Founded in 1976, The Vanguard Group Inc. has grown into one of the largest fund managers in the world, with $5.6 trillion in total assets under management (as at 30 June 2019). The Vanguard Group’s unique ownership structure means it is free to focus on low costs, transparency and fairness for all clients. Vanguard has been present in Europe since 1998, opening its London office in 2009. Since that time the company has built a range of mutual funds and ETFs that bring its low-cost, high-quality ethos to investors across Europe.
+That is where, if we are patient, sustainable performance may arise.
+Active investing is not magic – our goal is to generate appropriate returns for clients above the index, where the client is knowledgeable of, and in a position to accept, the inevitable short-term risk associated with that potential added long-term performance.
+Lower fees for active management
+We are committed to lowering the price of investing, thereby increasing the chances of investment success, for retail investors as well as institutional investors. In line with this commitment, as our funds pass their third anniversary, we have cut the annual fees on our active funds in the UK even further – to 0.48% from 0.6% in the case of our Global Equity, Global Equity Income and Global Balanced funds, and to 0.78% from 0.8% for our Global Emerging Markets Fund.
+As Lincoln finished his speech by saying, we need not just to think anew, but to act anew. Thinking and acting anew is about innovation – but innovation is not always about technology. A strong and forward-looking proposition can be just as disruptive.
+1Broadridge Financial Solutions
+Investment risk information
+The value of investments, and the income from them, may fall or rise and investors may get back less than they invested.
+Important information
+This document is directed at professional investors in the UK and should not be distributed to, or relied upon by retail investors.
+The material contained in this document is not to be regarded as an offer to buy or sell or the solicitation of any offer to buy
+or sell securities in any jurisdiction where such an offer or solicitation is against the law, or to anyone to whom it is unlawful to make such an offer or solicitation, or if the person making the offer or solicitation is not qualified to do so. The information in this document is general in nature and does not constitute legal, tax, or investment advice. Potential investors are urged to consult their professional advisers on the implications
+of making an investment in, holding or disposing of [units/shares] of, and the receipt of distribution from any investment.
+Issued by Vanguard Asset Management, Limited which is authorised and regulated in the UK by the Financial Conduct Authority.
+© 2019 Vanguard Asset Management, Limited. All rights reserved.
+ ]]></page><page Index="28" isMAC="true"><![CDATA[        28
+                  Discretionary investment management in action
+  Mark Coles | Director, Financial Institutions | Tilney for Professionals
+In this article we discuss the role that Tilney’s investment managers can play when working with professional advisers and their clients.
+The first step
+The first and most important task for Tilney’s investment managers is to understand what your client wants to achieve and how much investment risk they are prepared to take. After this, they can use our Central Investment Team’s asset allocation work as a framework to begin constructing their portfolio.
+This part of the process is quite defined, and as you would expect there are lots of strict rules and controls in place to ensure consistency across all Tilney investment managers. For example, a cautious portfolio will likely look fairly similar to another cautious portfolio as they are both based on the same asset model.
+However, we also feel it is important to remind the client that it is their money,
+and should they wish to personalise their portfolio, the opportunity to do so is available. Our investment managers are able to accommodate client requests and deviate from our asset allocations.
+A personalised portfolio
+Often clients may want to exclude an asset class. For example, if they own a commercial property they may not want any further exposure to that asset class. Others might have a favourite sector or geographical area, for example, a recent client had a lot of business in Brazil and was confident it was going to do well so he asked for more exposure to emerging markets in his portfolio.
+Ultimately, whether a client wants more or less exposure to a particular sector or asset class, it is their choice and we can usually accommodate it. We make sure the client understands that our view may be different to theirs and that the change could affect their portfolio performance.
+Income generation is another area where we may also make changes. Clients might want a certain level of income in retirement, and we may be able to tilt the investments so the portfolio produces a higher natural level of income.
+ Ultimately, whether a client wants more or less exposure to a particular sector or asset class, it is their choice and we can usually accommodate it.
+ ]]></page><page Index="29" isMAC="true"><![CDATA[ 29
+                          We also offer a range of model portfolios managed both on our own internal platform and across a number of the UK’s leading platforms.
+Ongoing reviews
+We are very proactive in reviewing client portfolios. We will do this when our view on an underlying fund manager changes
+or when the portfolio needs rebalancing. We also review portfolios when there are changes to our macroeconomic views and asset allocations – but we don’t always need to take any action. We have a certain tolerance around the midpoint for asset allocations and also look at the overall level of risk in a portfolio – so as long as the portfolio sits within these ranges, and the level of risk remains suitable, we may not need to do anything.
+Working with Tilney
+At Tilney we have been managing clients’ investments for many years, and our specialists provide discretionary investment management services for many financial advisers. We never forget the position of trust that we are put in when you choose us to manage your clients’ personal wealth.
+With more than 30 offices across the UK, we can provide you and your clients with a truly personal service, wherever you are based. We offer several investment services, each underpinned by a disciplined investment process and delivered by some of the UK’s most experienced and highly qualified investment professionals.
+Our Personalised Investment Management Service is designed for clients with £250,000 and above, where a tailored portfolio is most appropriate to meet their specific goals.
+We also offer a range of model portfolios managed both on our own internal platform and across a number of the UK’s leading platforms. And finally, our risk-rated multi- asset funds provide convenient, low-cost access to our discretionary investment management expertise. These unitised funds are available across a number of platforms for investors with £50,000 or more.
+Investment management services for US connected clients
+Due to the complexity around US reporting requirements, many investment managers find US-connected clients too onerous
+to work with. However, our dedicated US team has the experience and supporting infrastructure to meet these needs and we can provide a full range of discretionary investment services to US-connected clients.
+Offshore investment management
+We can also provide investment services for those seeking custody offshore. We have
+a truly global client base and considerable experience working with non-UK situs assets and non-UK sourced income.
+Tilney’s Model Portfolios on Platforms and Personalised Investment Management Service have been 5 Star rated by Defaqto.
+To learn more about how we can help, please contact us on 020 7189 9918 or email info@tilneyforprofessionals.co.uk.
+Investments can go down as well as up and investors may not get back the amount invested.
+ About Tilney
+Tilney is a well-established provider of investment management services to financial advisers and is built on a heritage of 180 years. Today we are trusted to manage over £24 billion of assets and pride ourselves on offering the highest levels of professional service.
+   ]]></page><page Index="30" isMAC="true"><![CDATA[               30
+                     Webline – an improved user experience
+Over the course of the next few months, you will start to see some differences in the layout on various pages in the Webline portal.
+These will mostly be in the shape of changes to the user experience, with the overarching update being the use of cleaner, crisper input screens ... but there are other more noteworthy differences.
+To date, the most significant of these is the new format for the Quote Results page. To increase the visibility of providers on that page, we have grouped together multiple products returned by each provider
+Here are examples of some of the other changes you will now see: • Updated Login screen – now clearer and more concise
+using a premium range. The driver behind this update is to provide you with an alternative results view with greater prominence on the spread of products offered by all providers. Where some advisers may look at premium first, others know which provider product will meet their clients’ needs over another, so we feel each product can be easily found.
+• The Client Details screen has been updated to ensure users achieve a consistent and useful experience.
+• UpdatedProductSelectionandDetail inputs, now making screens easier to navigate and select whether you want quotations for standalone products or multi-benefit.
+     Software changes are driven by our users, so please give us your opinion on these changes to help us shape future updates.
+]]></page><page Index="31" isMAC="true"><![CDATA[                                            We have also updated the icons to view Variations, Notes, Documents and Commission returned by the provider:
+Focus on these changes are based on user feedback, we would welcome your opinions on these changes, which will help us shape future updates. Should you have any views, please leave us feedback via the widget found on pages within the portal itself.
+Webline offers life and protection quotations from all the top insurance providers in the market. Following just a few simple inputs, a life and/or protection quote can be quickly obtained either as standalone products or as part of the multi-benefit service we provide.
+To find out more visit
+www.synaptic.co.uk/research-tools/synaptic-webline-protection.
+Alternatively, should you want to revert to the current and classic view of products ordered by premium, using the icon above will help you switch between the classic and new views.
+We have also updated the icons to view Variations, Notes, Documents and Commission returned by the provider:
+ The driver behind this update is to provide you with an alternative results view with greater prominence on the spread of products offered by all providers.
+31
+]]></page><page Index="32" isMAC="true"><![CDATA[               32
+                     Webline Play: A perfect blend of adaptability and functionality
+  Paul Quarendon | Product Manager | Synaptic Software Limited
+Synaptic has long recognised that there is a significant income protection gap in the UK. With benefit support being low and increasingly hard to access, and inadequate by not reflecting previous income, replacing any earlier quality of life is hard to address. So, when a long-standing Webline client approached us to help broaden their proposition to market, extend their product portfolio and offer their customers income protection online, Webline Play quickly became a reality.
+Complementing our drive towards offering
+a complete and comprehensive range of products for advisers, Webline Play uses Webline functionality to offer a new lead- generation tool designed to provide ease of access to income protection quotes for any size adviser and distributor. And it’s not just Income Protection leads. We are extending this unique service by also building a similar tool for Life, Mortgage Protection and Critical Illness product leads.
+It is a well-known fact that selling insurance can be an uphill struggle, so a lead-generation tool such as this plays to the idea that consumers would be willing to buy protection if they were more informed about those insurers providing this type of cover and the associated premium cost.
+The concept is simple: a customisable web application to blend seamlessly into any website, user friendly and designed to help advisers to create better financial outcomes to customers.
+One of our customers launched the solution in April this year and has seen great results;
+1. An additional 400 consumers contact them each month for a quote and interaction with an adviser.
+2. Contributed to Webline’s Income Protection quotes (currently 59% of all Webline quotes).
+3. Helped the adviser reach out to more customers and produce better, more informed conversations around protecting consumers’ incomes to organically grow their business.
+ Webline Play easily slots into any website. It is also customisable for colours, logos, number of results, even down to the page loader icon.
+ ]]></page><page Index="33" isMAC="true"><![CDATA[        33
+                            It is a well-known fact that selling insurance can be an uphill struggle, so a lead-generation tool such as this plays to the idea that consumers would be willing to buy protection if they were more informed about those insurers providing this type of cover and the associated premium cost.
+Our key customer feedback so far is...
+• Synaptic offered a perfect blend of adaptability and functionality whilst developing the Webline Play system.
+• Allowing for variable inputs into the frame link, combined with the powerful quote engine sitting behind the form, allows our customers to complete the first part of their digital journey whilst also coming across as bespoke to our business.
+• Engaging with customers who have already used this system and have a quote ready is incredibly beneficial
+Being device-agnostic, Webline Play easily slots into any website. It is also customisable for colours, logos, number of results, even down
+to the page loader icon. The application itself
+is user-friendly, quick and easy to implement and can lead either to CRM integration or direct applications through the Webline portal. All quotes and electronic applications can be completed in real time, streamlining protection sales for any kind of organisation.
+Software needs to change as adviser and consumer needs evolve, and Synaptic has always worked with its client base to understand and develop solutions that will best fit evolving needs. As a consequence, adapting and providing advisers with end-to-end capabilities to service their customers is paramount to our product development strategy.
+Visit www.synaptic.co.uk/webline-play or call us on 0800 783 4477 to arrange a demonstration.
+ About Webline Play
+Ideal for small to medium-sized independent financial advisers because there’s no need for technical expertise, the cost-effective Webline Play app is easy to set up and maintain – you just plug and play. It’s customisable to reflect your own brand and style, giving your customers the impression of a seamless journey as they move from advice to application.
+Webline Play brings you closer to your customers by offering real-time access to information – you’ll know more about them, enabling you to build better, more collaborative relationships and offer more personalised support. With warmer leads, you’ll see take-up rates increase and, because Webline Play is so easy to use, you’ll receive fewer support calls, freeing up resources to grow your business.
+  ]]></page><page Index="34" isMAC="true"><![CDATA[                                                           THE NEW WHITE PAPER
+Enabling better outcomes in financial planning by optimising investment risk and reward using stochastic modelling
+Download your free copy today
+www.synaptic.co.uk/risk
+How to improve your
+Synaptic Modeller is now available
+with 1-10 risk categories as well as 1-5, defined by Moody’s Analytic’s
+investment performance
+and optimise risk
+asset allocations
+  Featuring industry-leading suitability research from
+Moody’s Analytics
+  ]]></page><page Index="35" isMAC="true"><![CDATA[                                Attract new protection customers with Webline Play
+                                   • NEW protection lead-generation web app
+• Provide tailored advice
+& better financial outcomes
+• Easily integrated embedded form that sits within your website, customisable
+with your own brand.
+ Visit www.synaptic.co.uk/webline-play
+Call 0800 783 4477 or email sales@synaptic.co.uk
+           ]]></page><page Index="36" isMAC="true"><![CDATA[         36
+                      Investment strategy and CIP
+  Eric Armstrong | Client Director | Synaptic Software Limited
+A myriad of trends is converging to promote the importance of the CIP (Centralised Investment Proposition, comprising also in many cases of the Centralised Retirement Income Proposition (CRIP!)).
+The foremost is the advent of the PROD rules, designed to enforce adoption and compliance with the MiFID II regime
+- rules designed to protect consumers
+by identifying customer segments and corresponding products by target market, making the creation of a CIP central to the modern way of working. By shifting the focus of ‘Knowing your client’ to include alignment to a client segment, there is enormous scope for efficiencies within a firm’s day to day business practices. It is worth noting that the lang cat research demonstrates that the majority of investment onto platforms flow via CIPs. (Connection Q4 2018 edition, Steve Nelson).
+An investment is only suitable in as much as it supports the objectives of a plan. Some financial planners have argued that
+it is their planning skills that add value, not their ability to concoct investment flavours, as much of this has little perceived value
+to the client. In fact, it is obvious in some cases that investments are chosen that are guaranteed through cost or other known factors to underperform. Asset managers are being squeezed by the uncomfortable reality of relatively low returns, requiring lower fees to allow the adviser headroom
+to charge theirs whilst being forced to be transparent with their charges in a way they never had to before.
+This results in different types of investment that, by their nature and the compliance rules, require different due diligence processes. We work broadly with the following ‘investment pathways’: DFM/ MPS; model or bespoke portfolios; Multi- Asset Funds or I.D.D. The last reflects the more traditional approach of reliance on the product provider/insurance company
+to create investment, wrappers and governance that attract a lower bar for due diligence. The rest, however, recognise that the custody of the funds and their management will be directed by the
+firm, who will be entirely responsible
+for compliance. So, it’s important that compliance is accurate and streamlined, and increasingly under the new guidelines, independent (of provider or platform).
+The qualitative considerations that led
+you as a firm to choose the investment vehicles that make up your CIP are infinitely variable. They may reflect a minimum financial strength of the parent, a style of investment or track record of manager, proven in different parts of the economic
+cycle. It may be borne out of a conviction for passive or active investment or maybe a blend between the two. Unlike speculative or sophisticated investors, however, most retail investors should and need to be in investments that are predictable. They shouldn’t for example be tempted to invest in exotic instruments such as City Financial Absolute Equity which soared, crashed
+and then burned and is now suspended after destroying the majority of its value. Speculation is not investment.
+So, what does state-of-the-art due diligence look like, given the above?
+The need to be able to provide Proof of Suitability by profiling whatever investment vehicle has been selected from the CIP - for growth, risk (or loss) and cost. The more complex the portfolio the more disclosure will be required. Obviously any unpackaged solutions, including model or bespoke portfolios, can attract more administrative work and cost, including the responsibilities that come with seeking permissions and rebalancing as an advised action.
+Investments that can be observed to perform consistently with the asset classes from which they are constructed allow you to model the likely outcomes for the
+ ]]></page><page Index="37" isMAC="true"><![CDATA[     37
+                          If you can define an investment strategy that links the profiling of customers (ATRQ) with an asset allocation, it is then easy to map the objectives of your plan to a suitable investment vehicle, whose growth and loss profile matches the strategy.
+overall investment. Having a standardised model that can provide analysis of all
+retail investments will allow you to fulfil your responsibilities with PROD, but more importantly deliver financial planning consistently and efficiently. Only a probability-based model can do all of these things, and the most effective model over the years has been Moody’s (accessible
+via the Synaptic Suite). This is thanks to the effectiveness of the rules within the engine combined with the mathematical power of the (stochastic) simulations
+that are run to understand the viable investment outcomes. One great strength of this approach is that all outcomes
+are represented in the research, and the extent of possible losses in a bad year, similarly, are clearly defined. This allows the proof points to be delivered around
+the traditional risk governance model: ‘Attitude to risk’ (from the psychometric questionnaire), ‘Capacity for Loss’ and ‘Need to take risk’.
+It should be noted that the majority of
+the industry still works with a reliance on historical volatility analysis. For several reasons, we believe this to be an inferior approach as, increasingly, volatility as a proxy for risk is being discounted by the industry (including the regulator) and stochastic methods that offer probability- based forecasts are better aligned with the compliance model.
+If you can define an investment strategy that links the profiling of customers (ATRQ) with an asset allocation, it is then easy
+to map the objectives of your plan to a suitable investment vehicle, whose growth
+and loss profile matches the strategy.
+Below is the current Moody’s summary output from their world famous ESG
+(or Economic Scenario Generator), the stochastic engine that provides the probability-based forecasts, creating the values to define the Synaptic risk model.
+It demonstrates perfectly the asymmetric loss/gain returns associated with a range of strategic asset allocations (SAAs).
+If you wish to find out more about Synaptic and Moody’s approach to risk, you can download the Synaptic Risk White Paper at www.synaptic.co.uk/risk or contact us on 0800 783 4477.
+ Notes on the table above: the model shows us a ‘value at risk’ value or VAR. A VAR approach is different to drawdown or volatility metrics as it is loss over a defined period (12 months) and acknowledges the trend. This value is the extent of losses that can be expected in a bad year (1 in 20). Losses are shown to be asymmetric to gains. The third part of this risk profile is the ‘Ave gain’ which is the statistically most likely average growth rate for the term. This is the value we use as growth assumption in our cost and cash-flow analysis. The model will also show the overall outcome of the strategy we wish to analyse.
+]]></page><page Index="38" isMAC="true"><![CDATA[ CMPS 1 CMPS 2 CMPS 3 CMPS 4 CMPS 5
+MyPortfolio Index I MyPortfolio Index II MyPortfolio Index III MyPortfolio Index IV MyPortfolio Index V MyPortfolio Index Plus I MyPortfolio Index Plus II MyPortfolio Index Plus III MyPortfolio Index Plus IV MyPortfolio Index Plus V MyPortfolio Select I MyPortfolio Select II MyPortfolio Select III MyPortfolio Select IV MyPortfolio Select V
+MA Passive Prudent
+MA Passive Reserve
+MA Passive Moderate MA Passive Intermediate MA Passive Progressive MA Passive Growth
+MA Passive Dynamic
+MA Blended Reserve
+MA Blended Moderate MA Blended Intermediate MA Blended Progressive MA Blended Growth
+MA Active Reserve
+MA Active Moderate Income MA Active Intermediate Income MA Active Progressive
+MA Active Growth
+MA Active Dynamic
+Aegon Aegon Aegon Aegon Aegon Aegon Aegon
+Conservative Core Portfolio Cautious Core Portfolio Balanced Core Portfolio Balanced Plus Core Portfolio Growth Core Portfolio Growth Plus Core Portfolio Adventurous Core Portfolio
+MAF I MAF II MAF III MAF IV MAF V
+BNY Mellon Multi-Asset Diversified Return BNY Mellon Multi-Asset Income
+BNY Mellon Multi-Asset Balanced
+BNY Mellon Multi-Asset Growth
+BNY Mellon Multi-Asset Global Balanced BNY Mellon Global Dynamic Bond
+BNY Mellon Global Dynamic Bond Income BNY Mellon Real Return
+Capital
+Investments
+]]></page><page Index="39" isMAC="true"><![CDATA[ BMO MM Lifestyle 3 Fund
+BMO MM Lifestyle 4 Fund
+BMO MM Lifestyle 5 Fund
+BMO MM Lifestyle 6 Fund
+BMO MM Lifestyle 7 Fund
+Pyrford Global Total Return (Sterling) BMO MM Navigator Distribution Fund BMO MM Navigator Cautious Fund BMO MM Navigator Balanced Fund BMO MM Navigator Growth Fund BMO MM Navigator Boutiques Fund BMO Universal MAP Cautious
+BMO Universal MAP Balanced BMO Universal MAP Growth
+MPS Low Risk (Defensive Income)
+MPS Low Medium Risk (Income & Growth) MPS Low Medium Risk (Income)
+MPS Medium Risk (Income)
+MPS Medium Risk (Income & Growth) MPS Medium Risk (Passive)
+MPS Medium High Risk
+MPS Medium High Risk (Passive)
+MPS High Risk (Growth)
+IFSL BM Defensive Income
+IFSL BM Cautious Growth
+IFSL BM Balanced
+IFSL BM Strategic Growth
+IFSL BM Defensive Capital
+MPS Low Medium Risk (Passive)
+Cautious
+Cautious Higher Equity
+Income
+Income Higher Equity
+Balanced MPS
+Growth MPS
+Global Equity MPS
+Cautious Passive+
+Cautious Higher Equity Passive+ Income Passive+
+Income Higher Equity Passive + Balanced Passive+
+Growth Passive+
+Global Equity Passive+
+LF Canlife Portfolio III LF Canlife Portfolio IV LF Canlife Portfolio V LF Canlife Portfolio VI LF Canlife Portfolio VII Canlife Portfolio 3 Canlife Portfolio 4 Canlife Portfolio 5 Canlife Portfolio 6 Canlife Portfolio 7
+LF Canlife Managed 0%-35% Canlife Managed 0%-35%
+Access the Synaptic Risk Fact Sheets and the Synaptic Attitude to Risk Questionnaire by visiting www.synaptic.co.uk/research-tools/synaptic-risk
+]]></page><page Index="40" isMAC="true"><![CDATA[ Carmignac Portfolio Sécurité
+Carmignac Portfolio Patrimoine
+Carmignac Portfolio Capital Plus
+Carmignac Portfolio Commodities
+Carmignac Portfolio Emergents
+Carmignac Portfolio Unconstrained Global Bond
+Carmignac Portfolio Euro-Entrepreneurs
+Carmignac Portfolio Investissement
+Carmignac Portfolio Long-Short European Equities
+Carmignac Portfolio Emerging Discovery Carmignac Portfolio Emerging Patrimoine Carmignac Portfolio Grande Europe
+Multi Manager Income 1 Multi Manager Income 2 Multi Manager Income 3 Multi Manager Income 4 Multi Manager Income 5 Multi Manager Total Return 1 Multi Manager Total Return 2 Multi Manager Total Return 3 Multi Manager Total Return 4 Multi Manager Total Return 5
+Cazenove Cautious Portfolio
+Cazenove Balanced Portfolio
+Cazenove Balanced Income Portfolio
+Cazenove Growth Portfolio
+Cazenove Aggressive Portfolio
+Cazenove Equity Risk Portfolio
+Cazenove Cautious Active/Passive Portfolio
+Cazenove Balanced Active/Passive Portfolio
+Cazenove Growth Active/Passive Portfolio
+Cazenove Aggressive Active/Passive Portfolio
+Cazenove Equity Risk Active/Passive Portfolio
+Dynamic Passive 1 Dynamic Passive 2 Dynamic Passive 3 Dynamic Passive 4 Dynamic Passive 5
+8AM Clever MPS 3 8AM Clever MPS 4 8AM Clever MPS 5 8AM Clever MPS 6 8AM Clever MPS 7
+Dynamic Passive
+Cautious
+Moderately Cautious
+Balanced Moderately Adventurous Adventurous
+Synaptic Risk Rating based on following analysis:
+Strategic Asset Allocation Tactical Asset Allocation
+Multi Manager
+]]></page><page Index="41" isMAC="true"><![CDATA[                                                                                                                                                   Multi Asset Allocator Defensive Multi Asset Allocator Strategic Multi Asset Allocator Growth Multi Asset Allocator Adventurous Multi Asset Allocator World
+Multi Asset Open Defensive Multi Asset Open Strategic Multi Asset Open Growth Multi Asset Open Adventurous Open World
+Multi Asset Income
+Multi Asset Balanced Income Multi Asset Income & Growth
+                                Close Managed Growth Fund
+Close Tactical Select Passive Growth Fund
+Close DMS Growth
+Close Managed Balanced Fund
+Close Tactical Select Passive Balanced Fund
+Close DMS Balanced
+Close Managed Income Fund
+Close Managed Conservative Fund
+Close Tactical Select Passive Conservative Fund
+Close DMS Income Plus
+Close DMS Conservative
+Close Bond Income Portfolio Fund Close Growth Portfolio Fund
+Close Balanced Portfolio Fund
+Close Conservative Portfolio Fund Close Diversified Income Portfolio Fund
+                                                                                                                                                                                            GS Global Multi Asset Conservative Portfolio
+GS Global Multi Asset Balanced Portfolio GS Global Multi Asset Growth Portfolio
+                                         HSBC Global Strategy Cautious HSBC Global Strategy Conservative HSBC Global Strategy Balanced HSBC Global Strategy Dynamic HSBC Global Strategy Adventurous HSBC Global MPS Cautious
+HSBC Global MPS Conservative HSBC Global MPS Balanced
+HSBC Global MPS Dynamic
+HSBC Global MPS Adventurous
+                                                                 Access the Synaptic Risk Fact Sheets and the Synaptic Attitude to Risk Questionnaire by visiting www.synaptic.co.uk/research-tools/synaptic-risk
+]]></page><page Index="42" isMAC="true"><![CDATA[ Invesco Asian Fund (UK)
+Invesco Corporate Bond Fund (UK)
+Invesco Distribution Fund (UK)
+Invesco Global Bond Fund (UK)
+Invesco Global Smaller Companies Fund (UK)
+Invesco Global Targeted Returns Fund (UK) Invesco High Income Fund (UK)
+Invesco High Yield Fund (UK)
+Invesco Hong Kong & China Fund (UK) Invesco Income Fund (UK)
+Invesco Latin American Fund (UK) Invesco Managed Growth Fund (UK) Invesco Managed Income Fund (UK) Invesco Monthly Income Plus Fund (UK) Invesco Pacific Fund (UK)
+Invesco Tactical Bond Fund (UK)
+Invesco UK Smaller Companies Equity Fund (UK)
+Invesco UK Strategic Income Fund (UK) Invesco Summit Growth 1 Fund (UK)* Invesco Summit Growth 2 Fund (UK)* Invesco Summit Growth 3 Fund (UK)* Invesco Summit Growth 4 Fund (UK)* Invesco Summit Growth 5 Fund (UK)*
+Diversified Income Fund Diversified Growth Fund Investec Cautious Managed Fund MAP
+Investec Global Multi-Asset Total Return Fund
+Investec UK Special Situations Investec UK Alpha
+Investec Global Strategic Equity
+Janus Henderson Cautious Managed Janus Henderson MA Absolute Return Janus Henderson MM Distribution Janus Henderson MM Income & Growth Janus Henderson MM Managed
+Janus Henderson MM Active
+Janus Henderson Core 3 Income
+Janus Henderson Core 4 Income
+Janus Henderson Core 5 Income
+Janus Henderson Core 6 Income & Growth
+Cautious
+Moderately Cautious
+Balanced Moderately Adventurous Adventurous
+Synaptic Risk Rating based on following analysis:
+Strategic Asset Allocation Tactical Asset Allocation
+]]></page><page Index="43" isMAC="true"><![CDATA[ Jupiter Absolute Return
+Jupiter Strategic Bond
+Jupiter Distribution
+Jupiter Monthly Alternative Income Jupiter Merlin Conservative Portfolio Jupiter Merlin Income Portfolio Jupiter Merlin Balanced Portfolio Jupiter Merlin Growth Portfolio Jupiter Merlin Worldwide Portfolio
+MPS Growth 1
+MPS Growth 2
+MPS Growth 3
+MPS Growth 4
+MPS Growth 5
+MPS Growth 6
+MPS Growth 7
+MPS Growth 8
+MPS Income 1
+MPS Income 2
+MPS Income 3
+MPS Income 4
+MPS Income 5
+MPS Income 6
+MPS Dynamic Beta 1 MPS Dynamic Beta 2 MPS Dynamic Beta 3 MPS Dynamic Beta 4 MPS Dynamic Beta 5 MPS Dynamic Beta 6 MPS Dynamic Beta 7 MPS Dynamic Beta 8
+Multi-Index 3 Multi-Index 4 Multi-Index 5 Multi-Index 6 Multi-Index 7 Multi-Index Income 4 Multi-Index Income 5 Multi-Index Income 6
+MPS
+WSS Risk Grade 1 WSS Risk Grade 2 WSS Risk Grade 3 WSS Risk Grade 4 WSS Risk Grade 5 WSS Risk Grade 6 WSS Risk Grade 7 WSS Risk Grade 8 WSS Risk Grade 9 WSS Risk Grade 10 WSS Income 1 WSS Income 2 WSS Income 3 WSS Income 4 WSS Income 5 WSS Income 6 WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic WSS Dynamic
+Beta 1 Beta 2 Beta 3 Beta 4 Beta 5 Beta 6 Beta 7 Beta 8 Beta 9 Beta 10
+WSS
+]]></page><page Index="44" isMAC="true"><![CDATA[                                                                                                                              MPS – Defensive
+MPS – Cautious
+MPS – Balanced
+MPS – Growth
+MPS – Adventurous
+MPS – Strategic Income Volare Defensive Fund Volare Cautious Fund
+Volare Balanced Fund
+Volare Growth Fund
+Volare Strategic Income Fund Sustainable MPS – Cautious Sustainable MPS – Balanced Sustainable MPS – Growth
+                                Flexible Guaranteed Funds Cautious Flexible Guaranteed Funds Balanced Flexible Guaranteed Managed Growth Balanced Index
+                                                 MP3 MP4 MP5 MP6 MP7
+                                                                                                 Funds
+      Premier Multi-Asset Conservative Growth Premier Multi-Asset Absolute Return Fund Premier Multi-Asset Distribution Fund Premier Multi-Asset Monthly Income Fund Premier Multi-Asset Growth & Income Fund Premier Multi-Asset Global Growth Fund Premier UK Money Market Fund
+Premier Defensive Growth Fund
+Premier Corporate Bond Monthly Income Fund
+Premier Diversified Balanced Growth Fund Premier Diversified Cautious Growth Fund Premier Diversified Dynamic Growth Fund Premier Diversified Growth Fund
+Premier Diversified Income Fund Premier Liberation IV Fund Premier Liberation V Fund Premier Liberation VI Fund Premier Liberation VII Fund
+                                                                                                                                           Portfolios
+  Premier Capital Builder Portfolio Premier Capital Builder Plus Portfolio Premier Income and Growth Portfolio Premier Income Portfolio
+Premier Conservative Portfolio Premier High Income Portfolio Premier Balanced Portfolio
+Premier Balanced Plus Portfolio Premier Growth Portfolio
+Premier Growth Plus Portfolio Premier Dynamic Growth Portfolio
+                     ]]></page><page Index="45" isMAC="true"><![CDATA[                                                                                                                                MPS Global Growth MPS Growth
+MPS Balanced
+MPS Global Income MPS Income
+MPS Conservative MPS Cautious IDX Growth
+IDX Balanced
+IDX Income
+IDX Conservative
+MPS Global Growth (Platform) MPS Growth (Platform)
+MPS Balanced (Platform)
+MPS Global Income (Platform) MPS Income (Platform)
+MPS Conservative (Platform) IDX Growth (Platform)
+IDX Balanced (Platform)
+IDX Income (Platform)
+IDX Conservative (Platform)
+                                                                                    PruFund Cautious
+PruFund Protected Cautious PruFund Growth
+PruFund Protected Growth PruFund Risk Managed 1 PruFund Risk Managed 2 PruFund Risk Managed 3 PruFund Risk Managed 4 PruFund Risk Managed 5 WP Optimum Return
+Risk Managed Active 1
+Risk Managed Active 2
+Risk Managed Active 3
+Risk Managed Active 4
+Risk Managed Active 5
+Risk Managed Passive 1
+Risk Managed Passive 2
+Risk Managed Passive 3 Risk Managed Passive 4 Risk Managed Passive 5
+                                                                                                                                                                                                                       Access the Synaptic Risk Fact Sheets and the Synaptic Attitude to Risk Questionnaire by visiting www.synaptic.co.uk/research-tools/synaptic-risk
+]]></page><page Index="46" isMAC="true"><![CDATA[ QI Generation CPI+ 3
+QI Generation CPI+ 4
+QI Generation CPI+ 5
+Quilter Cirilium Conservative Fund Quilter Cirilium Balanced Fund Quilter Cirilium Moderate Fund Quilter Cirilium Dynamic Fund Quilter Cirilium Adventurous Fund Creation Conservative
+Creation Balanced
+Creation Moderate
+Creation Dynamic
+Creation Adventurous
+CRA 3 Active Managed Portfolio
+CRA 4 Active Managed Portfolio
+CRA 5 Active Managed Portfolio
+CRA 6 Active Managed Portfolio
+CRA 7 Active Managed Portfolio
+CRA 8 Active Managed Portfolio
+CRA 9 Active Managed Portfolio
+CRA 10 Active Managed Portfolio
+CRA 3 Passive Blend Managed Portfolio CRA 4 Passive Blend Managed Portfolio CRA 5 Passive Blend Managed Portfolio CRA 6 Passive Blend Managed Portfolio CRA 7 Passive Blend Managed Portfolio CRA 8 Passive Blend Managed Portfolio CRA 9 Passive Blend Managed Portfolio CRA 10 Passive Blend Managed Portfolio
+Cautious Moderately Cautious
+Strategy 1 Strategy 2 Strategy 3 Strategy 4 Strategy 5 Strategy 6
+Cautious Balanced Income Balanced Plus Equity
+Managed Portfolios
+Synaptic Risk Rating based on following analysis:
+Strategic Asset Allocation Tactical Asset Allocation
+Balanced
+Moderately Adventurous
+Adventurous
+Equity
+RMAP RMAP RMAP RMAP
+Plus
+Total Return Strategic Growth Enhanced Growth Strategic Income
+Multi Asset
+Bespoke
+]]></page><page Index="47" isMAC="true"><![CDATA[ RL GMAP Conservative RL GMAP Defensive
+RL GMAP Balanced
+RL GMAP Growth
+RL GMAP Adventurous RL GMAP Dynamic
+RSMR Rfolio Defensive RSMR Rfolio Cautious RSMR Rfolio Prudent RSMR Rfolio Balanced RSMR Rfolio Growth RSMR Rfolio Dynamic RSMR Rfolio Adventurous RSMR Rfolio Income RSMR Rfolio SRI Cautious RSMR Rfolio SRI Balanced RSMR Rfolio SRI Dynamic
+2 Portfolio
+2 Income Portfolio 3 Portfolio
+3 Income Portfolio 4 Portfolio
+4 Income Portfolio 5 Portfolio
+5 Income Portfolio 6 Portfolio
+7 Portfolio
+RL Governed Portfolio 1 (l) RL Governed Portfolio 2 RL Governed Portfolio 3 (s) RL Governed Portfolio 4 (l) RL Governed Portfolio 5 RL Governed Portfolio 6 (s) RL Governed Portfolio 7 (l) RL Governed Portfolio 8 RL Governed Portfolio 9 (s) RL GRIP 1
+RL GRIP 2 RL GRIP 3 RL GRIP 4 RL GRIP 5
+Russell Investments Secure Portfolio Russell Investments Cautious Portfolio Russell Investments Conservative Portfolio Russell Investments Moderate Portfolio Russell Investments Balanced Portfolio Russell Investments Progressive Portfolio Russell Investments Adventurous Portfolio Russell Investments Growth Portfolio Russell Investments Aggressive Portfolio Russell Investments Aggressive Plus Russell Investments Defensive Assets Fund Russell Investments Real Assets Fund Russell Investments UK Growth
+Russell Investments International Growth Russell Investments MA Growth 1
+Russell Investments MA Growth 2
+Russell Investments MA Growth 3
+Russell Investments MA Growth 4
+Russell Investments MA Growth 5
+Russell Investments MA Income
+Global Multi Asset Portfolios
+Governed Portfolios
+]]></page><page Index="48" isMAC="true"><![CDATA[ Santander Atlas 3 Santander Atlas 4 Santander Atlas 5 Santander Atlas 6 Santander Atlas 7 Santander Atlas Income
+Pension Portfolio 1
+Pension Portfolio 2 Pension Portfolio 3 Pension Portfolio A Pension Portfolio B Pension Portfolio 4 Pension Portfolio C Pension Portfolio 5 Premier Pension Portfolio 1 Premier Pension Portfolio 2 Premier Pension Portfolio 3 Premier Pension Portfolio A Premier Pension Portfolio B Premier Pension Portfolio 4 Premier Pension Portfolio C Premier Pension Portfolio 5
+Schroder Schroder Schroder Schroder Schroder Schroder Schroder Schroder Schroder
+MM Diversity
+MM Diversity Balanced MM Diversity Income MM Diversity Tactical MM International
+MM UK Growth
+Mixed Distribution Fund Dynamic Multi Asset Managed Balanced
+Cautious
+Moderately Cautious
+Cautious
+Income
+Moderately Cautious Balanced
+Moderately Adventurous Adventurous
+Personal Injury
+S&W Defensive Portfolio - 3
+S&W Defensive Income Portfolio - 4 S&W Balanced Income Portfolio - 5 S&W Balanced Growth Portfolio - 6 S&W Growth Portfolio - 7
+S&W Dynamic Growth Portfolio - 8
+Balanced Moderately Adventurous Adventurous
+Synaptic Risk Rating based on following analysis:
+Strategic Asset Allocation Tactical Asset Allocation
+]]></page><page Index="49" isMAC="true"><![CDATA[ ASI MyFolio Market I
+ASI MyFolio Market II
+ASI MyFolio Market III
+ASI MyFolio Market IV
+ASI MyFolio Market V
+ASI MyFolio Managed I
+ASI MyFolio Managed II
+ASI MyFolio Managed III
+ASI MyFolio Managed IV
+ASI MyFolio Managed V
+ASI MyFolio Multi-Manager I
+ASI MyFolio Multi-Manager II
+ASI MyFolio Multi-Manager III
+ASI MyFolio Multi-Manager IV
+ASI MyFolio Multi-Manager V
+ASI MyFolio Multi-Manager Income II ASI MyFolio Multi-Manager Income III ASI MyFolio Multi-Manager Income IV
+Commercial Long Income PAIF
+Vanguard LifeStrategy 20% Vanguard LifeStrategy 40% Vanguard LifeStrategy 60% Vanguard LifeStrategy 80% Vanguard LifeStrategy 100%
+Thesis Optima Income Thesis Optima Balanced Thesis Optima Growth Thesis Collectives 1 of 7 Thesis Collectives 2 of 7 Thesis Securities 3 of 7 Thesis Securities 4 of 7 Thesis Securities 5 of 7 Thesis Securities 6 of 7 Thesis Securities 7 of 7
+Strategy 1 (Defensive)
+Strategy 2 (Conservative)
+Strategy 3 (Income)
+Strategy 4 (Balanced)
+Strategy 5 (Growth)
+Strategy 6 (Adventurous)
+Strategy 7 (Maximum Growth)
+Tilney Platform Model Defensive
+Tilney Platform Model Conservative Tilney Platform Model Cautious
+Tilney Platform Model Balanced
+Tilney Platform Model Growth
+Tilney Platform Model Adventurous Tilney Platform Model Maximum Growth Tilney Platform Model Strategic Income Tilney Platform Model Income & Growth
+ASI
+]]></page><page Index="50" isMAC="true"><![CDATA[                                                                                                          VDS
+      VDSJH3 VDSJH4 VDSJH5 VDSJH6 VDSJH7 VDSJH8 VDS RSMR 2 VDS RSMR 3 VDS RSMR 4 VDS RSMR 5 VDS RSMR 6 VDS RSMR 7 VDS RSMR 8 VDS RSMR 9 VDS RSMR 10 VDS TCF 3 VDS TCF 4 VDS TCF 5 VDS TCF 6 VDS TCF 7 VDS TCF 8 VDS S&W 3 VDS S&W 4 VDS S&W 5 VDS S&W 6 VDS S&W 7 VDS S&W 8 VDSHR3 VDSHR4 VDSHR5 VDSHR6 VDSHR7 VDSHR8
+                                                                                             Portfolios
+       HC Verbatim Portfolio 3
+HC Verbatim Portfolio 4
+HC Verbatim Portfolio 5 Growth HC Verbatim Portfolio 6
+HC Verbatim Portfolio 7
+HC Verbatim Portfolio 5 Income
+                                                              RSMR
+      RSMR Model Portfolio 2 RSMR Model Portfolio 3 RSMR Model Portfolio 4 RSMR Model Portfolio 5 RSMR Model Portfolio 6 RSMR Model Portfolio 7 RSMR Model Portfolio 8 RSMR Model Portfolio 9 RSMR Model Portfolio 10
+                                                                                              Total Clarity
+      HC Verbatim Multi-Index Portfolio 3 HC Verbatim Multi-Index Portfolio 4 HC Verbatim Multi-Index Portfolio 5 HC Verbatim Multi-Index Portfolio 6
+                                       (s) These portfolios were constructed with short investment timelines (5 year) in mind.
+(l) These portfolios were constructed with longer investment timelines (15 year) in mind. Otherwise Synaptic Risk Ratings assume a 10 year investment horizon. You should consult Royal London directly for further information before recommending.
+About the service: Synaptic Risk Ratings are worked out by analysing the underlying asset classes within the fund or portfolio. Synaptic Software have requested asset allocation information from participating providers in a specific format aligned to the risk framework of the system. These asset classes are used by the model to determine the risk rating, a process that may result in a level of approximation though in most cases this will be insignificant. It is also possible that certain asset classes may not be represented exactly in the manner that providers would prefer.
+Reasonable endeavours are made to provide accuracy and consistency, however neither participating providers nor Synaptic Software can be held responsible for any errors or omissions. No recommendation should be made solely on the basis of the Synaptic Risk Ratings, and additional research should be undertaken for any case. This service is intended for use by investment professionals only.
+]]></page><page Index="51" isMAC="true"><![CDATA[                       Our best ideas for your clients
+                                    Rfolios
+RSMR independently researched portfolios, risk-rated by Synaptic.
+ 01535 656 555 | enquiries@rsmr.co.uk | rsmr.co.uk
+Important Notice
+This is intended for investment professionals and should not be relied upon by private investors or any other persons. Past performance is not a guide to future performance. The value of investments and any income from them can fall as well as rise, is not guaranteed and your clients may get back less that they invest. RSMR Portfolio Services Limited is a limited company registered in England and Wales under Company number 07137872. Registered office at Number 20, Ryefield Business Park, Belton Road, Silsden BD20 0EE. RSMR Portfolio Services Limited is authorised and regulated by the Financial Conduct Authority under number 788854. © RSMR 2018. RSMR is a registered Trademark.
+ ]]></page><page Index="52" isMAC="true"><![CDATA[                                 Managed Portfolio Service
+Your clients expect you to search far
+and wide for the best solutions. And that should extend to whom you outsource investment services. So our Managed Portfolio Service enables us to explore all market collectives, including investment companies and ETFs, giving your clients valuable diversification. Our managers then apply expert field analysis and risk assessment, with ongoing monitoring, to combine the most promising investments into our range
+of model portfolios. With no set rebalancing date and active portfolio management, our choice is your reason to choose.
+To find out more, please contact:
+Mickey Morrissey, Partner, Head of Distribution +44 (0)20 7131 4693 mickey.morrissey@smithandwilliamson.com
+smithandwilliamson.com
+                         For professional advisers only. The value of investments and the income from them can fall as well as rise and investors may not receive back the original amount invested.
+Issued in the UK by Smith & Williamson Investment Management LLP which is authorised and regulated by the Financial Conduct Authority (registration number is 580531). RSMR is an independent financial services research company specialising in the analysis and rating of investment funds and services. The word partner is used to refer to a member of Smith & Williamson Investment Management LLP.
+Start with choice
+then get choosy
+You &
+]]></page></pages></Search>
