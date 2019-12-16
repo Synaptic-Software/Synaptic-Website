@@ -333,7 +333,46 @@ div.field-name-field-publish-date {
 }
 .col2width {
 	width: 727px;
-	margin: 1em 0 1.5em;
+	margin: 1em 0 1em;
+}
+.col2width-float {
+	width: 727px;
+	margin: 1em 0 1em;
+}
+.col2width-float img.sidebar-float {
+	width:229px;
+	height:auto;
+	float:right;
+	margin:0;
+}
+.col2width-float .figure.below {
+	margin: 1em 0 1em;
+	float:right;
+	clear:both;
+	text-align: right;
+}
+@media (max-width:1048px) {
+	.col2width-float img.sidebar-float {
+		margin-left:1em;
+		margin-bottom:1em;
+	}
+	.col2width-float .figure.below {
+		margin: 0 0 1em;
+	}
+}
+@media (max-width:750px) {
+	.col2width-float img.sidebar-float {
+		width:auto;
+		height:auto;
+		float:none;
+		margin:1em 0;
+	}
+	.col2width-float .figure.below {
+		margin: -0.25em 0 1em;
+		float:none;
+		clear:both;
+		text-align: left;
+	}
 }
 /* .col2width.lightblue-border {
 	padding: 0 1em;
@@ -353,7 +392,14 @@ a.colorbox {
 	position: relative;
 	display: inline-block;
 }
-
+.col2width-float a.colorbox {
+	float:right;
+}
+@media (max-width:750px) {
+	.col2width-float a.colorbox {
+		float:none;
+	}
+}
 a.colorbox div.ico-magnify {
 	background-image: url('../images/ico-magnify-lightblue.svg');
 	background-size: 100%;
@@ -405,7 +451,7 @@ a.colorbox:hover div.ico-magnify {
 	/* margin-bottom: calc(-1em + 15px); */
 	/* margin-top: 2em; */
 	line-height: 1.2;
-	margin-bottom:0.5em;
+	/* margin-bottom:0.5em; */
 	margin-left:-14px;
 }
 /* Real block for extra about content */
@@ -426,8 +472,8 @@ a.colorbox:hover div.ico-magnify {
 	padding-top:0;
 }
 .field-name-field-about-block-body.notitle {
-	padding-top:1em;
-	margin-top:2.5em;
+	padding-top:0;
+	margin-top:-2.5em;
 }
 .field-name-field-about-block-body h3 {
 	margin-top: 1em;
@@ -3403,7 +3449,27 @@ body.page-node-1878 .field-name-field-author {
 
 /* @end */
 
+/* @group 2019 Q4 */
 
+/** Article: Vanguard: Investors are voting with their feet on costs **/
+
+/* Hiding author entity reference */
+body.page-node-1967 .field-name-field-author {
+	display: none;
+}
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-1977 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-44b8ce1e18f4fe17f68f1c9ed3651780 .views-row-16 .views-field-views-conditional,
+#block-views-c3146a62f1e1424359ce13d14ec0074c .views-row-16 .views-field-views-conditional {
+	display: none;
+}
+
+/* @end */
 
 
 /* @group Connection mag – Spotlight block – Region: Content */
@@ -3526,12 +3592,20 @@ p.leadpara {
 	color: #00A0C0;
 }
 
+ul.leadpara li,
+ul.leadpara ol {
+	color: #00A0C0;
+	font-family: 'BlsW-Bd', Arial, sans-serif;
+	font-size: 1.1em;
+}
+
 /* @end */
 
 /* @group Contact & other details at bottom of article */
 
 div.field-name-field-article-details, 
-div.grey-text-block, 
+div.grey-text-block,
+div.grey-text-block-col2width,
 blockquote,
 .paragraphs-item-grey-text-box {
 	margin: 2.5em 0;
@@ -3539,6 +3613,10 @@ blockquote,
 	background: #F2F2F2;
 	/* font-family:'BlsW-Bd', Arial, sans-serif; */
 	font-weight:normal; font-style:normal;
+}
+div.grey-text-block-col2width {
+	width: 727px;
+	margin: 1em 0 1.5em;
 }
 /*div.field-name-field-article-details > .field-items > .field-item > *:last-child {
 	margin-bottom: 0;
@@ -3614,6 +3692,19 @@ div.white-dropshadow-text-box > * {
 }
 div.white-dropshadow-text-box > *:last-child {
 	margin-bottom:0;
+}
+div.white-dropshadow-text-box.pullquote {
+	margin:2em 0;
+	color: #03466E;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	font-family:'BlsW-Lt', Arial, sans-serif;
+	font-weight:normal; font-style:normal;
+	float:none;
+	width:auto;
+}
+div.white-dropshadow-text-box.pullquote .smallprint {
+	font-size:1rem;
 }
 @media (max-width: 1048px) {
 	div.white-dropshadow-text-box.width-2-col {
@@ -3982,7 +4073,7 @@ ul.bgcolour li span.gold { background-color:#F0AB00; }
 }
 .figure.below {
 	/* margin: -1.5em 0 3em; */
-	margin: -0.25em 0 2.5em;
+	margin: -0.25em 0 1em;
 }
 
 
@@ -4837,6 +4928,30 @@ span.risk-key-icon.tactical {
 
 /* @group Fact sheet tables */
 
+/** Exposed filter search **/
+[id^="views-exposed-form-synaptic-risk-rating-tables"] .views-exposed-form {
+	padding:0.5em 0.75em;
+}
+[id^="views-exposed-form-synaptic-risk-rating-tables"] .views-exposed-form label {
+	margin-bottom:0.5em;
+}
+[id^="views-exposed-form-synaptic-risk-rating-tables"] .views-exposed-form .captcha-admin-links {
+	display: none;
+}
+[id^="views-exposed-form-synaptic-risk-rating-tables"] .views-submit-button {
+	vertical-align: bottom;
+}
+[id^="views-exposed-form-synaptic-risk-rating-tables"] .views-exposed-form .views-exposed-widget {
+	vertical-align: bottom;
+	float:none;
+	display: inline-block;
+	padding-top:0;
+}
+#main-main-banner [id^="views-exposed-form-synaptic-risk-rating-tables"] input.form-submit {
+	margin:0;
+	vertical-align: bottom;
+}
+
 .float-wrap:after, div.risk-table:after {
 	visibility: hidden;
 	display: block;
@@ -4968,18 +5083,29 @@ div.risk-table.legal-and-general {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-landg-im.png);
 	padding-top: 66px;
 }
-/* Premier */
-div.risk-table.premier {
+/* Premier Miton */
+/* div.risk-table.premier {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-premier.png);
 	padding-top: 56px;
+} */
+div.risk-table.premier-miton {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-premier-miton-investors.svg);
+	padding-top: 50px;
+	background-size: auto 66px;
 }
 /* Prudential */
-div.risk-table.prudential {
+/* div.risk-table.prudential {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-prudential.png);
 	padding-top: 15px;
 	margin-top: 2em;
+} */
+div.risk-table.prudential {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-prudential.svg);
+	padding-top: 12px;
+	margin-top: 1.6em;
+	background-size: auto 26px;
 }
-/* Prudential */
+/* Quilter Cheviot */
 div.risk-table.quilter-cheviot {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-quilter-cheviot.png);
 	padding-top: 76px;
@@ -5171,10 +5297,22 @@ div.risk-table.thesis {
 	margin-top: 1.25em;
 }
 /* Time */
-div.risk-table.time {
+/* div.risk-table.time {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-time.png);
 	padding-top: 80px;
 	margin-top: 0.5em;
+} */
+div.risk-table.time {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-time-investments.svg);
+	padding-top: 55px;
+	margin-top: 1.6em;
+	background-size: auto 70px;
+}
+div.risk-table.waverton {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-waverton-im.svg);
+	padding-top: 130px;
+	margin-top: 0.5em;
+	background-size: auto 145px;
 }
 /* SimplyBiz */
 div.risk-table.simplybiz {
@@ -5326,10 +5464,23 @@ div.risk-table.goldman-sachs {
 	margin-top: 1.3em;
 }
 /* HSBC */
-div.risk-table.hsbc {
+/* div.risk-table.hsbc {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-hsbc_gam.png);
 	padding-top: 55px;
 	margin-top: 1.5em;
+} */
+div.risk-table.hsbc {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-hsbc-gam.svg);
+	padding-top: 55px;
+	margin-top: 1.5em;
+	background-size: auto 75px;
+}
+/* Morningstar */
+div.risk-table.morningstar {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-morningstar.svg);
+	padding-top: 35px;
+	margin-top: 1.5em;
+	background-size: auto 50px;
 }
 /* LGT Vestra */
 div.risk-table.lgt-vestra {
@@ -5338,10 +5489,22 @@ div.risk-table.lgt-vestra {
 	margin-top: 1em;
 }
 /* Smith & WIlliamson */
-div.risk-table.smith-and-williamson {
+/* div.risk-table.smith-and-williamson {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-smith_and_williamson.png);
 	padding-top: 55px;
 	margin-top: 1.3em;
+} */
+div.risk-table.smith-and-williamson {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-smith-and-williamson.svg);
+	padding-top: 45px;
+	margin-top: 1.3em;
+	background-size: auto 60px;
+}
+div.risk-table.ajbell {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ajbell-investcentre.svg);
+	padding-top: 45px;
+	margin-top: 1.6em;
+	background-size: auto 60px;
 }
 /* Vitality Invest */
 div.risk-table.vitality-invest {
