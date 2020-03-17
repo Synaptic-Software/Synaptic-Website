@@ -3471,6 +3471,40 @@ body.page-node-1977 .field-name-field-author {
 
 /* @end */
 
+/* @group 2020 Q1 */
+
+/** Article: Investing that doesn’t cost the earth **/
+
+/* Menus: Hiding second menu item due to there being two authors */
+#block-views-cd775f6a63dd0950c9f6eec589dd4c2b .views-row-3,
+#block-views-4b88d466eb726a8894c8e44ef9518a27 .views-row-3 {
+	display: none;
+}
+
+/** Article: Vanguard: Looking beyond fees when choosing an index fund manager **/
+/* Hiding node's author entity reference */
+.node-2100 .field-name-field-author {
+	display: none;
+}
+
+/** Article: Webline play: Re-ignite protection in your business in 4 easy steps **/
+/* Hiding node's author entity reference */
+body.page-node-2110 .field-name-field-author {
+	display: none;
+}
+
+/** Article: Synaptic Risk Rating Table **/
+/* Hiding author entity reference */
+body.page-node-2108 .field-name-field-author {
+	display: none;
+}
+/* Removing name from menu Views blocks */
+#block-views-cd775f6a63dd0950c9f6eec589dd4c2b .views-row-15 .views-field-views-conditional,
+#block-views-4b88d466eb726a8894c8e44ef9518a27 .views-row-15 .views-field-views-conditional {
+	display: none;
+}
+
+/* @end */
 
 /* @group Connection mag – Spotlight block – Region: Content */
 
@@ -3609,7 +3643,7 @@ div.grey-text-block-col2width,
 blockquote,
 .paragraphs-item-grey-text-box {
 	margin: 2.5em 0;
-	padding: 1em 1em 1.5em;
+	padding: 1em 1em 1.75em;
 	background: #F2F2F2;
 	/* font-family:'BlsW-Bd', Arial, sans-serif; */
 	font-weight:normal; font-style:normal;
@@ -3887,8 +3921,15 @@ table.small th td {
 	font-size: 0.85em;
 	line-height: 1.2;
 }
+/* Header */
+table tr.header th,
+table tr th.header {
+	background-color:#03466E;
+	color:#fff;
+}
 /* Secondary table header */
-table tr.table-h2 td, table tr td.table-h2 {
+table tr.table-h2 td, table tr td.table-h2,
+table tr.table-h2 th, table tr th.table-h2 {
 	background-color: #F2F2F2;
 	font-weight: bold;
 }
@@ -3897,6 +3938,10 @@ table tr td, table tr th {
 	border:1px solid #9ca299;
 	padding:4px 8px 6px;
 	vertical-align:top;
+}
+table tr.noborder td,
+table tr.noborder th {
+	border-color:transparent;
 }
 
 /*** Table cell hightlight colours ***/
@@ -4026,6 +4071,8 @@ h2.bgcolour.para {
 .textcolour.brightgreen { color:#7AB800; }
 .textcolour.raspberry { color:#CA005D; }
 .textcolour.gold { color:#F0AB00; }
+
+
 
 /* @end */
 
@@ -4978,6 +5025,8 @@ div.risk-table {
 	background-position: left top;
 	background-repeat: no-repeat;
 	margin: 0 0 1em;
+	/* display: inline-block; */
+	max-width: 500px;
 }
 div.risk-table h2 {
 	display: none;
@@ -5020,7 +5069,8 @@ table.risk-table tr td {
 table.risk-table td.title {
 	line-height: 1.1em;
 	font-size: 0.85em;
-	padding-bottom: 8px;
+	/* padding-bottom: 8px; */
+	padding-bottom: 0;
 }
 table.risk-table td.title span.small-print {
 	font-size:0.85em;
@@ -5092,6 +5142,20 @@ div.risk-table.premier-miton {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-premier-miton-investors.svg);
 	padding-top: 50px;
 	background-size: auto 66px;
+}
+/* Ninety One */
+div.risk-table.ninety-one {
+	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ninety-one.png),
+					  url(../images/synaptic-risk-rating/provider-logos/strapline-ninety-one.png);
+	padding-top: 52px;
+	background-size: auto 75px, auto 40px;
+	background-position: left top, right 30px;
+    margin-top: 1.4em;
+}
+@media (max-width:390px) {
+	div.risk-table.ninety-one {
+		background-size: auto 70px, auto 35px;
+	}
 }
 /* Prudential */
 /* div.risk-table.prudential {

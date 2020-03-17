@@ -9,6 +9,26 @@
 /*** Functions ***/
 
 /**
+ * Connection 2020 Q1: BMO: Investing that doesn’t cost the earth
+ * - Change author to include second author 'Simon Holmes'
+ */
+
+function connection_2020_q1_bmo() {
+
+	var $viewsMenus = jQuery('#block-views-cd775f6a63dd0950c9f6eec589dd4c2b, #block-views-4b88d466eb726a8894c8e44ef9518a27'),
+			$field = $viewsMenus.find('.views-row-2 .views-field-views-conditional span.field-content span.name'),
+			byline = 'Paul Niven &amp; Simon Holmes, ';
+	
+	$field.replaceWith(byline);
+
+}
+jQuery(function() {
+	if ( jQuery('#block-views-cd775f6a63dd0950c9f6eec589dd4c2b, #block-views-4b88d466eb726a8894c8e44ef9518a27').length ) {
+		connection_2020_q1_bmo();
+	}
+});
+
+/**
  * Connection 2019 Q2: Vanguard: Views menu
  * -Change byline
  */
