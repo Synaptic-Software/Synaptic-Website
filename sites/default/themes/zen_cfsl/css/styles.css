@@ -128,6 +128,17 @@ label {
 	font-family:'BlsW-Rg', Arial, sans-serif; font-weight:normal; font-style:normal;
 }
 
+li.asterisk {
+	list-style: none;
+	position: relative;
+}
+li.asterisk:before {
+	content: "*";
+	position: absolute;
+	left: -11px;
+    bottom: 0px;
+}
+
 /* Ol li Bliss Medium when used with h3 */
 
 ol.bold li {
@@ -257,6 +268,7 @@ div.field-name-field-author  {
 }
 .node-article-author {
 	background-color: #F2F2F2;
+	margin-bottom:2px;
 }
 .node-article-author .author-details {
 	padding:7px 5px 10px 10px;
@@ -1169,6 +1181,7 @@ _:-ms-lang(x), #block-block-48 a.btn-login:hover {
 	position:relative;
 	font-size:0.85em;
 	line-height: 1.2em;
+	/* margin-bottom: 2.5em; */
 }
 #main-main-banner .block.label {
 	border:2px solid #F2F2F2;
@@ -2888,8 +2901,51 @@ body #main-main-banner #block-views-8a40f187acb516b738fcb3499dbdc74c .view-conte
 	/*margin: 0 0 0 -6px;*/
 	left: auto;
 	bottom: auto;
+}
+
+/*** Pager ***/
+
+.view-previous-connection-magazines .item-list {
+	float:right;
+}
+.view-previous-connection-magazines .pager a {
+	font-family: 'BlsW-Bd', Arial, sans-serif;
+	font-weight: normal;
+	color: #C9005C;
+}
+.view-previous-connection-magazines .pager-current {
+	font-weight: normal;
+}
+.view-previous-connection-magazines .pager-next a {
+	background-image: url('../images/ico-link-raspberry-big.png');
+	padding: 1px 30px 1px 0;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+.view-previous-connection-magazines .pager-previous a {
+	background-image: url('../images/ico-link-raspberry-big-left.png');
+	padding: 1px 0 1px 30px;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+
+/* Hide AJAX spinning thing */
+.view-previous-connection-magazines .ajax-progress-throbber { 
+	display: none;
+}
+
+@media (max-width:690px) {
+
+	.view-previous-connection-magazines .item-list {
+		float:none;
+		margin-bottom: 2em;;
+	}
+	/* .view-previous-connection-magazines .item-list .pager {
+		text-align: left;
+	} */
 
 }
+
 /* @end */
 
 /* @group Connection Subscription form */
@@ -3024,6 +3080,9 @@ img.float.left {
 img.float.right {
 	margin-right:0;
 	float:right;
+}
+img.float.half {
+	width:calc(50% - 1em);
 }
 
 
@@ -3506,6 +3565,43 @@ body.page-node-2108 .field-name-field-author {
 
 /* @end */
 
+/* @group 2020 Q2 */
+
+/** Article: FE Investnebts: What could an economic recovery look like? **/
+/* Hiding Author byline */
+article.node-2284 {
+	display: none;
+}
+
+/** Article: AEGON: Why are advisers selecting on-platform DFMs? **/
+/* Hiding Author byline - this will hide all instances not just for this article */
+article.node-2295 {
+	display: none;
+}
+/** Article: Synaptic Webline: Webline Play: Re-ignite protection in your business in 4 easy steps **/
+/* Hiding Author byline - Synaptic Software - this will hide all instances not just for this article */
+article.node-903 {
+	display: none;
+}
+/** Article: Synaptic Risk Rating Table **/
+/* Removing name from menu Views blocks */
+/* #block-views-87777f89ae95b441f3e45185d5659a25 .views-row-17 .views-field-views-conditional,
+#block-views-c0c04d882c070bf75318b3671ad738b1 .views-row-17 .views-field-views-conditional {
+	display: none;
+} */
+
+/** Hiding multiple views menu entries for articles with multiple authors **/
+/* Article: Sarasin & Partners */
+/* #block-views-87777f89ae95b441f3e45185d5659a25 .views-row-2,
+#block-views-c0c04d882c070bf75318b3671ad738b1 .views-row-2, */
+/* Article: Ninety One */
+/* #block-views-87777f89ae95b441f3e45185d5659a25 .views-row-12,
+#block-views-c0c04d882c070bf75318b3671ad738b1 .views-row-12 {
+	display: none;
+} */
+
+/* @end */
+
 /* @group Connection mag – Spotlight block – Region: Content */
 
 #main-main-banner .block.spotlight {
@@ -3615,7 +3711,7 @@ body.page-node-2108 .field-name-field-author {
 
 /* @group Lead paragraph */
 
-p.leadpara {
+p.leadpara, h2.leadpara {
 	font-size: 1.6em;
 	line-height: 1.2em;
 	margin-top: 1.2em;
@@ -3946,9 +4042,21 @@ table tr.noborder th {
 
 /*** Table cell hightlight colours ***/
 
+/* Light Blue */
+table tr td.highlight,
+table tr th.highlight,
 table tr td.highlight.lightblue, 
-table tr th.highlight.lightblue {
-	background-color: #d9f1f6;
+table tr th.highlight.lightblue,
+table col.highlight.lightblue,
+table col.highlight.lightblue {
+	background-color: #e5f6f9;
+}
+/* Raspberry */
+table tr td.highlight.raspberry, 
+table tr th.highlight.raspberry,
+table col.highlight.raspberry,
+table col.highlight.raspberry {
+	background-color: #fae5ef;
 }
 table tr td.grey-bg,
 table tr.grey-bg td {
@@ -5095,6 +5203,7 @@ table.risk-table td.risk-bar img {
 
 #main-main-banner .block-views .view-synaptic-risk-rating-tables {
 	font-size: 1rem;
+	padding-top:2em;
 }
 .block-views .view-synaptic-risk-rating-tables {
 	background:#fff;
@@ -5109,8 +5218,10 @@ table.risk-table td.risk-bar img {
 
 /* Canada Life */
 div.risk-table.canada-life {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-canada-life.png);
-	padding-top: 32px;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-canada-life.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-canada-life.svg');
+	background-size: auto 60px;
+    padding-top: 44px;
 }
 /* Fidelity */
 /*div.risk-table.fidelity {*/
@@ -5119,8 +5230,11 @@ div.risk-table.canada-life {
 /*}*/
 /* Fidelity International */
 div.risk-table.fidelity {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-fidelity-international.png);
-	padding-top: 39px;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-fidelity-international.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-fidelity-international.svg');
+	background-size: auto 65px;
+    padding-top: 51px;
+    margin-top: 1.4em;
 }
 /* Legal & General - Investment Management */
 /*div.risk-table.legal-and-general {*/
@@ -5130,26 +5244,31 @@ div.risk-table.fidelity {
 /* Legal & General - Investments */
 div.risk-table.legal-and-general {
 	/*background-image: url(../images/synaptic-risk-rating/provider-logos/logo-landg-investments.png);*/
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-landg-im.png);
-	padding-top: 66px;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-landg-im.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-landg-im.svg');
+	background-size: auto 100px;
+    padding-top: 83px;
 }
 /* Premier Miton */
 /* div.risk-table.premier {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-premier.png);
 	padding-top: 56px;
 } */
-div.risk-table.premier-miton {
+div.risk-table.premier-miton,
+div.risk-table.premier {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-premier-miton-investors.svg);
 	padding-top: 50px;
 	background-size: auto 66px;
 }
 /* Ninety One */
 div.risk-table.ninety-one {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ninety-one.png),
-					  url(../images/synaptic-risk-rating/provider-logos/strapline-ninety-one.png);
+	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ninety-one.png),
+					  url(../images/synaptic-risk-rating/provider-logos/strapline-ninety-one.png); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-ninety-one.svg');
 	padding-top: 52px;
-	background-size: auto 75px, auto 40px;
-	background-position: left top, right 30px;
+	/* background-size: auto 75px, auto 40px;
+	background-position: left top, right 30px; */
+	background-size: auto 75px;
     margin-top: 1.4em;
 }
 @media (max-width:390px) {
@@ -5171,21 +5290,27 @@ div.risk-table.prudential {
 }
 /* Quilter Cheviot */
 div.risk-table.quilter-cheviot {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-quilter-cheviot.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-quilter-cheviot.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-quilter-cheviot.svg');
+	background-size: auto 96px;
 	padding-top: 76px;
 }
 /* Royal London */
 div.risk-table.royal-london {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-royal-london.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-royal-london.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-royal-london.svg');
+	background-size: auto 87px;
 	padding-top: 70px;
 	/*margin-top: 1.5em;*/
 }
 /* Seven IM */
 div.risk-table.seven-im {
 /*	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-7im.png);*/
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-7im-black.png);
-	padding-top: 36px;
-	margin-top: 1.5em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-7im-black.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-7im.svg');
+	background-size: auto 60px;
+    padding-top: 40px;
+    margin-top: 1em;
 }
 /* Tavistock */
 div.risk-table.tavistock {
@@ -5209,7 +5334,8 @@ div.risk-table.quilter-investors {
 }
 /* RSMR Portfolio Services */
 div.risk-table.rsmr {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rsmr-portfolio-services.png');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rsmr-portfolio-services.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rsmr-portfolio-services.svg');
 	background-size: auto 50px;
     padding-top: 35px;
     margin-top: 1.6em;
@@ -5227,9 +5353,19 @@ div.risk-table.rsmr {
 /*}*/
 /* Sanlam */
 div.risk-table.sanlam {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-sanlam.png);
-	padding-top: 30px;
-	margin-top: 1.5em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-sanlam.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-sanlam.svg');
+	background-size: auto 45px;
+    padding-top: 25px;
+    margin-top: 1.2em;
+}
+/* Sarasin & Partners */
+div.risk-table.sarasin {
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-sanlam.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-sarasin-and-partners.svg');
+	background-size: auto 55px;
+    padding-top: 38px;
+    margin-top: 1.3em;
 }
 /* Scottish Life */
 div.risk-table.scottish-life {
@@ -5250,21 +5386,25 @@ div.risk-table.fe {
 }
 /* Rathbones */
 div.risk-table.rathbones {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-rathbones.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rathbones.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rathbones.svg');
+	background-size: auto 56px;
 	padding-top: 40px;
 	margin-top: 1.5em;
 }
 /* Vanguard */
 div.risk-table.vanguard {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-vanguard.png);
-	padding-top: 50px;
-	margin-top: 1.5em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-vanguard.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-vanguard.svg');
+	background-size: auto 67px;
+    padding-top: 50px;
+    margin-top: 1em;
 }
 /* Clever MPS */
 div.risk-table.clever-mps {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-clever-mps.png);
-	background-size: auto 30px;
-	padding-top: 12px;
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-clever-mps.png');
+	background-size: auto 34px;
+	padding-top: 17px;
 	margin-top: 1.5em;
 }
 /* Close Brothers - no strapline */
@@ -5275,15 +5415,25 @@ div.risk-table.clever-mps {
 /*}*/
 /* Close Brothers - with strapline */
 div.risk-table.close-brothers {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-close-brothers-am.png);
-	padding-top: 25px;
-	margin-top: 0.5em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-close-brothers-am.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-close-brothers-am.svg');
+	background-size: auto 58px;
+    padding-top: 40px;
+    margin-top: 1.5em;
+}
+/* FE Investments */
+div.risk-table.fe-investments {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-fe-investments.svg');
+	background-size: auto 72px;
+    padding-top: 52px;
+    margin-top: 1.3em;
 }
 /* MAPS */
 div.risk-table.maps {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-maps.png);
-	padding-top: 40px;
-	margin-top: 1.5em;
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-maps.png');
+	background-size: auto 70px;
+    padding-top: 56px;
+    margin-top: 1.5em;
 }
 /* F&C - Renamed BMO */
 div.risk-table.fc {
@@ -5292,8 +5442,11 @@ div.risk-table.fc {
 }
 /* BMO */
 div.risk-table.bmo {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-bmo.png);
-	padding-top: 24px;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bmo.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bmo.svg');
+	background-size: auto 46px;
+    padding-top: 26px;
+    margin-top: 1.3em;
 }
 /* Investec */
 div.risk-table.investec {
@@ -5302,8 +5455,11 @@ div.risk-table.investec {
 }
 /* Brewin Dolphin */
 div.risk-table.brewin-dolphin {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin.png);
-	padding-top: 46px;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin.svg');
+	background-size: auto 65px;
+    padding-top: 50px;
+    margin-top: 1.2em;
 }
 /* Schroder */
 /* div.risk-table.schroders {
@@ -5332,19 +5488,25 @@ div.risk-table.verbatim {
 }
 /* Carmignac */
 div.risk-table.carmignac {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-carmignac.png);
-	padding-top: 45px;
-	margin-top: 1em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-carmignac.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-carmignac.svg');
+	background-size: auto 61px;
+    padding-top: 44px;
+    margin-top: 1.2em;
 }
 /* Russell Investments */
 div.risk-table.russell-investments {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-russell-investments.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-russell-investments.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-russell-investments.svg');
+	background-size: auto 54px;
 	padding-top: 35px;
 	margin-top: 1.5em;
 }
 /* Charles Stanley */
 div.risk-table.charles-stanley {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-charles-stanley.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-charles-stanley.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-charles-stanley.svg');
+	background-size: auto 62px;
 	padding-top: 45px;
 	margin-top: 1.5em;
 }
@@ -5385,14 +5547,17 @@ div.risk-table.simplybiz {
 	margin-top: 1.5em;
 }
 /* Aviva Investors */
-div.risk-table.aviva {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aviva-investors.png);
+div.risk-table.aviva-investors {
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aviva-investors.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aviva-investors.svg');
+	background-size: auto 51px;
 	padding-top: 35px;
 	margin-top: 1.5em;
 }
 /* LV= */
 div.risk-table.lv {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-lv.png);
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lv.png');
+	background-size: auto 50px;
 	padding-top: 35px;
 	margin-top: 1.5em;
 }
@@ -5404,7 +5569,9 @@ div.risk-table.old-mutual {
 }
 /* Scottish Widows */
 div.risk-table.scottish-widows {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-scottish-widows.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-scottish-widows.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-scottish-widows.svg');
+	background-size:auto 51px;
 	padding-top: 35px;
 	margin-top: 1.5em;
 }
@@ -5418,36 +5585,38 @@ div.risk-table.aegon {
 /* Aberdeen Standard Capital */
 div.risk-table.aberdeen-standard-capital {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-capital.svg);
-    background-size: 134px 75px;
-    padding-top: 61px;
+    background-size: auto 85px;
+    padding-top: 66px;
     margin-top: 0;
 }
 /* Aberdeen Standard Investments */
 div.risk-table.aberdeen-standard-investments {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg);
-    background-size: 255px 60px;
-    padding-top: 48px;
+    background-size: auto 65px;
+    padding-top: 51px;
     margin-top: 0;
 }
 /* Tilney for professionals */
 div.risk-table.tilney {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-tilney-for-professionals.svg);
-    background-size: 259px 50px;
-    padding-top: 39px;
+	background-size: auto 50px;
+    padding-top: 34px;
     margin-top: 1.5em;
 }
 /* Architas */
 div.risk-table.architas {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-architas.png);
-	padding-top: 45px;
-	margin-top: 1.5em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-architas.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-architas.svg');
+	background-size: 194px auto;
+    padding-top: 49px;
+    /* margin-top: 1em; */
 }
 /* BNY Mellon */
 div.risk-table.bny-mellon {
 	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-bny-mellon.png); */
 	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bny-mellon-im.svg');
-	background-size: 199px 90px;
-	padding-top: 80px;
+	background-size: auto 97px;
+    padding-top: 82px;
 	/* margin-top: 0.25em; */
 }
 /* Invesco Perpetual */
@@ -5472,10 +5641,10 @@ div.risk-table.invesco {
 } */
 /* Jupiter AM */
 div.risk-table.jupiter {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.png);
-	background-size: auto 88px;
-	padding-top: 70px;
-	margin-top: 0.5em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.svg');
+	background-size: auto 93px;
+    padding-top: 72px;
 }
 /* Cazenove Capital */
 /* div.risk-table.cazenove {
@@ -5493,19 +5662,25 @@ div.risk-table.cazenove {
 }
 /* Janus Henderson */
 div.risk-table.janus-henderson {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-janus-henderson-investors.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-janus-henderson-investors.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-janus-henderson-investors.svg');
+	background-size: auto 49px;
 	padding-top: 35px;
-	margin-top: 1.5em;
+	margin-top: 1.3em;
 }
 /* Brooks Macdonald */
 div.risk-table.brooks-macdonald {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-brooks-macdonald.png);
-	padding-top: 48px;
+	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-brooks-macdonald.png); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brooks-macdonald.svg');
+	background-size: auto 69px;
+    padding-top: 55px;
     margin-top: 1.2em;
 }
 /* Liontrust */
 div.risk-table.liontrust {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-liontrust.png);
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-liontrust.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-liontrust.svg');
+	background-size: auto 52px;
 	padding-top: 35px;
 	margin-top: 1em;
 }
@@ -5523,9 +5698,18 @@ div.risk-table.standard-life {
 }
 /* Goldman Sachs */
 div.risk-table.goldman-sachs {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-goldman_sachs_am.png);
-	padding-top: 70px;
-	margin-top: 1.3em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-goldman_sachs_am.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-goldman_sachs_am.svg');
+	background-size: auto 86px;
+    padding-top: 65px;
+    margin-top: 1.4em;
+}
+/* Horizon by Embark */
+div.risk-table.horizon-by-embark {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-horizon-by-embark.svg');
+	background-size: auto 66px;
+    padding-top: 43px;
+    margin-top: 1.6em;
 }
 /* HSBC */
 /* div.risk-table.hsbc {
@@ -5548,9 +5732,11 @@ div.risk-table.morningstar {
 }
 /* LGT Vestra */
 div.risk-table.lgt-vestra {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-lgt_vestra.png);
-	padding-top: 75px;
-	margin-top: 1em;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lgt_vestra.png'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lgt_vestra.svg');
+	background-size: auto 95px;
+    padding-top: 68px;
+    margin-top: 1em;
 }
 /* Smith & WIlliamson */
 /* div.risk-table.smith-and-williamson {
@@ -5566,16 +5752,16 @@ div.risk-table.smith-and-williamson {
 }
 div.risk-table.ajbell {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ajbell-investcentre.svg);
-	padding-top: 45px;
-	margin-top: 1.6em;
-	background-size: auto 60px;
+	padding-top: 41px;
+    margin-top: 1.6em;
+    background-size: auto 55px;
 }
 /* Vitality Invest */
 div.risk-table.vitality-invest {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-vitality-invest.svg);
-	background-size: auto 80px;
-	padding-top: 55px;
-	margin-top: 0.5em;
+	background-size: auto 75px;
+    padding-top: 45px;
+    margin-top: 1em;
 }
 
 /* @end */

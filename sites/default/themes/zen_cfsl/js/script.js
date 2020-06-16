@@ -8,40 +8,148 @@
 
 /*** Functions ***/
 
+/** 
+ * View: Previous Connection Magazines:
+ * - Remove less/greater than symbols from next/previous links
+ */
+Drupal.behaviors.exampleModule = {
+	attach: function (context, settings) {
+		var $view = jQuery('.view-previous-connection-magazines'),
+			$previous = $view.find('.pager-previous a'),
+			$next = $view.find('.pager-next a');
+
+		$previous.html('Previous');
+		$next.html('Next');
+	}
+};
+
+// function view_previous_connection_magazines() {
+
+// 	var $view = jQuery('.view-previous-connection-magazines'),
+// 		$previous = $view.find('.pager-previous a'),
+// 		$next = $view.find('.pager-next a');
+
+// 	$previous.html('Previous');
+// 	$next.html('Next');
+
+// }
+// jQuery(function () {
+// 	if ( jQuery('.view-previous-connection-magazines').length ) {
+// 		// view_previous_connection_magazines();
+// 	}
+// });
+
+/**
+ * Connection Views menus: 
+ * - Remove duplicate article menu items for articles that have two authors
+ * - Combine both article authors into the first article's author field
+ * - Hide author for 'Synaptic Risk Rating Table' menu item
+ * - Hide 'Anonymous' author
+ */
+
+function connection_views_menus() {
+
+	var $viewsRows = jQuery('.block-views.connection-articles .views-row'),
+		prevTitle = '';
+
+	$viewsRows.each(function (i) {
+
+		var title = jQuery(this).find('.views-field-title a').text(),
+			$currentAuthor = jQuery(this).find('.name');
+
+		if ( title === prevTitle ) {
+			
+			jQuery(this).hide();
+
+			var $authors = jQuery($viewsRows[i-1]).find('.name'),
+				author1 = $authors.text().replace(',',''),
+				author2 = $currentAuthor.text();
+
+			$authors.replaceWith(author1 + '&amp; ' + author2);
+			
+		}
+
+		prevTitle = title;
+
+		if ( title === 'Synaptic Risk Rating Table' ) {
+			$currentAuthor.hide();
+		}
+		if ( $currentAuthor.text() === 'Anonymous' ) {
+			$currentAuthor.hide();
+		}
+
+	});
+
+}
+// jQuery(function () {
+// 	if ( jQuery('.block-views.connection-articles').length ) {
+// 		connection_views_menus();
+// 	}
+// });
+
+/*
+ * Connection 2020 Q1: BMO: Investing that doesn’t cost the earth
+ * - Change author to include second author 'Simon Holmes'
+ */
+
+// function connection_2020_q2_menu_text_replace() {
+
+// 	var $viewsMenus = jQuery('#block-views-c0c04d882c070bf75318b3671ad738b1, #block-views-87777f89ae95b441f3e45185d5659a25'),
+// 		$field_1 = $viewsMenus.find('.views-row-1 .views-field-views-conditional span.field-content span.name'),
+// 		byline_1 = 'Ben McEwen &amp; Alex Cobbold, ',
+// 		$field_2 = $viewsMenus.find('.views-row-11 .views-field-views-conditional span.field-content span.name'),
+// 		byline_2 = 'John Stopford &amp; Jason Borbora-Sheen, ';
+
+// 	$field_1.replaceWith(byline_1);
+// 	$field_2.replaceWith(byline_2);
+
+// }
+// jQuery(function() {
+// 	if ( jQuery('#block-views-c0c04d882c070bf75318b3671ad738b1, #block-views-87777f89ae95b441f3e45185d5659a25').length ) {
+// 		connection_2020_q2_menu_text_replace();
+// 	}
+// });
+
 /**
  * Connection 2020 Q1: BMO: Investing that doesn’t cost the earth
  * - Change author to include second author 'Simon Holmes'
  */
 
-function connection_2020_q1_bmo() {
+// function connection_2020_q1_bmo() {
 
-	var $viewsMenus = jQuery('#block-views-cd775f6a63dd0950c9f6eec589dd4c2b, #block-views-4b88d466eb726a8894c8e44ef9518a27'),
-			$field = $viewsMenus.find('.views-row-2 .views-field-views-conditional span.field-content span.name'),
-			byline = 'Paul Niven &amp; Simon Holmes, ';
+// 	var $viewsMenus = jQuery('#block-views-cd775f6a63dd0950c9f6eec589dd4c2b, #block-views-4b88d466eb726a8894c8e44ef9518a27'),
+// 			$field = $viewsMenus.find('.views-row-2 .views-field-views-conditional span.field-content span.name'),
+// 			byline = 'Paul Niven &amp; Simon Holmes, ';
 	
-	$field.replaceWith(byline);
+// 	$field.replaceWith(byline);
 
-}
-jQuery(function() {
-	if ( jQuery('#block-views-cd775f6a63dd0950c9f6eec589dd4c2b, #block-views-4b88d466eb726a8894c8e44ef9518a27').length ) {
-		connection_2020_q1_bmo();
-	}
-});
+// }
+// jQuery(function() {
+// 	if ( jQuery('#block-views-cd775f6a63dd0950c9f6eec589dd4c2b, #block-views-4b88d466eb726a8894c8e44ef9518a27').length ) {
+// 		connection_2020_q1_bmo();
+// 	}
+// });
 
 /**
  * Connection 2019 Q2: Vanguard: Views menu
  * -Change byline
  */
 
-function connection_2019_q2_vanguard_views_menu() {
+// function connection_2019_q2_vanguard_views_menu() {
 
-	var $viewsMenus = jQuery('#block-views-3007324d78e7eeadcd7880591245397f, #block-views-452ef3e8b90e4b25b16694322ae3f026'),
-			$field = $viewsMenus.find('.views-row-2 .views-field-views-conditional span.field-content'),
-			byline = 'Garrett Harbron and Anna Madamba, Vanguard';
+// 	var $viewsMenus = jQuery('#block-views-3007324d78e7eeadcd7880591245397f, #block-views-452ef3e8b90e4b25b16694322ae3f026'),
+// 			$field = $viewsMenus.find('.views-row-2 .views-field-views-conditional span.field-content'),
+// 			byline = 'Garrett Harbron and Anna Madamba, Vanguard';
 	
-	$field.replaceWith(byline);
+// 	$field.replaceWith(byline);
 
-}
+// }
+// jQuery(function() {
+// 	if (jQuery('#block-views-3007324d78e7eeadcd7880591245397f, #block-views-452ef3e8b90e4b25b16694322ae3f026').length) {
+// 		connection_2019_q2_vanguard_views_menu();
+// 	  }
+// });
+
 
 
 /**
