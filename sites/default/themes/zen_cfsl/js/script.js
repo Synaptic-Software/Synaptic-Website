@@ -12,7 +12,7 @@
  * View: Previous Connection Magazines:
  * - Remove less/greater than symbols from next/previous links
  */
-Drupal.behaviors.exampleModule = {
+Drupal.behaviors.previousConnectionMagazine = {
 	attach: function (context, settings) {
 		var $view = jQuery('.view-previous-connection-magazines'),
 			$previous = $view.find('.pager-previous a'),
@@ -22,6 +22,41 @@ Drupal.behaviors.exampleModule = {
 		$next.html('Next');
 	}
 };
+
+/** 
+ * Synaptic Risk Rating Tables - Search function
+ * View: Synaptic Risk Rating Tables: Exposed filter
+ * - Hightlight searched text
+ */
+// (function ($) {
+// 	Drupal.behaviors.synapticRiskRatingTablesSearch = {
+// 		attach: function (context, settings) {
+// 			$('.view-synaptic-risk-rating-tables', context).once('synapticRiskRatingTablesSearch', function () {
+// 				let searchTerm = $('#edit-combine').val();
+// 				console.log(searchTerm);
+// 				if (searchTerm !== '') {
+// 					$('td.title').each(function (i) {
+// 						$(this).text().replace(searchTerm, `<span class="highlight">${searchTerm}</span>`);
+// 					});
+// 				}			
+// 			});
+// 		}
+// 	}
+// }(jQuery));
+
+/** 
+ * Synaptic Risk Rating Tables - Search function
+ * - Put cursor in search field
+ */
+// (function ($) {
+// 	function 
+// 	if ($('body.page-node-244').length && window.location.hash == '#search') {
+		
+// 	}
+// 	$(function() {
+// 		// Handler for .ready() called.
+// 	});
+// }(jQuery));
 
 // function view_previous_connection_magazines() {
 

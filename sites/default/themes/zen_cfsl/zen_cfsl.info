@@ -73,6 +73,7 @@ scripts[] = js/custom-javascript.js
 ; Optionally add some JavaScripts to your theme.
 
 scripts[] = js/jquery.matchHeight-min.js
+scripts[] = js/hilitor.js
 scripts[] = js/script.js
 
 

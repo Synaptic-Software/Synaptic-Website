@@ -115,6 +115,9 @@ strong, b {
 	font-family:'BlsW-Bd', Arial, sans-serif;
 	font-weight:normal; font-style:normal;
 }
+blockquote strong, blockquote b {
+	font-style: italic;
+}
 
 /* RSS icon thingy */
 
@@ -351,17 +354,18 @@ div.field-name-field-publish-date {
 	width: 727px;
 	margin: 1em 0 1em;
 }
-.col2width-float img.sidebar-float {
+.col2width-float .sidebar-float {
 	width:229px;
 	height:auto;
 	float:right;
-	margin:0;
+	margin:0 0 0 1em;
 }
+
 .col2width-float .figure.below {
-	margin: 1em 0 1em;
-	float:right;
+	/* margin: 1em 0 1em; */
+	/* float:right;
 	clear:both;
-	text-align: right;
+	text-align: right; */
 }
 @media (max-width:1048px) {
 	.col2width-float img.sidebar-float {
@@ -372,12 +376,35 @@ div.field-name-field-publish-date {
 		margin: 0 0 1em;
 	}
 }
-@media (max-width:750px) {
-	.col2width-float img.sidebar-float {
+@media (max-width:767px) {
+	.col2width-float {
+		width:100%;
+		/* display: inline-block; */
+	}
+	/* .col2width-float .sidebar-float {
 		width:auto;
 		height:auto;
 		float:none;
-		margin:1em 0;
+		margin:0;
+	} */
+	.col2width-float .figure.below {
+		margin: -0.25em 0 1em;
+		float:none;
+		clear:both;
+		text-align: left;
+	}
+}
+@media (max-width:490px) {
+	.col2width-float {
+		width:auto;
+		display: inline-block;
+		margin:0;
+	}
+	.col2width-float .sidebar-float {
+		width:auto;
+		height:auto;
+		float:none;
+		margin:0;
 	}
 	.col2width-float .figure.below {
 		margin: -0.25em 0 1em;
@@ -1407,6 +1434,7 @@ a.morelink.big.pdf.gold { color:#F0AB00; background-image:url(../images/ico-link
 
 
 
+
 /* @group Home pages larger more link overrides */
 
 body.front #main-main-banner .block a.morelink,
@@ -1434,6 +1462,11 @@ body.front .block a.morelink.gold, body.page-node-244 .block a.morelink.gold { c
 /* External link */
 body.front .block a.morelink.external.lightblue, body.page-node-244 .block a.morelink.external.lightblue { color:#00A0C0; background-image:url(../images/ico-link-external-lightblue-big.png); }
 
+
+/* @end */
+
+/* @group SVG - PDF download link */
+a.morelink.pdf.lightblue, body.page-node-244 .block a.morelink.pdf.lightblue { color:#00A0C0; background-image:url(../images/ico-link-pdf-lightblue.svg); }
 
 /* @end */
 
@@ -2575,7 +2608,46 @@ body.page-node-1569 #block-imageblock-106 {
 
 /* @end */
 
-
+#block-block-123 img.cover {
+	float:left;
+	width: 91px;
+	-webkit-box-shadow: 1px 1px 3px 1px rgba(190, 190, 190, 1);
+	-moz-box-shadow:    1px 1px 3px 1px rgba(190, 190, 190, 1);
+	box-shadow:         1px 1px 3px 1px rgba(190, 190, 190, 1);
+}
+body.page-node-244 #main-main-banner #block-block-123 .block-content {
+	padding: 18px 14px 11px;
+}
+body.page-node-244 #main-main-banner #block-block-123 a.morelink {
+	position: static;
+	left:auto;
+	bottom:auto;
+	padding:10px 10px 10px 30px;
+	line-height: 1.5;
+	background-size: auto 1.5em;
+	display: block;
+}
+#block-block-123 .block-content:after { 
+    content: ''; 
+    display: table; 
+    clear: both;
+}
+#block-block-123 .details {
+	width: 175px;
+	float: right;
+}
+#block-block-123 .details .issue {
+	background: #00a1c1;
+	display: inline-block;
+	margin: 0;
+	color: #fff;
+	padding: 2px 6px 3px;
+	/* font-size: 0.95em; */
+	font-size: 16px;
+}
+#block-block-123 .details h3.title {
+	height: 60px;
+}
 
 /* @group Connection magazine views menu block */
 
@@ -3661,6 +3733,18 @@ article.node-903 {
 }
 .node-2365 table.table-1 tr td:last-child, .node-2365 table.table-1 tr th:last-child {
 	width:22%;
+}
+
+/* @end */
+
+/* @group 2020 Q4 */
+
+/* Article: Outsourcing and ESG – the grass may well be ‘greener’
+			Aberdeen Standard Capital
+	- Hide article author on node
+*/
+.node-2458 {
+	display: none;
 }
 
 /* @end */
@@ -5362,6 +5446,13 @@ div.risk-table.ninety-one {
 		background-size: auto 70px, auto 35px;
 	}
 }
+/* Parmenion */
+div.risk-table.parmenion {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-parmenion.svg');
+	padding-top: 16px;
+    background-size: auto 30px;
+    margin-top: 1.4em;
+}
 /* Prudential */
 /* div.risk-table.prudential {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-prudential.png);
@@ -5417,6 +5508,13 @@ div.risk-table.quilter-investors {
 	background-size: auto 60px;
     padding-top: 42px;
     margin-top: 1.1em;
+}
+/* RSMR Responsible */
+div.risk-table.rsmr-responsible {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rsmr-responsible.png');
+	background-size: auto 65px;
+    padding-top: 42px;
+    margin-top: 1.3em;
 }
 /* RSMR Portfolio Services */
 div.risk-table.rsmr {
@@ -5845,9 +5943,9 @@ div.risk-table.smith-and-williamson {
 }
 div.risk-table.tcf-investment {
 	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-tcf-investment.png');
-	padding-top: 52px;
+	padding-top: 48px;
     margin-top: 1em;
-    background-size: auto 70px;
+    background-size: auto 64px;
 }
 div.risk-table.ajbell {
 	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ajbell-investcentre.svg);
@@ -7050,4 +7148,11 @@ a#newsletter-signup-link:after {
     position: relative;
 	line-height: 1.35;
 	text-align: center;
+}
+
+
+/**** highlight text ***/
+
+span.highlight {
+	background-color: yellow;
 }
