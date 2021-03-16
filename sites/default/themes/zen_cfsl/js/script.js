@@ -8,6 +8,24 @@
 
 /*** Functions ***/
 
+/**
+ * JS to edit the title of nodes
+ */
+function js_to_edit_node_titles() {
+
+	/**
+	 * 2021 Q1
+	 * Article Title: Take your firm’s asset allocation a step further than Nobel prize winning Modern Portfolio Theory
+	 * Author: Ross Holloway, Synaptic Software Limited
+	 * - Add super-script 1 to end of the article's title
+	 */
+	if (jQuery('body.page-node-2562').length) {
+		jQuery('h1#page-title').append('<a class="sup-ref" href="#smallprint"><sup>1</sup></a>');
+	}
+
+}
+
+
 /** 
  * View: Previous Connection Magazines:
  * - Remove less/greater than symbols from next/previous links
@@ -48,15 +66,21 @@ Drupal.behaviors.previousConnectionMagazine = {
  * Synaptic Risk Rating Tables - Search function
  * - Put cursor in search field
  */
-// (function ($) {
-// 	function 
-// 	if ($('body.page-node-244').length && window.location.hash == '#search') {
-		
-// 	}
-// 	$(function() {
-// 		// Handler for .ready() called.
-// 	});
-// }(jQuery));
+(function ($) {
+	function synaptic_risk_rating_tables_search() {
+		if (window.location.hash == '#search') {
+			// $( window ).load(function() {
+				$('input#edit-combine').focus();
+			// });
+		}
+	}
+	// $(function() {
+	$( window ).load(function() {
+		if ($('body.node-type-connection-magazine-article').length) {
+			synaptic_risk_rating_tables_search()
+		}
+	});
+}(jQuery));
 
 // function view_previous_connection_magazines() {
 
@@ -106,7 +130,7 @@ function connection_views_menus() {
 
 		prevTitle = title;
 
-		if ( title === 'Synaptic Risk Rating Table' ) {
+		if ( title === 'Synaptic Risk Rating Table' || title === 'Synaptic Risk Rating Tables' ) {
 			$currentAuthor.hide();
 		}
 		if ( $currentAuthor.text() === 'Anonymous' ) {
@@ -731,9 +755,20 @@ Drupal.behaviors.my_custom_behavior = {
 		$('#main-main-banner .width-3col').matchHeight();
 	}
 
-	if ($('a.colorbox').length && !$('a.colorbox div.ico-magnify').length) {
+	if ( $('a.colorbox').length && !$('a.colorbox div.ico-magnify').length) {
 		$('a.colorbox img').after('<div class="ico-magnify">');
 	}
+
+	// if ($('a.colorbox-svg').length) {
+	// 	$('a.colorbox-svg').colorbox({
+	// 		scalePhotos: true,
+	// 		photo: true,
+	// 		width: '1920px',
+	// 		// maxWidth: '100%',
+	// 		// innerWidth: '1920px',
+	// 		height: 'auto'
+	// 	});
+	// }
 
 	// Product slideshow
 	function set_height_of_screenshot_slideshow() {
@@ -756,6 +791,7 @@ Drupal.behaviors.my_custom_behavior = {
 	}
 
 	// newsletter_signup_popup();
+
 
 	
 

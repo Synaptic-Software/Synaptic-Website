@@ -132,6 +132,11 @@
       <?php if ($title and !$is_front): ?>
         <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
       <?php endif; ?>
+      <script>
+      if (jQuery('h1#page-title').length) {
+        js_to_edit_node_titles();
+      }
+      </script>
       <?php print render($title_suffix); ?>
       <?php print render($tabs); ?>
       <?php print render($page['help']); ?>

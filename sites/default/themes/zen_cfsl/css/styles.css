@@ -1465,8 +1465,12 @@ body.front .block a.morelink.external.lightblue, body.page-node-244 .block a.mor
 
 /* @end */
 
-/* @group SVG - PDF download link */
-a.morelink.pdf.lightblue, body.page-node-244 .block a.morelink.pdf.lightblue { color:#00A0C0; background-image:url(../images/ico-link-pdf-lightblue.svg); }
+/* @group SVG */
+
+/* PDF download link */
+a.morelink.pdf.lightblue, body.page-node-244 .block a.morelink.pdf.lightblue { color:#00A0C0; background-image:url('../images/ico-link-pdf-lightblue.svg'); }
+/* Search icon link */
+a.morelink.pdf.lightblue, body.page-node-244 .block a.morelink.search.lightblue { color:#00A0C0; background-image:url('../images/ico-link-search-lightblue.svg'); }
 
 /* @end */
 
@@ -2616,13 +2620,13 @@ body.page-node-1569 #block-imageblock-106 {
 	box-shadow:         1px 1px 3px 1px rgba(190, 190, 190, 1);
 }
 body.page-node-244 #main-main-banner #block-block-123 .block-content {
-	padding: 18px 14px 11px;
+	padding: 18px 14px 17px;
 }
 body.page-node-244 #main-main-banner #block-block-123 a.morelink {
 	position: static;
 	left:auto;
 	bottom:auto;
-	padding:10px 10px 10px 30px;
+	padding:3px 10px 3px 30px;
 	line-height: 1.5;
 	background-size: auto 1.5em;
 	display: block;
@@ -2639,14 +2643,14 @@ body.page-node-244 #main-main-banner #block-block-123 a.morelink {
 #block-block-123 .details .issue {
 	background: #00a1c1;
 	display: inline-block;
-	margin: 0;
+	margin: 0 0 7px;
 	color: #fff;
 	padding: 2px 6px 3px;
 	/* font-size: 0.95em; */
 	font-size: 16px;
 }
 #block-block-123 .details h3.title {
-	height: 60px;
+	height: 30px;
 }
 
 /* @group Connection magazine views menu block */
@@ -3749,6 +3753,19 @@ article.node-903 {
 
 /* @end */
 
+/* @group 2021 Q1 */
+
+/* Article: Risk Explorer infographic
+			Synaptic Software Limited
+	- Hide article author in views menu
+*/
+#block-views-7b836d43589f5cc849932dd7a5297abf .views-row-4 .views-field-views-conditional,
+#block-views-60e2502678c3e13adaf2022acbba0a75 .views-row-4 .views-field-views-conditional {
+	display: none;
+}
+
+/* @end */
+
 /* @group Connection mag – Spotlight block – Region: Content */
 
 #main-main-banner .block.spotlight {
@@ -3812,6 +3829,44 @@ article.node-903 {
 	font-family:'BlsW-Bd', Arial, sans-serif;
 	font-weight:normal; font-style:normal;
 }
+
+/* @end */
+
+/* @group 2021 Q1 */
+
+/* Article: Take your firm’s asset allocation a step further than Nobel prize winning Modern Portfolio Theory
+			Ross Holloway, Synaptic Software Limited
+	- Add table styling
+*/
+
+/* Article: 2021 outlook positive, but risks remain
+			Jon Cunliffe, Charles Stanley
+	- Add table styling
+*/
+.node-2572 table tr.border th,
+.node-2572 table tr.border td {
+	border-bottom-width: 3px;
+}
+
+/* Article: Take your firm’s asset allocation a step further than Nobel prize winning Modern Portfolio Theory
+			Ross Holloway, Synaptic Software Limited
+	- Make super 1 smaller 
+*/
+
+body.page-node-2562 h1.title sup {
+	font-size: 15px;
+	top: -0.85em;
+}
+
+/* Article: 2021 outlook positive, but risks remain
+			Jon Cunliffe, Charles Stanley
+	- Meet the manager photo styling 
+*/
+
+body.page-node-2572 .field-name-field-about-block-body img {
+	margin-bottom:0;
+}
+
 
 /* @end */
 
@@ -4208,6 +4263,10 @@ table tr.noborder td,
 table tr.noborder th {
 	border-color:transparent;
 }
+/* table tr.heavy-border td,
+table tr.heavy-border th {
+	border-bottom-width:3px;
+} */
 
 /*** Table cell hightlight colours ***/
 
@@ -5163,6 +5222,10 @@ body.page-node-940 .field-name-field-author {
 
 /* @group Risk key */
 
+hr#search {
+	margin-bottom:2em;
+	border:none !important;
+}
 div.risk-key-wrapper {
 	margin-bottom: 3em;
 }
@@ -5393,6 +5456,13 @@ div.risk-table.canada-life {
     padding-top: 44px;
     margin-top: 1em;
 }
+/* Canada Life - Asset Management */
+div.risk-table.canada-life-am {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-canada-life-am.svg');
+	background-size: auto 65px;
+    padding-top: 44px;
+    margin-top: 1em;
+}
 /* Fidelity */
 /*div.risk-table.fidelity {*/
 	/*background-image: url(../images/synaptic-risk-rating/provider-logos/logo-fidelity.png);*/
@@ -5512,7 +5582,7 @@ div.risk-table.quilter-investors {
 /* RSMR Responsible */
 div.risk-table.rsmr-responsible {
 	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-rsmr-responsible.png');
-	background-size: auto 65px;
+	background-size: auto 60px;
     padding-top: 42px;
     margin-top: 1.3em;
 }
@@ -5641,8 +5711,11 @@ div.risk-table.bmo {
 }
 /* Investec */
 div.risk-table.investec {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-investec.png);
-	padding-top: 50px;
+	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-investec.png); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-investec.svg');
+	background-size: auto 45px;
+    padding-top: 26px;
+    margin-top: 1.2em;
 }
 /* Brewin Dolphin */
 div.risk-table.brewin-dolphin {
@@ -5752,6 +5825,13 @@ div.risk-table.lv {
     padding-top: 22px;
     margin-top: 1.4em;
 }
+/* M&G Investments */
+div.risk-table.mg-investments {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-mg-investments.svg');
+	background-size: auto 65px;
+    padding-top: 47px;
+    margin-top: 1.2em;
+}
 /* Old Mutual */
 div.risk-table.old-mutual {
 	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-old-mutual-global-investors.png');
@@ -5833,9 +5913,10 @@ div.risk-table.invesco {
 /* Jupiter AM */
 div.risk-table.jupiter {
 	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.png'); */
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.svg');
-	background-size: auto 80px;
-    padding-top: 60px;
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-jupiter-am.svg'); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-jupiter-am-2021.svg');
+	background-size: auto 75px;
+    padding-top: 56px;
 }
 /* Cazenove Capital */
 /* div.risk-table.cazenove {
