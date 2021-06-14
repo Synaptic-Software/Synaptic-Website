@@ -70,7 +70,10 @@ Drupal.behaviors.previousConnectionMagazine = {
 	function synaptic_risk_rating_tables_search() {
 		if (window.location.hash == '#search') {
 			// $( window ).load(function() {
+				var searchOffset = $('#block-block-116').offset().top + $('#block-block-116').height();
+				window.scrollTo(0, searchOffset);
 				$('input#edit-combine').focus();
+				//console.log(searchOffset);
 			// });
 		}
 	}
@@ -101,7 +104,7 @@ Drupal.behaviors.previousConnectionMagazine = {
 /**
  * Connection Views menus: 
  * - Remove duplicate article menu items for articles that have two authors
- * - Combine both article authors into the first article's author field
+ * - Combine multiple article authors into the first article's author field
  * - Hide author for 'Synaptic Risk Rating Table' menu item
  * - Hide 'Anonymous' author
  */
@@ -109,28 +112,68 @@ Drupal.behaviors.previousConnectionMagazine = {
 function connection_views_menus() {
 
 	var $viewsRows = jQuery('.block-views.connection-articles .views-row'),
-		prevTitle = '';
+		prevTitle = '',
+		third = false;
 
 	$viewsRows.each(function (i) {
 
-		var title = jQuery(this).find('.views-field-title a').text(),
+		var thisTitle = jQuery(this).find('.views-field-title a').text(),
 			$currentAuthor = jQuery(this).find('.name');
 
-		if ( title === prevTitle ) {
+		//console.log(jQuery(this));
+
+		// if ( thisTitle === jQuery($viewsRows[i+1]).find('.views-field-title a').text() ) {
+		// 	if ( thisTitle === jQuery($viewsRows[i+2]).find('.views-field-title a').text() ) {
+		// 		console.log('Three');
+		// 	} else {
+		// 		console.log('Two');
+		// 	}
+		// } else {
+		// 	console.log('One');
+		// }
 			
-			jQuery(this).hide();
+		if ( thisTitle === prevTitle ) {
 
-			var $authors = jQuery($viewsRows[i-1]).find('.name'),
-				author1 = $authors.text().replace(',',''),
-				author2 = $currentAuthor.text();
+			if ( third === true ) {
 
-			$authors.replaceWith(author1 + '&amp; ' + author2);
+				//console.log(i + ' This one is third');
+					
+				jQuery($viewsRows[i-1]).hide();
+				jQuery($viewsRows[i-2]).hide();
+
+				let author1 = jQuery($viewsRows[i-2]).find('.name').text(),
+					author2 = jQuery($viewsRows[i-1]).find('.name').text().replace(',',''),
+					author3 = $currentAuthor.text();
+
+				$currentAuthor.replaceWith(author3 + author2 + '&amp; ' + author1);
+				
+				third = false;
+			
+			} else if ( jQuery($viewsRows[i+1]).find('.views-field-title a').text() === thisTitle ) {
+				
+				//console.log(i + ' Next one is third')
+				third = true;
+
+			} else {
+
+				//console.log(i + ' Second');
+				third = false;
+
+				// jQuery(this).hide();
+				jQuery($viewsRows[i-1]).hide();
+
+				let author1 = jQuery($viewsRows[i-1]).find('.name').text().replace(',',''),
+					author2 = $currentAuthor.text();
+
+				$currentAuthor.replaceWith(author1 + '&amp; ' + author2);
+
+			}	
 			
 		}
 
-		prevTitle = title;
+		prevTitle = thisTitle;
 
-		if ( title === 'Synaptic Risk Rating Table' || title === 'Synaptic Risk Rating Tables' ) {
+		if ( thisTitle === 'Synaptic Risk Rating Table' || thisTitle === 'Synaptic Risk Rating Tables' ) {
 			$currentAuthor.hide();
 		}
 		if ( $currentAuthor.text() === 'Anonymous' ) {

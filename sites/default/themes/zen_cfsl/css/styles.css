@@ -146,10 +146,51 @@ li.asterisk:before {
 
 ol.bold li {
 	font-family:'BlsW-Bd', Arial, sans-serif; font-weight:normal; font-style:normal;
-
 }
+/* https://stackoverflow.com/questions/21369843/is-there-a-way-to-make-numbers-in-an-ordered-list-bold#answer-21369918 */
+ol.bold-numbers {
+	margin:0 0 1.5em;
+	padding:0;
+	counter-reset:item;
+}
+ol.bold-numbers > li {
+	margin:0;
+	padding: 0 0 0 1.5em;
+    text-indent: -1.5em;
+	list-style-type:none;
+	counter-increment:item;
+}
+ol.bold-numbers > li:before {
+	display:inline-block;
+	width:1.5em;
+	padding-right:0.5em;
+	font-family:'BlsW-Bd', Arial, sans-serif; font-weight:normal; font-style:normal;
+	text-align:right;
+	content:counter(item) ".";
+  }
 
 /* @end */
+
+ol.h3 {
+	font-size: 1.2em;
+	line-height: 1.2;
+	margin-bottom: 1.2em;
+}
+ol.h3 li {
+	margin-bottom: 1em;
+}
+ol.h3 li h3 {
+	font-size: 1em;
+	margin-top:0.75em;
+}
+ol.h3 li ul {
+	font-size: 1rem;
+	font-family: 'BlsW-Lt', Arial, sans-serif;
+	padding: 0 0 0 1.2em;
+}
+ol.h3 li ul li {
+	list-style: disc;
+}
 
 /* @group Regions */
 
@@ -258,6 +299,9 @@ ol.bold li {
 /* @group Author details */
 
 div.field-name-field-author {
+	/* margin-bottom: 1.5em; */
+}
+.field-item:last-child article.node-article-author {
 	margin-bottom: 1.5em;
 }
 
@@ -3766,6 +3810,87 @@ article.node-903 {
 
 /* @end */
 
+/* @group 2021 Q2 */
+
+/* Article: Helping mining groups meet the challenge of sustainable development
+			Sandra Crowl, Carmignac
+	- Style 'How recyclable are metals in the energy transition?' block
+*/
+article.node-2677 .borderbox {
+	max-width: 478px;
+}
+article.node-2677 .display-table {
+	display: flex;
+	justify-content:space-between;
+	margin-top:1.5em;
+	font-family:'BlsW-Bd', Arial, sans-serif;
+	font-weight:normal; font-style:normal;
+}
+article.node-2677 .display-table .table-cell:first-of-type {
+    width:calc(40% - 1em);
+}
+article.node-2677 .display-table .table-cell:last-of-type {
+    width:calc(60% - 1em);
+}
+article.node-2677 .display-table img {
+	width:100%;
+	height:auto;
+	vertical-align: top;
+	margin:0;
+}
+article.node-2677 .display-table ul.no-bullets {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+article.node-2677 .display-table ul.no-bullets span.colour {
+	color:#249C40;
+	white-space: nowrap;
+}
+
+/* Article: The Unknown King-Makers of ESG
+			EBI
+	- Hide Author article node header thing
+*/
+.field-name-field-author article.node-2692 {
+	display: none;
+}
+
+/* Article: How to drive more protection business to your website in 6 easy steps
+			Synaptic Software Limited
+	- Add fancy ordered list
+*/
+article.node-2693 ol.fancy-list {
+	padding: 0;
+	list-style: none;
+}
+article.node-2693 ol.fancy-list li {
+	padding: 0 0 0 80px;
+	background-position: 0 0;
+	background-size: 70px auto;
+	background-repeat: no-repeat;
+}
+article.node-2693 ol.fancy-list li:nth-child(1) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q2-2021/synaptic-1-ol-1.svg');
+}
+article.node-2693 ol.fancy-list li:nth-child(2) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q2-2021/synaptic-1-ol-2.svg');
+}
+article.node-2693 ol.fancy-list li:nth-child(3) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q2-2021/synaptic-1-ol-3.svg');
+}
+article.node-2693 ol.fancy-list li:nth-child(4) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q2-2021/synaptic-1-ol-4.svg');
+}
+article.node-2693 ol.fancy-list li:nth-child(5) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q2-2021/synaptic-1-ol-5.svg');
+}
+article.node-2693 ol.fancy-list li:nth-child(6) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q2-2021/synaptic-1-ol-6.svg');
+}
+
+/* @end */
+
 /* @group Connection mag – Spotlight block – Region: Content */
 
 #main-main-banner .block.spotlight {
@@ -5504,7 +5629,7 @@ div.risk-table.premier {
 div.risk-table.ninety-one {
 	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-ninety-one.png),
 					  url(../images/synaptic-risk-rating/provider-logos/strapline-ninety-one.png); */
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-ninety-one.svg');
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-ninety-one-2021.svg');
 	/* background-size: auto 75px, auto 40px;
 	background-position: left top, right 30px; */
 	padding-top: 46px;
@@ -5530,10 +5655,11 @@ div.risk-table.parmenion {
 	margin-top: 2em;
 } */
 div.risk-table.prudential {
-	background-image: url(../images/synaptic-risk-rating/provider-logos/logo-prudential.svg);
-	padding-top: 9px;
+	/* background-image: url(../images/synaptic-risk-rating/provider-logos/logo-prudential.svg); */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-pru-2021.svg');
+	padding-top: 37px;
     margin-top: 1.6em;
-    background-size: auto 22px;
+    background-size: auto 55px;
 }
 /* Quilter Cheviot */
 div.risk-table.quilter-cheviot {
@@ -5682,6 +5808,13 @@ div.risk-table.cornelian {
     padding-top: 37px;
     margin-top: 1.3em;
 }
+/* EBI */
+div.risk-table.ebi {
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-ebi.svg');
+	background-size: auto 54px;
+    padding-top: 37px;
+    margin-top: 1.3em;
+}
 /* FE Investments */
 div.risk-table.fe-investments {
 	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-fe-investments.svg');
@@ -5820,7 +5953,7 @@ div.risk-table.aviva-investors {
 }
 /* LV= */
 div.risk-table.lv {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lv.png');
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lv.svg');
 	background-size: auto 40px;
     padding-top: 22px;
     margin-top: 1.4em;
