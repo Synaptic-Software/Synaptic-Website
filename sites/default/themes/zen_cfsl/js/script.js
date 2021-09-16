@@ -41,6 +41,30 @@ Drupal.behaviors.previousConnectionMagazine = {
 	}
 };
 
+/**
+ * Synaptic Risk Rating Tables Views Exposed filters 
+ * - Bootstrap-select
+ */
+ Drupal.behaviors.bootstrapSelect = {
+	attach: function (context, settings) {
+		var $filterBlock = jQuery('[id^="views-exposed-form-synaptic-risk-rating-tables"]');
+		// Bootstrap-select
+		jQuery('#edit-field-provider-tid')
+			.selectpicker({
+				actionsBox: true,
+				width: 'auto',
+				liveSearch: true
+            });
+		// wrap form buttons
+		if ( $filterBlock.length ) {
+			var $formActionBtns = $filterBlock.find('.views-submit-button, .views-reset-button');
+			if ( $formActionBtns.parent('.form-actions').length === 0 ) {
+				$formActionBtns.wrapAll('<div class="form-actions"></div>');
+			}
+		}
+	}
+};
+
 /** 
  * Synaptic Risk Rating Tables - Search function
  * View: Synaptic Risk Rating Tables: Exposed filter
