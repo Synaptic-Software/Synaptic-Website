@@ -538,12 +538,12 @@ body.front #main-main-banner .region-main-banner #block-views-quick-links-block 
     table.risk-key {
         max-width: 470px
     }
-    table.risk-table {
+    /* table.risk-table {
         max-width: 480px
-    }
-    .risk-table-wrap {
+    } */
+    /* .risk-table-wrap {
         max-width: 500px
-    }
+    } */
     #edit-submitted-if-yes-which-ones, #webform-component-do-you-currently-use-any-software-for-your-business-needs.form-item.webform-component, #webform-component-what-is-your-preferred-method-of-communication.form-item.webform-component, .block-webform label, .form-item.webform-component, .node-webform label {
         width: 70%
     }
@@ -660,10 +660,10 @@ body.front #main-main-banner .region-main-banner #block-views-quick-links-block 
     #footer #block-block-5, body.front.sidebar-first .region-sidebar-second, body.front.sidebar-second .region-sidebar-second, body.front.two-sidebars .region-sidebar-second, body.page-node-244.sidebar-first .region-sidebar-second, body.page-node-244.sidebar-second .region-sidebar-second, body.page-node-244.two-sidebars .region-sidebar-second {
         margin-left: 0
     }
-    .cols-3 td, table.risk-table td.risk-bar {
+    /* .cols-3 td, table.risk-table td.risk-bar {
         display: block;
         clear: both
-    }
+    } */
     #sliding-popup .popup-content #popup-text p {
         font-size: 11px
     }
@@ -675,13 +675,13 @@ body.front #main-main-banner .region-main-banner #block-views-quick-links-block 
     #block-views-8a40f187acb516b738fcb3499dbdc74c table.views-view-grid td {
         width: 100%
     }
-    table.risk-table td.title {
+    /* table.risk-table td.title {
         display: block;
         clear: both;
         padding-bottom: 3px;
         padding-left: 15px;
         padding-top: 16px
-    }
+    } */
     table.risk-key tr.icons td {
         background-size: 90%
     }
