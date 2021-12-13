@@ -477,8 +477,12 @@ div.field-name-field-publish-date {
 
 a.colorbox {
 	position: relative;
-	display: inline-block;
+	display: block;
 }
+/* a.colorbox img {
+	width: 100%;
+	height: auto;
+} */
 .col2width-float a.colorbox {
 	float:right;
 }
@@ -3900,48 +3904,63 @@ article.node-2693 ol.fancy-list li:nth-child(6) {
 /* Article: Hours to minutes
 			Synaptic Software Limited
 	- Add fancy ordered list
+
+	also 2021 Q4 – article duplicated
 */
-article.node-2772 ol.fancy-list {
+article.node-2772 ol.fancy-list,
+article.node-2884 ol.fancy-list {
 	padding: 0;
 	list-style: none;
 }
-article.node-2772 ol.fancy-list ul {
+article.node-2772 ol.fancy-list ul,
+article.node-2884 ol.fancy-list ul {
 	list-style: disc;
 }
-article.node-2772 ol.fancy-list > li {
+article.node-2772 ol.fancy-list > li,
+article.node-2884 ol.fancy-list > li {
 	padding: 0 0 0 80px;
 	background-position: 0 0;
 	background-size: 65px auto;
 	background-repeat: no-repeat;
 }
-article.node-2772 ol.fancy-list > li:nth-child(1) {
+article.node-2772 ol.fancy-list > li:nth-child(1),
+article.node-2884 ol.fancy-list > li:nth-child(1) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-1.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(2) {
+article.node-2772 ol.fancy-list > li:nth-child(2),
+article.node-2884 ol.fancy-list > li:nth-child(2) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-2.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(3) {
+article.node-2772 ol.fancy-list > li:nth-child(3),
+article.node-2884 ol.fancy-list > li:nth-child(3) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-3.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(4) {
+article.node-2772 ol.fancy-list > li:nth-child(4),
+article.node-2884 ol.fancy-list > li:nth-child(4) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-4.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(5) {
+article.node-2772 ol.fancy-list > li:nth-child(5),
+article.node-2884 ol.fancy-list > li:nth-child(5) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-5.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(6) {
+article.node-2772 ol.fancy-list > li:nth-child(6),
+article.node-2884 ol.fancy-list > li:nth-child(6) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-6.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(7) {
+article.node-2772 ol.fancy-list > li:nth-child(7),
+article.node-2884 ol.fancy-list > li:nth-child(7) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-7.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(8) {
+article.node-2772 ol.fancy-list > li:nth-child(8),
+article.node-2884 ol.fancy-list > li:nth-child(8) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-8.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(9) {
+article.node-2772 ol.fancy-list > li:nth-child(9),
+article.node-2884 ol.fancy-list > li:nth-child(9) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-9.svg');
 }
-article.node-2772 ol.fancy-list > li:nth-child(10) {
+article.node-2772 ol.fancy-list > li:nth-child(10),
+article.node-2884 ol.fancy-list > li:nth-child(10) {
 	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q3-2021/synaptic-1-10.svg');
 }
 
@@ -3952,6 +3971,61 @@ article.node-2772 ol.fancy-list > li:nth-child(10) {
 
 article.node-2799 {
 	display: none;
+}
+
+/* @end */
+
+/* @group 2021 Q4 */
+
+/* Article: The final frontier of research and due diligence conquered
+			Synaptic Software Limited
+	- Fix nested ordered list margin
+*/
+body.page-node-2883 ol ul {
+	margin-left: -1.6em;
+}
+body.page-node-2883 #main ol li.h3 {
+	margin-bottom:0.75em;
+}
+body.page-node-2883 ol ul li {
+	list-style-type: disc;
+}
+body.page-node-2883 ol .col2width {
+	position: relative;
+	left:-1.6em;
+}
+/* body.page-node-2883 ol img a {
+	display: block;
+} */
+
+/* Article: Unemployment insurance is back
+			Best Insurance
+	- Add fancy ordered list
+*/
+
+article.node-2904 ol.fancy-list {
+	padding: 0;
+	list-style: none;
+	background: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q4-2021/bestinsurance--bg-line-rpt-y-2.svg') 24px 0 / 3px auto repeat-y;
+}
+/* article.node-2904 ol.fancy-list ul {
+	list-style: disc;
+} */
+article.node-2904 ol.fancy-list > li {
+	padding: 12px 0 12px 60px;
+	margin:0;
+	background-position: 0 0;
+	background-size: 50px auto;
+	background-repeat: no-repeat;
+}
+article.node-2904 ol.fancy-list > li:nth-child(1) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q4-2021/bestinsurance-ls-1.svg');
+}
+article.node-2904 ol.fancy-list > li:nth-child(2) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q4-2021/bestinsurance-ls-2.svg');
+}
+article.node-2904 ol.fancy-list > li:nth-child(3) {
+	background-image: url('/sites/default/themes/zen_cfsl/images/content-images/connection/q4-2021/bestinsurance-ls-3.svg');
 }
 
 /* @end */
@@ -4131,7 +4205,7 @@ div.grey-text-block-col2width,
 blockquote,
 .paragraphs-item-grey-text-box {
 	margin: 2.5em 0;
-	padding: 1em 1em 1.75em;
+	padding: 1em 1em 1.6em;
 	background: #F2F2F2;
 	/* font-family:'BlsW-Bd', Arial, sans-serif; */
 	font-weight:normal; font-style:normal;
@@ -6154,9 +6228,13 @@ div.risk-table.fc {
 /* BMO */
 div.risk-table.bmo {
 	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bmo.png'); */
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bmo.svg');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bmo.svg');
 	background-size: auto 40px;
     padding-top: 22px;
+    margin-top: 1.3em; */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-bmo-gam-cti.svg');
+	background-size: 90% auto;
+    padding-top: 4%;
     margin-top: 1.3em;
 }
 /* Investec */
@@ -6170,10 +6248,14 @@ div.risk-table.investec {
 /* Brewin Dolphin */
 div.risk-table.brewin-dolphin {
 	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin.png'); */
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin.svg');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin.svg');
 	background-size: auto 56px;
     padding-top: 39px;
-    margin-top: 1.2em;
+    margin-top: 1.2em; */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-brewin-dolphin-2021.svg');
+	background-size: auto 70px;
+    padding-top: 42px;
+    margin-top: 1em;
 }
 /* Schroder */
 /* div.risk-table.schroders {
@@ -6270,17 +6352,17 @@ div.risk-table.aviva-investors {
 }
 /* LV= */
 div.risk-table.lv {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lv.svg');
-	background-size: auto 40px;
-    padding-top: 22px;
-    margin-top: 1.4em;
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-lv=.svg');
+	background-size: auto 46px;
+    padding-top: 26px;
+    margin-top: 1.2em;
 }
 /* M&G Investments */
 div.risk-table.mg-investments {
 	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-mg-investments.svg');
-	background-size: auto 65px;
-    padding-top: 47px;
-    margin-top: 1.2em;
+	background-size: auto 60px;
+    padding-top: 41px;
+    margin-top: 1.4em;
 }
 /* Old Mutual */
 div.risk-table.old-mutual {
@@ -6305,17 +6387,25 @@ div.risk-table.aegon {
 }
 /* Aberdeen Standard Capital */
 div.risk-table.aberdeen-standard-capital {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-capital.svg');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-capital.svg');
     background-size: auto 70px;
     padding-top: 52px;
+    margin-top: 0; */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-abrdn-2021.svg');
+	background-size: auto 45px;
+    padding-top: 35px;
     margin-top: 0;
 }
 /* Aberdeen Standard Investments */
 div.risk-table.aberdeen-standard-investments {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg');
 	background-size: auto 59px;
     padding-top: 42px;
-    margin-top: -0.2em;
+    margin-top: -0.2em; */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-abrdn-2021.svg');
+	background-size: auto 45px;
+    padding-top: 35px;
+    margin-top: 0; 
 }
 /* Tilney for professionals */
 div.risk-table.tilney {
@@ -6413,9 +6503,13 @@ div.risk-table.liontrust {
 	margin-top: 0.5em;
 } */
 div.risk-table.standard-life {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-aberdeen-standard-investments.svg');
     background-size: 255px 60px;
     padding-top: 48px;
+    margin-top: 0; */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-abrdn-2021.svg');
+	background-size: auto 45px;
+    padding-top: 35px;
     margin-top: 0;
 }
 /* Goldman Sachs */
@@ -6428,7 +6522,11 @@ div.risk-table.goldman-sachs {
 }
 /* Horizon by Embark */
 div.risk-table.horizon-by-embark {
-	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-horizon-by-embark.svg');
+	/* background-image: url('../images/synaptic-risk-rating/provider-logos/logo-horizon-by-embark.svg');
+	background-size: auto 57px;
+    padding-top: 33px;
+    margin-top: 1.3em; */
+	background-image: url('../images/synaptic-risk-rating/provider-logos/logo-embark-investments.svg');
 	background-size: auto 57px;
     padding-top: 33px;
     margin-top: 1.3em;

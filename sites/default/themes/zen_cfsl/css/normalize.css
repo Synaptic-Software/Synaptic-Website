@@ -453,7 +453,9 @@ ul.bullet-tick {
   text-indent: -1.2rem;
 } */
 
-
+ul.lightblue li::marker {
+  color:#00A0C0;
+}
 
 /**
  * Embedded content and figures

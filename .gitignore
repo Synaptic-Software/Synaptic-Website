@@ -1,11 +1,8 @@
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
+html-wysiwyg
+.DS_Store
 
 # Ignore paths that contain user-generated content.
-<<<<<<< HEAD
-sites/*/files
-sites/*/private
-=======
 #sites/*/files
 #sites/*/private
->>>>>>> b2bcfcb4e26d3464ca2f9e0b5e0903a943a567bf
